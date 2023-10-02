@@ -1,53 +1,14 @@
 :root {
-  --color: #231f40;
-  --color-lighter: #4f5969;
-  --background: #ffffff;
-  --background-alt: #fef6f3;
-  --background-alt-dark: #f5f5f5;
+  --cc-color-dark: #231f40;
+  --cc-grey: #4f5969;
+  --cc-white-off: #fef6f3;
+  --cc-white-sugar: #f5f5f5;
   --color-main-light: #a0a4e9;
-  --color-main: #525fe1;
-  --color-main-dark: #231f40;
-  --color-distinct-dark: #f86f03;
-  --color-distinct: #ffa04d;
-  --color-distinct-light: #f8ba92;
-}
-
-.border-primary {
-  border-color: var(--color-main);
-}
-
-.border-secondary {
-  border-color: var(--color-main-dark);
-}
-
-.border-light {
-  border-color: var(--color-background-dark);
-}
-
-.bg-primary {
-  background-color: var(--color-main);
-}
-
-.bg-secondary {
-  background-color: var(--background-alt-dark);
-}
-
-.bg-light {
-  background-color: var(--background-alt);
-}
-
-.text-primary {
-  color: var(--color-lighter);
-}
-
-.text-primary-emphasis {
-  color: var(--color);
-}
-
-.text-light {
-  color: var(--background-alt);
-}
-
-.link-primary {
-  color: var(--color-main);
+  --cc-white: #ffffff;
+  --cc-primary: #525fe1;
+  --cc-primary-bg: #525fe1;
+  --cc-bg-dark: #231f40;
+  --cc-distinct-dark: #f86f03;
+  --cc-distinct: #ffa04d;
+  --cc-distinct-light: #f8ba92;
 }
