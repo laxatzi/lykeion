@@ -1,0 +1,13 @@
+:root {
+  --color: #231f40;
+  --color-lighter: #4f5969;
+  --background: #ffffff;
+  --background-alt: #fef6f3;
+  --background-alt-dark: #f5f5f5;
+  --color-main-light: #a0a4e9;
+  --color-main: #525fe1;
+  --color-main-dark: #231f40;
+  --color-distinct-dark: #f86f03;
+  --color-distinct: #ffa04d;
+  --color-distinct-light: #f8ba92;
+}
