@@ -35,3 +35,19 @@
 .bg-light {
   background-color: var(--background-alt);
 }
+
+.text-primary {
+  color: var(--color-lighter);
+}
+
+.text-primary-emphasis {
+  color: var(--color);
+}
+
+.text-light {
+  color: var(--background-alt);
+}
+
+.link-primary {
+  color: var(--color-main);
+}
