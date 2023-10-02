@@ -11,3 +11,15 @@
   --color-distinct: #ffa04d;
   --color-distinct-light: #f8ba92;
 }
+
+.border-primary {
+  border-color: var(--color-main);
+}
+
+.border-secondary {
+  border-color: var(--color-main-dark);
+}
+
+.border-light {
+  border-color: var(--background-alt-dark);
+}
