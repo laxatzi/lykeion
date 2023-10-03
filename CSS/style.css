@@ -102,3 +102,6 @@ header {
   --bs-gradient: none;
 }
 
+.btn-search {
+  background-color: var(--cc-white);
+}
