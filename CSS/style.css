@@ -156,6 +156,15 @@ header {
 .read-more {
   display: flex;
   border: 1px solid red;
+  background-color: var(--cc-primary-bg);
+  align-self: flex-start;
+}
+
+.read-more a {
+  color: var(--cc-white-sugar);
+  text-decoration: none;
+  font-size: 1.15rem;
+  font-weight: var(--cc-body-font-weight);
 }
 
 .hero-arrow {
