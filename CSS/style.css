@@ -153,6 +153,21 @@ header {
 .intro {
 }
 
+.read-more {
+  display: flex;
+  border: 1px solid red;
+}
+
+.hero-arrow {
+  border: 1px solid red;
+}
+
+.hero-lower {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-around;
+}
+
 .intro span {
   color: var(--cc-primary);
   font-size: 1rem;
