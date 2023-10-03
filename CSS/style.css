@@ -14,6 +14,7 @@
   --cc-distinct-light: #f8ba92;
   /* fonts */
   --cc-body-font-weight: 600;
+  --cc-navbar-brand-font-size-small: 14px;
 }
 
 /*
@@ -112,4 +113,5 @@ header {
 
 .navbar-brand {
   color: var(--cc-primary);
+  font-size: var(--cc-navbar-brand-font-size-small);
 }
