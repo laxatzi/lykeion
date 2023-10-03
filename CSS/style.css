@@ -150,14 +150,11 @@ header {
   max-height: 730px;
 }
 
-.intro {
-}
-
 .read-more {
   display: flex;
-  border: 1px solid red;
   background-color: var(--cc-primary-bg);
   align-self: flex-start;
+  border: var(--bs-border-radius);
 }
 
 .read-more a {
@@ -167,12 +164,12 @@ header {
   font-weight: var(--cc-body-font-weight);
 }
 
-.hero-arrow {
-  border: 1px solid red;
+.read-more svg {
+  color: var(--cc-white-sugar);
+  font-weight: var(--cc-body-font-weight);
 }
 
 .hero-lower {
-  border: 1px solid blue;
   display: flex;
   justify-content: space-around;
 }
