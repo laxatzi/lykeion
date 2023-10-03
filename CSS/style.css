@@ -108,10 +108,44 @@ header {
 }
 
 .btn-search {
+  background-color: var(--cc-primary-bg);
+}
+
+.btn-search:hover {
   background-color: var(--cc-white);
+}
+
+.btn-search svg {
+  color: var(--cc-white-sugar);
+}
+
+.btn-search:hover svg {
+  color: var(--cc-primary);
 }
 
 .navbar-brand {
   color: var(--cc-primary);
   font-size: var(--cc-navbar-brand-font-size-small);
+}
+
+.hero {
+  display: flex;
+  border: 1px solid red;
+}
+
+.hero .student,
+.hero .intro {
+  flex: 1;
+}
+
+.hero .shapes {
+  display: none;
+}
+
+.student {
+  border: 1px solid blue;
+}
+
+.intro {
+  border: 1px solid green;
 }
