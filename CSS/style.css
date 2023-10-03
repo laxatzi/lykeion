@@ -36,6 +36,7 @@ html,
 body {
   height: 100%;
   box-sizing: border-box;
+  font-family: montserrat, sans-serif;
 }
 /*
   Improve media defaults
