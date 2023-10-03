@@ -130,7 +130,6 @@ header {
 
 .hero {
   display: flex;
-  border: 1px solid red;
 }
 
 .hero .student,
@@ -143,9 +142,12 @@ header {
 }
 
 .student {
-  border: 1px solid blue;
+}
+
+.student img {
+  max-width: 500px;
+  max-height: 630px;
 }
 
 .intro {
-  border: 1px solid green;
 }
