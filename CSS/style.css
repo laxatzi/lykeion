@@ -151,3 +151,22 @@ header {
 
 .intro {
 }
+
+.intro span {
+  color: var(--cc-primary);
+  font-size: 1rem;
+  font-weight: var(--cc-body-font-weight);
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 1.24;
+}
+
+p {
+  font-size: 1.15rem;
+}
