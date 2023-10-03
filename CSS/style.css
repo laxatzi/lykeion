@@ -142,11 +142,12 @@ header {
 }
 
 .student {
+  margin-bottom: 0;
 }
 
 .student img {
-  max-width: 500px;
-  max-height: 630px;
+  max-width: 600px;
+  max-height: 730px;
 }
 
 .intro {
@@ -169,4 +170,8 @@ h1 {
 
 p {
   font-size: 1.15rem;
+}
+
+.student img {
+  vertical-align: sub;
 }
