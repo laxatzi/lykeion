@@ -109,3 +109,7 @@ header {
 .btn-search {
   background-color: var(--cc-white);
 }
+
+.navbar-brand {
+  color: var(--cc-primary);
+}
