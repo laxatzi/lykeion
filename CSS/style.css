@@ -218,7 +218,6 @@ span.intro {
   color: var(--cc-primary);
   font-size: 1rem;
   font-weight: var(--cc-body-font-weight);
-  /* position: absolute; */
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
