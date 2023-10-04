@@ -78,7 +78,31 @@ h6 {
 
 a {
   color: var(--cc-primary);
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  padding: 0.05em 0;
 }
+
+a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: var(--cc-primary);
+  opacity: 1;
+  transform: scale(0);
+  transform-origin: center;
+  transition: opacity 300ms, transform 300ms;
+}
+
+a:hover::after,
+a:focus::after {
+  transform: scale(1);
+}
+
 header {
   background-color: var(--cc-white-off);
 }
