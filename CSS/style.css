@@ -159,16 +159,16 @@ header {
   color: var(--cc-primary);
 }
 
-.hero {
+#hero {
   display: flex;
 }
 
-.hero .student,
-.hero .intro {
+#hero .student,
+#hero .intro {
   flex: 1;
 }
 
-.hero .shapes {
+#hero .shapes {
   display: none;
 }
 
@@ -209,7 +209,7 @@ a:focus::after {
   font-weight: var(--cc-body-font-weight);
 }
 
-.hero-lower {
+#hero-lower {
   display: flex;
   justify-content: space-around;
 }
