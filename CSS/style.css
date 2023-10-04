@@ -76,6 +76,9 @@ h6 {
   hyphens: auto;
 }
 
+a {
+  color: var(--cc-primary);
+}
 header {
   background-color: var(--cc-white-off);
 }
@@ -112,15 +115,11 @@ header {
 }
 
 .btn-search:hover {
-  background-color: var(--cc-white);
+  background-color: var(--cc-color-dark);
 }
 
 .btn-search svg {
   color: var(--cc-white-sugar);
-}
-
-.btn-search:hover svg {
-  color: var(--cc-primary);
 }
 
 .navbar-brand {
@@ -155,6 +154,10 @@ header {
   background-color: var(--cc-primary-bg);
   align-self: flex-start;
   border-radius: var(--bs-border-radius);
+}
+
+.read-more:hover {
+  background-color: var(--cc-color-dark);
 }
 
 .read-more a {
