@@ -214,11 +214,11 @@ a:focus::after {
   justify-content: space-around;
 }
 
-.intro span {
+span.intro {
   color: var(--cc-primary);
   font-size: 1rem;
   font-weight: var(--cc-body-font-weight);
-  position: absolute;
+  /* position: absolute; */
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
@@ -251,4 +251,8 @@ p {
 .shape-image.shape-image-2 {
   top: 300px;
   left: 1500px;
+}
+
+.topic {
+  border: 1px solid var(--cc-primary);
 }
