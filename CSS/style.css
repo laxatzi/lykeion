@@ -11,7 +11,7 @@
   --cc-bg-dark: #231f40;
   --cc-distinct-dark: #f86f03;
   --cc-distinct: #ffa04d;
-  --cc-distinct-light: #f8ba92;
+  --cc-distinct-light: #fde2d1;
   /* fonts */
   --cc-body-font-weight: 600;
   --cc-navbar-brand-font-size-small: 14px;
@@ -105,10 +105,14 @@ a:focus::after {
 
 header {
   background-color: var(--cc-white-off);
+  background-image: linear-gradient(
+    to right bottom,
+    var(--cc-white-off),
+    var(--cc-distinct-light)
+  );
 }
 
 .navbar {
-  background-color: var(--cc-white-off);
   font-weight: var(--cc-body-font-weight);
 }
 
@@ -168,7 +172,7 @@ header {
   margin-bottom: 0;
 }
 
-.student img {
+.student {
   max-width: 600px;
   max-height: 730px;
 }
