@@ -155,6 +155,10 @@ header {
   font-size: var(--cc-navbar-brand-font-size-small);
 }
 
+.nav-item:hover a {
+  color: var(--cc-primary);
+}
+
 .hero {
   display: flex;
 }
