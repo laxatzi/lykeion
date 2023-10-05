@@ -255,7 +255,6 @@ p {
 }
 
 .topic {
-  border: 1px solid var(--cc-primary);
   background-color: var(--cc-white-sugar);
   border-radius: 5px;
   padding: 40px;
