@@ -259,3 +259,23 @@ p {
   border-radius: 5px;
   padding: 40px;
 }
+
+#gallery {
+  flex: 1;
+}
+
+#about-info {
+  flex: 1;
+}
+
+section#about {
+  background-color: var(--cc-white-off);
+}
+
+.icon {
+  flex: 1;
+}
+
+.tip {
+  flex: 2;
+}
