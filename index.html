@@ -205,21 +205,40 @@
     </section>
 
     <section id="about" class="container-fluid mt-5">
-      <div class="about-row d-flex container">
-        <div id="gallery">
+      <div class="about-row d-flex container p-5">
+        <div id="gallery" data-masonry='{"percentPosition": true }'>
+          <!-- Gallery -->
           <div class="gallery-image">
-            <img src="img/girl-in-classroom.png" alt="" />
+            <img
+              src="img/students-in-class.png"
+              class="shadow-1-strong rounded mb-4 me-2"
+              alt="teacher and students discussing a topic in the class"
+              title="students in class"
+            />
           </div>
+
           <div class="gallery-image">
-            <img src="img/classroom.png" alt="" />
+            <img
+              src="img/classroom.png"
+              class="shadow-1-strong rounded mb-4"
+              alt="A empty classroom ready to welcome students"
+              title="empty classroom"
+            />
           </div>
+
           <div class="gallery-image">
-            <img src="img/students-in-class.png" alt="" />
+            <img
+              src="img/girl-in-classroom2.png"
+              class="shadow-1-strong rounded mb-4"
+              alt="A girl arriving on her class"
+              title="standing girl"
+            />
           </div>
         </div>
+        <!-- Gallery -->
 
         <div id="about-info" class="container text-center">
-          <div class="intro--about p-5 ps-0">
+          <div class="intro--about ps-0">
             <span class="intro">Committed to excellence since 1990</span>
             <h2 class="fw-bold mt-2 mb-3">About Us</h2>
             <p>
@@ -272,5 +291,11 @@
         omnis iste necessitatibus soluta!
       </p>
     </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+      integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+      crossorigin="anonymous"
+      async
+    ></script>
   </body>
 </html>

@@ -261,11 +261,11 @@ p {
 }
 
 #gallery {
-  flex: 1;
+  flex: 3;
 }
 
 #about-info {
-  flex: 1;
+  flex: 2;
 }
 
 section#about {
