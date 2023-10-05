@@ -279,3 +279,7 @@ section#about {
 .tip {
   flex: 4;
 }
+
+.about-tip {
+  flex-direction: column;
+}
