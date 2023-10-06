@@ -283,3 +283,35 @@ section#about {
 .about-tip {
   flex-direction: column;
 }
+
+#virtual-classes--intro {
+  justify-content: space-between;
+}
+
+#vclasses-headings {
+}
+
+#vclasses-selections {
+}
+
+.vclass-tabs {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  transition: 0.4s;
+}
+
+.vclass-tabs:last-of-type {
+  margin-right: 0px;
+}
+
+.is-active {
+  background-color: var(--cc-primary-bg);
+  color: var(--cc-white-sugar);
+}
+
+.vclass-tabs:hover {
+  background-color: var(--cc-primary-bg);
+  color: var(--cc-white-sugar);
+}
