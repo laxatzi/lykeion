@@ -318,8 +318,14 @@ section#about {
 
 .ratings {
   color: var(--cc-distinct);
+  align-items: center;
 }
 
 .ratings svg {
   margin-right: 3px;
+}
+
+.ratings span {
+  margin-left: 10px;
+  color: var(--cc-bg-dark);
 }
