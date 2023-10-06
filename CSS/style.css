@@ -315,3 +315,11 @@ section#about {
   background-color: var(--cc-primary-bg);
   color: var(--cc-white-sugar);
 }
+
+.ratings {
+  color: var(--cc-distinct);
+}
+
+.ratings svg {
+  margin-right: 3px;
+}
