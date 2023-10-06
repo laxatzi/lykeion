@@ -316,16 +316,16 @@ section#about {
   color: var(--cc-white-sugar);
 }
 
-.ratings {
+.rating-hearts {
   color: var(--cc-distinct);
   align-items: center;
 }
 
-.ratings svg {
+.rating-hearts svg {
   margin-right: 3px;
 }
 
-.ratings span {
+.rating-hearts span {
   margin-left: 10px;
   color: var(--cc-bg-dark);
 }
