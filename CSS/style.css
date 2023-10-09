@@ -360,3 +360,25 @@ button.heart:active .bi-heart-fill {
 .price-prev {
   font-size: 1.25rem;
 }
+
+.tutor {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tutor h4 {
+  font-size: 16px;
+}
+
+.tutor img {
+  border-radius: 50%;
+}
+
+.tutor-lessons {
+  align-items: center;
+  font-size: 16px;
+}
+
+.lesson-icon svg {
+  color: var(--cc-primary);
+}
