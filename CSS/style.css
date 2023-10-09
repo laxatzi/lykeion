@@ -395,7 +395,19 @@ button.heart:active .bi-heart-fill {
 .video-gallery-wrapper {
   border-radius: 5px;
   border: 1px solid black;
+  max-width: 750px;
+  max-height: 450px;
+  margin: 0 auto -200px;
 }
 
 .video-gallery-wrapper .thumbnail {
+}
+
+#test-section {
+  background-color: var(--cc-white-off);
+  background-image: linear-gradient(
+    to right bottom,
+    var(--cc-white-off),
+    var(--cc-distinct-light)
+  );
 }
