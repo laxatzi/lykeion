@@ -333,3 +333,17 @@ section#about {
   margin-left: 10px;
   color: var(--cc-bg-dark);
 }
+
+.bi-heart-fill {
+  color: rgb(235, 85, 85);
+}
+
+button.heart {
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+button.heart:active .bi-heart-fill {
+  color: rgb(236, 146, 146);
+}
