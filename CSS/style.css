@@ -347,3 +347,16 @@ button.heart {
 button.heart:active .bi-heart-fill {
   color: rgb(236, 146, 146);
 }
+
+.price s {
+  margin-left: 20px;
+}
+
+.price-current {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.price-prev {
+  font-size: 1.25rem;
+}
