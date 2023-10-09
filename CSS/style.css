@@ -389,4 +389,13 @@ button.heart:active .bi-heart-fill {
 
 .gapper {
   min-height: 30vh;
+  margin-bottom: -200px;
+}
+
+.video-gallery-wrapper {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.video-gallery-wrapper .thumbnail {
 }
