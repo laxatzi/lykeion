@@ -316,6 +316,10 @@ section#about {
   color: var(--cc-white-sugar);
 }
 
+.ratings {
+  justify-content: space-between;
+}
+
 .rating-hearts {
   color: var(--cc-distinct);
   align-items: center;
