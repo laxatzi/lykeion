@@ -415,8 +415,7 @@ button.heart:active .bi-heart-fill {
 
 .video-gallery-wrapper .thumbnail {
   max-width: 30%;
-  margin: 10% auto;
-  background-color: transparent;
+  margin: 15% 40%;
 }
 
 .video-gallery-wrapper a::after {
