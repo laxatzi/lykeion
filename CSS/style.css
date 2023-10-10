@@ -234,6 +234,10 @@ p {
   font-size: 1.15rem;
 }
 
+p:last-of-type {
+  margin-bottom: 0;
+}
+
 .student img {
   vertical-align: sub;
 }
