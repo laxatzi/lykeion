@@ -439,3 +439,19 @@ footer {
   color: var(--cc-white-sugar);
   margin: 0;
 }
+
+.footer-cols {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.social,
+.explore,
+.useful,
+.contact {
+  flex: 1;
+  flex-basis: 24%;
+  border: 1px solid white;
+}
