@@ -398,8 +398,11 @@ button.heart:active .bi-heart-fill {
 
 .video-gallery-wrapper {
   border-radius: 5px;
+  border: 5px solid var(--cc-primary-bg);
   max-width: 950px;
-  max-height: 650px;
+  width: 500px;
+  height: 300px;
+  max-height: 300px;
   background: var(--cc-primary-bg) url("../img/children-portrait.jpg") no-repeat
     fixed center;
   z-index: 99;
@@ -410,7 +413,7 @@ button.heart:active .bi-heart-fill {
 
 .video-gallery-wrapper .thumbnail {
   max-width: 50%;
-  margin: 0 auto;
+  margin: 50px auto;
   background-color: transparent;
 }
 
