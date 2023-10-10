@@ -391,11 +391,6 @@ button.heart:active .bi-heart-fill {
   box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.06);
 }
 
-.gapper {
-  min-height: 30vh;
-  margin-bottom: -200px;
-}
-
 .video-gallery-wrapper {
   border-radius: 5px;
   border: 10px solid var(--cc-white-sugar);
@@ -431,4 +426,12 @@ button.heart:active .bi-heart-fill {
   );
   padding-top: 300px;
   position: relative;
+  margin: 0;
+}
+
+footer {
+  padding: 100px;
+  background-color: var(--cc-bg-dark);
+  color: var(--cc-white-sugar);
+  margin: 0;
 }
