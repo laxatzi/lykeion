@@ -284,6 +284,10 @@ section#about {
   flex-direction: column;
 }
 
+#virtual-classes {
+  padding-bottom: 200px;
+}
+
 #virtual-classes--intro {
   justify-content: space-between;
 }
@@ -394,16 +398,20 @@ button.heart:active .bi-heart-fill {
 
 .video-gallery-wrapper {
   border-radius: 5px;
-  border: 1px solid black;
-  max-width: 750px;
-  max-height: 450px;
-  margin: 0 auto -200px;
+  max-width: 950px;
+  max-height: 650px;
+  background: var(--cc-primary-bg) url("../img/children-portrait.jpg") no-repeat
+    fixed center;
+  z-index: 99;
+  position: absolute;
+  top: -100px;
+  left: 30%;
 }
 
 .video-gallery-wrapper .thumbnail {
-  border: 1px solid red;
   max-width: 50%;
   margin: 0 auto;
+  background-color: transparent;
 }
 
 #test-section {
@@ -413,4 +421,6 @@ button.heart:active .bi-heart-fill {
     var(--cc-white-off),
     var(--cc-distinct-light)
   );
+  padding-top: 200px;
+  position: relative;
 }
