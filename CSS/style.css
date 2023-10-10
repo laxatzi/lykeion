@@ -398,7 +398,7 @@ button.heart:active .bi-heart-fill {
 
 .video-gallery-wrapper {
   border-radius: 5px;
-  border: 5px solid var(--cc-primary-bg);
+  border: 10px solid #d0463b;
   max-width: 950px;
   width: 950px;
   height: 450px;
