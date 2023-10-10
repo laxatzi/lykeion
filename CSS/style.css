@@ -398,7 +398,7 @@ button.heart:active .bi-heart-fill {
 
 .video-gallery-wrapper {
   border-radius: 5px;
-  border: 10px solid var(--cc-primary);
+  border: 10px solid var(--cc-white-sugar);
   max-width: 950px;
   width: 950px;
   height: 450px;
@@ -406,6 +406,7 @@ button.heart:active .bi-heart-fill {
   background: var(--cc-primary-bg) url("../img/back-to-school-thumbnail.png");
   background-repeat: no-repeat;
   background-size: auto;
+  box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.07);
   z-index: 99;
   position: absolute;
   top: -220px;
