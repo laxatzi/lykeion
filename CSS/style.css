@@ -400,20 +400,21 @@ button.heart:active .bi-heart-fill {
   border-radius: 5px;
   border: 5px solid var(--cc-primary-bg);
   max-width: 950px;
-  width: 500px;
-  height: 300px;
-  max-height: 300px;
-  background: var(--cc-primary-bg) url("../img/children-portrait.jpg") no-repeat
-    fixed center;
+  width: 950px;
+  height: 450px;
+  max-height: 450px;
+  background: var(--cc-primary-bg) url("../img/children-portrait.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
   z-index: 99;
   position: absolute;
   top: -100px;
-  left: 30%;
+  left: 25%;
 }
 
 .video-gallery-wrapper .thumbnail {
-  max-width: 50%;
-  margin: 50px auto;
+  max-width: 30%;
+  margin: 10% auto;
   background-color: transparent;
 }
 
