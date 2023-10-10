@@ -324,12 +324,12 @@ section#about {
   justify-content: space-between;
 }
 
-.rating-hearts {
+.rating-stars {
   color: var(--cc-distinct);
   align-items: center;
 }
 
-.rating-hearts svg {
+.rating-stars svg {
   margin-right: 3px;
 }
 
