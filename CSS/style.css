@@ -401,6 +401,9 @@ button.heart:active .bi-heart-fill {
 }
 
 .video-gallery-wrapper .thumbnail {
+  border: 1px solid red;
+  max-width: 50%;
+  margin: 0 auto;
 }
 
 #test-section {
