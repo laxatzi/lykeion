@@ -329,11 +329,11 @@ section#about {
   align-items: center;
 }
 
-.rating-stars svg {
+.rating-stars .vicon-star {
   margin-right: 3px;
 }
 
-.rating-hearts span {
+.rating-stars .votes {
   margin-left: 10px;
   color: var(--cc-bg-dark);
 }
