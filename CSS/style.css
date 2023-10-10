@@ -418,6 +418,10 @@ button.heart:active .bi-heart-fill {
   background-color: transparent;
 }
 
+.video-gallery-wrapper a::after {
+  background-color: transparent;
+}
+
 #test-section {
   background-color: var(--cc-white-off);
   background-image: linear-gradient(
