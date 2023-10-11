@@ -461,6 +461,10 @@ button.heart:active .bi-heart-fill {
   flex: 3;
 }
 
+.meta p {
+  font-size: 1rem;
+}
+
 footer {
   padding: 100px 0 0 0;
   background-color: var(--cc-bg-dark);
