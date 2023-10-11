@@ -453,7 +453,6 @@ footer {
 .contact {
   flex: 1;
   flex-basis: 24%;
-  border: 1px solid white;
 }
 
 .social-icons {
@@ -461,9 +460,13 @@ footer {
 }
 
 .social-header h4 {
-  color: var(--cc-primary-bg);
+  color: var(--cc-white-sugar);
 }
 
 .social-icons a::after {
   background-color: transparent;
+}
+
+.social-icons a {
+  color: var(--cc-white-sugar);
 }
