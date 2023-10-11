@@ -452,8 +452,7 @@ footer p {
 }
 
 .social,
-.explore,
-.useful,
+.footer-links,
 .contact {
   flex: 1;
   flex-basis: 24%;
@@ -492,7 +491,8 @@ footer p {
   transform: scale(1.1);
 }
 
-.footer-links {
+.footer-links,
+.contact {
   align-items: start;
   flex-direction: column;
   justify-content: center;
