@@ -213,7 +213,7 @@ a:focus::after {
   justify-content: space-around;
 }
 
-span.intro {
+h3.intro {
   color: var(--cc-primary);
   font-size: 1rem;
   font-weight: var(--cc-body-font-weight);
