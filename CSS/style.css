@@ -447,6 +447,10 @@ footer {
   gap: 20px;
 }
 
+footer p {
+  font-size: 0.85rem;
+}
+
 .social,
 .explore,
 .useful,
@@ -469,4 +473,21 @@ footer {
 
 .social-icons a {
   color: var(--cc-white-sugar);
+}
+
+.social-icon {
+  position: relative;
+  overflow: hidden;
+  max-width: 60px;
+  z-index: 1;
+}
+
+.social-icon img {
+  transition: 0.5s ease all;
+  width: 100%;
+  object-fit: cover;
+}
+
+.social-icon:hover img {
+  transform: scale(1.1);
 }
