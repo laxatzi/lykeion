@@ -450,6 +450,10 @@ button.heart:active .bi-heart-fill {
   flex: 1;
 }
 
+.event-thumbnail img {
+  border-radius: 5px;
+}
+
 .event-info {
   flex: 4;
 }
