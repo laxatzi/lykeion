@@ -492,17 +492,18 @@ footer p {
   transform: scale(1.1);
 }
 
-.explore {
-  align-items: center;
+.footer-links {
+  align-items: start;
   flex-direction: column;
+  justify-content: center;
 }
 
-.explore-item {
+.footer-link {
   align-items: center;
   flex-direction: row;
 }
 
-.explore-item h4 {
+.footer-link h4 {
   margin-bottom: 0;
 }
 
@@ -511,11 +512,11 @@ footer p {
   margin: 0;
 }
 
-.explore-item a {
+.footer-link a {
   color: var(--cc-white-sugar);
   font-size: 0.95rem;
 }
 
-.explore-item a::after {
+.footer-link a::after {
   background-color: var(--cc-white-sugar);
 }
