@@ -462,6 +462,18 @@ button.heart:active .bi-heart-fill {
   flex: 3;
 }
 
+.event-info a::after {
+  background-color: transparent;
+}
+
+.event-info a {
+  color: var(--cc-bg-dark);
+}
+
+.event-info a:hover {
+  color: var(--cc-primary);
+}
+
 .events-meta {
   align-items: center;
 }
