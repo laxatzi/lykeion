@@ -421,7 +421,7 @@ button.heart:active .bi-heart-fill {
   background-color: transparent;
 }
 
-#test-section {
+#events-section {
   background-color: var(--cc-white-off);
   background-image: linear-gradient(
     to right bottom,
