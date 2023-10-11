@@ -434,7 +434,7 @@ button.heart:active .bi-heart-fill {
 }
 
 footer {
-  padding: 100px;
+  padding: 100px 0 0 0;
   background-color: var(--cc-bg-dark);
   color: var(--cc-white-sugar);
   margin: 0;
@@ -449,6 +449,10 @@ footer {
 
 footer p {
   font-size: 0.85rem;
+}
+
+footer h5 {
+  font-size: 1rem;
 }
 
 .social,
