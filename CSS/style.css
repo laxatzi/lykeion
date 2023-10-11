@@ -455,3 +455,15 @@ footer {
   flex-basis: 24%;
   border: 1px solid white;
 }
+
+.social-icons {
+  justify-content: flex-start;
+}
+
+.social-header h4 {
+  color: var(--cc-primary-bg);
+}
+
+.social-icons a::after {
+  background-color: transparent;
+}
