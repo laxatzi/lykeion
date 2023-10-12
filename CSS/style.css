@@ -580,7 +580,7 @@ footer h5 {
 }
 
 .dots-pagin {
-  width: 8%;
+  width: 7%;
   position: relative;
   justify-content: space-between;
 }
@@ -589,12 +589,15 @@ footer h5 {
   background-color: var(--cc-primary-light);
   border: none;
   border-radius: 100%;
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
 }
 
 .dots-pagin-btn.dot-active {
   background-color: var(--cc-primary);
+  /* bg color of testimonials section */
+  border: 5px solid #e6d9e0;
+  outline: 2px solid var(--cc-primary);
 }
 .footer-links,
 .contact {
