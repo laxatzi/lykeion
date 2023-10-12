@@ -611,6 +611,12 @@ footer h5 {
   margin: 0 auto;
 }
 
+.input-container {
+  max-width: 700px;
+  width: 70%;
+  border: 1px solid red;
+}
+
 .footer-links,
 .contact {
   align-items: start;
