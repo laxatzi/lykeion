@@ -603,11 +603,22 @@ footer h5 {
   outline: 2px solid var(--cc-primary);
 }
 
+/* tutors */
+.tutors-container {
+  border: 1px solid blue;
+}
+
+.tutor {
+  flex: 1;
+  border: 1px solid red;
+}
+
 /* newsletter */
 
 #newsletter-section {
   background-color: var(--cc-white-off);
 }
+
 .newsletter-container {
   max-width: 1200px;
   width: 80%;
