@@ -604,6 +604,10 @@ footer h5 {
 }
 
 /* newsletter */
+
+#newsletter-section {
+  background-color: var(--cc-white-off);
+}
 .newsletter-container {
   max-width: 1200px;
   width: 80%;
