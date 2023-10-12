@@ -605,7 +605,6 @@ footer h5 {
 
 /* newsletter */
 .newsletter-container {
-  border: 1px solid blue;
   max-width: 1200px;
   width: 80%;
   margin: 0 auto;
@@ -615,8 +614,13 @@ footer h5 {
 
 .input-container {
   max-width: 700px;
-  width: 70%;
-  border: 1px solid red;
+  width: 60%;
+}
+
+input.link-btn {
+  background-color: var(--cc-primary);
+  color: var(--cc-white-sugar);
+  border: none;
 }
 
 .footer-links,
