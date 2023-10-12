@@ -545,6 +545,13 @@ footer h5 {
   transform: scale(1.1);
 }
 
+.testimonials {
+  max-width: 1200px;
+  width: 90%;
+  border: 1px solid blue;
+  margin: 0 auto;
+}
+
 .footer-links,
 .contact {
   align-items: start;
