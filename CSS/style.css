@@ -553,12 +553,11 @@ footer h5 {
   max-width: 1200px;
   width: 80%;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .testimonial-card {
   flex: 1;
-  gap: 25px;
   background-color: var(--cc-white-sugar);
   max-width: 330px;
   width: 300px;
