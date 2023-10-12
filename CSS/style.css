@@ -8,6 +8,7 @@
   --cc-white: #ffffff;
   --cc-primary: #525fe1;
   --cc-primary-bg: #525fe1;
+  --cc-primary-light: #8289d8;
   --cc-bg-dark: #231f40;
   --cc-distinct-dark: #f86f03;
   --cc-distinct: #ffa04d;
@@ -579,11 +580,22 @@ footer h5 {
 }
 
 .dots-pagin {
-  width: 10%;
+  width: 8%;
   position: relative;
   justify-content: space-between;
 }
 
+.dots-pagin-btn {
+  background-color: var(--cc-primary-light);
+  border: none;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+}
+
+.dots-pagin-btn.dot-active {
+  background-color: var(--cc-primary);
+}
 .footer-links,
 .contact {
   align-items: start;
