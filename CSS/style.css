@@ -551,14 +551,14 @@ footer h5 {
 
 .testimonials {
   max-width: 1200px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   justify-content: space-between;
 }
 
 .testimonial-item {
   flex: 1;
-  gap: 20px;
+  gap: 25px;
   background-color: var(--cc-white-sugar);
   max-width: 330px;
   width: 300px;
