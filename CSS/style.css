@@ -552,7 +552,6 @@ footer h5 {
 .testimonials {
   max-width: 1200px;
   width: 90%;
-  border: 1px solid blue;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -566,6 +565,18 @@ footer h5 {
   border-radius: 5px;
 }
 
+.student-info {
+  align-items: center;
+}
+
+.cert {
+  font-size: 14px;
+  color: var(--cc-primary);
+}
+
+.student-testimonial p {
+  font-size: 16px;
+}
 .footer-links,
 .contact {
   align-items: start;
