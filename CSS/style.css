@@ -545,11 +545,20 @@ footer h5 {
   transform: scale(1.1);
 }
 
+#testimonials-section {
+  background-color: #e6d9e0;
+}
+
 .testimonials {
   max-width: 1200px;
   width: 90%;
   border: 1px solid blue;
   margin: 0 auto;
+}
+
+.testimonial-item {
+  flex: 1;
+  gap: 20px;
 }
 
 .footer-links,
