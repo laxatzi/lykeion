@@ -578,6 +578,12 @@ footer h5 {
 .student-testimonial p {
   font-size: 16px;
 }
+
+.dots-pagin {
+  border: 1px solid red;
+  width: 20%;
+}
+
 .footer-links,
 .contact {
   align-items: start;
