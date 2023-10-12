@@ -554,11 +554,16 @@ footer h5 {
   width: 90%;
   border: 1px solid blue;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .testimonial-item {
   flex: 1;
   gap: 20px;
+  background-color: var(--cc-white-sugar);
+  max-width: 330px;
+  width: 300px;
+  border-radius: 5px;
 }
 
 .footer-links,
