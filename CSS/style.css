@@ -582,6 +582,7 @@ footer h5 {
 .dots-pagin {
   border: 1px solid red;
   width: 20%;
+  position: relative;
 }
 
 .footer-links,
