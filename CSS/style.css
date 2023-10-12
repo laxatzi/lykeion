@@ -563,6 +563,7 @@ footer h5 {
   max-width: 330px;
   width: 300px;
   border-radius: 5px;
+  position: relative;
 }
 
 .student-info {
