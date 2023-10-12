@@ -556,7 +556,7 @@ footer h5 {
   justify-content: space-between;
 }
 
-.testimonial-item {
+.testimonial-card {
   flex: 1;
   gap: 25px;
   background-color: var(--cc-white-sugar);
