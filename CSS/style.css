@@ -739,6 +739,9 @@ input.link-btn {
   border-top-left-radius: 5px;
   width: 100%;
 }
+.author {
+  flex-direction: column;
+}
 
 /* footer */
 .footer-links,
