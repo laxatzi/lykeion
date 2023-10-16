@@ -13,6 +13,7 @@
   --cc-distinct-dark: #f86f03;
   --cc-distinct: #ffa04d;
   --cc-distinct-light: #fde2d1;
+  --cc-heart-color: #eb5555;
   /* fonts */
   --cc-body-font-weight: 600;
   --cc-navbar-brand-font-size-small: 14px;
@@ -359,6 +360,7 @@ button.heart {
   border: none;
   border-radius: 50%;
   padding: 10px;
+  background-color: var(--cc-primary);
 }
 
 button.heart:active .bi-heart-fill {
