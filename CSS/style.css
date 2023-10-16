@@ -638,15 +638,47 @@ footer h5 {
   flex: 1;
   max-width: 265px;
   max-height: 315px;
-  border-radius: 5px;
 }
 
 .tutor-tab .thumbnail {
+  position: relative;
+  transition: 0.3s;
+  z-index: 2;
+  border-radius: 100%;
+}
+
+.tutor-tab .thumbnail a {
+  display: block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.tutor-tab .thumbnail a img {
   border-radius: 5px;
+  width: 100%;
 }
+
 .tutor-info {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background: var(--cc-primary-bg);
+  margin-top: -100px;
+  opacity: 0.9;
+  border-radius: 5px;
+  z-index: 3;
+  position: absolute;
+  max-width: 265px;
+  width: 265px;
+  max-height: 100px;
+  height: 100px;
+  color: var(--cc-white-sugar);
 }
+
+.tutor-info a {
+  color: var(--cc-white-sugar);
+}
+
 /* newsletter */
 
 #newsletter-section {
