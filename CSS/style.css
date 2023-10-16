@@ -712,6 +712,12 @@ input.link-btn {
   border: none;
 }
 
+/* blog section */
+#blog-latest {
+  background-color: #e6d9e0;
+}
+
+/* footer */
 .footer-links,
 .contact {
   align-items: start;
