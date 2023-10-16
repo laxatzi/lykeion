@@ -117,6 +117,11 @@ header {
   font-weight: var(--cc-body-font-weight);
 }
 
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: var(--cc-primary);
+}
+
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: var(--cc-white-off) !important;
