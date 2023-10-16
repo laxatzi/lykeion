@@ -168,6 +168,9 @@ header {
 #hero {
   display: flex;
 }
+section#hero {
+  padding-bottom: 0;
+}
 
 #hero .student,
 #hero .intro {
@@ -621,7 +624,6 @@ footer h5 {
 
 .tutor {
   flex: 1;
-  border: 1px solid red;
 }
 
 /* newsletter */
