@@ -727,19 +727,13 @@ input.link-btn {
   border-bottom-left-radius: 5px;
 }
 
-.blogpost-card .blogpost-img {
-  position: relative;
-  z-index: 2;
-  border-radius: 100%;
-}
-
 .blogpost-card .blogpost-img a {
   display: block;
-  position: relative;
 }
 
 .blogpost-card .blogpost-img a img {
-  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
   width: 100%;
 }
 
