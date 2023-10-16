@@ -618,16 +618,35 @@ footer h5 {
 }
 
 /* tutors */
+#tutors {
+  background-color: var(--cc-grey-light);
+}
+
+#tutors h2,
+#tutors h3 {
+  color: var(--cc-white-sugar);
+}
+
 .tutors-container {
   border: 1px solid blue;
   max-width: 1200px;
+  gap: 20px;
+  justify-content: space-between;
 }
 
 .tutor-tab {
   flex: 1;
-  border: 1px solid red;
+  max-width: 265px;
+  max-height: 315px;
+  border-radius: 5px;
 }
 
+.tutor-tab .thumbnail {
+  border-radius: 5px;
+}
+.tutor-info {
+  display: none;
+}
 /* newsletter */
 
 #newsletter-section {
