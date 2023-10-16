@@ -620,10 +620,12 @@ footer h5 {
 /* tutors */
 .tutors-container {
   border: 1px solid blue;
+  max-width: 1200px;
 }
 
-.tutor {
+.tutor-tab {
   flex: 1;
+  border: 1px solid red;
 }
 
 /* newsletter */
