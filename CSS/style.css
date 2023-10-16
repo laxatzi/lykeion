@@ -619,7 +619,7 @@ footer h5 {
 
 /* tutors */
 #tutors {
-  background-color: var(--cc-grey-light);
+  background-color: var(--cc-primary-bg);
 }
 
 #tutors h2,
@@ -658,7 +658,9 @@ footer h5 {
 }
 
 .tutor-info {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 1s linear;
   flex-direction: column;
   padding: 10px;
   background: var(--cc-primary-bg);
@@ -681,7 +683,8 @@ footer h5 {
 }
 
 .tutor-tab:hover .tutor-info {
-  display: flex;
+  visibility: visible;
+  opacity: 1;
 }
 
 /* newsletter */
