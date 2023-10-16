@@ -628,7 +628,6 @@ footer h5 {
 }
 
 .tutors-container {
-  border: 1px solid blue;
   max-width: 1200px;
   gap: 20px;
   justify-content: space-between;
@@ -642,7 +641,6 @@ footer h5 {
 
 .tutor-tab .thumbnail {
   position: relative;
-  transition: 0.3s;
   z-index: 2;
   border-radius: 100%;
 }
@@ -650,7 +648,6 @@ footer h5 {
 .tutor-tab .thumbnail a {
   display: block;
   position: relative;
-  transition: 0.3s;
 }
 
 .tutor-tab .thumbnail a img {
@@ -659,13 +656,15 @@ footer h5 {
 }
 
 .tutor-info {
-  display: flex;
+  display: none;
   flex-direction: column;
   padding: 10px;
   background: var(--cc-primary-bg);
   margin-top: -100px;
   opacity: 0.9;
   border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
   z-index: 3;
   position: absolute;
   max-width: 265px;
@@ -677,6 +676,10 @@ footer h5 {
 
 .tutor-info a {
   color: var(--cc-white-sugar);
+}
+
+.tutor-tab:hover .tutor-info {
+  display: flex;
 }
 
 /* newsletter */
