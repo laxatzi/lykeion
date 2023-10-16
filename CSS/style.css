@@ -311,12 +311,6 @@ section#about {
   justify-content: space-between;
 }
 
-#vclasses-headings {
-}
-
-#vclasses-selections {
-}
-
 .vclass-tabs {
   padding: 10px;
   border-radius: 5px;
@@ -717,6 +711,10 @@ input.link-btn {
   background-color: #e6d9e0;
 }
 
+.blogpost-list {
+  display: flex;
+  gap: 20px;
+}
 /* footer */
 .footer-links,
 .contact {
