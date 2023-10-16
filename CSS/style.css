@@ -628,9 +628,11 @@ footer h5 {
 }
 
 .tutors-container {
-  max-width: 1200px;
+  max-width: 800px;
   gap: 20px;
   justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .tutor-tab {
