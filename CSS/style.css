@@ -638,8 +638,6 @@ footer h5 {
 
 .tutor-tab .thumbnail {
   position: relative;
-  z-index: 2;
-  border-radius: 100%;
 }
 
 .tutor-tab .thumbnail a {
@@ -649,7 +647,6 @@ footer h5 {
 
 .tutor-tab .thumbnail a img {
   border-radius: 5px;
-  width: 100%;
 }
 
 .tutor-info {
