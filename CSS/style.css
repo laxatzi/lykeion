@@ -753,6 +753,11 @@ input.link-btn {
   flex-direction: column;
 }
 
+.tagline {
+  justify-content: flex-start;
+  align-items: center;
+}
+
 /* footer */
 .footer-links,
 .contact {
