@@ -400,7 +400,8 @@ button.heart:active .bi-heart-fill {
   color: var(--cc-primary);
 }
 
-.card {
+.card,
+.blogpost-card {
   box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.06);
 }
 
@@ -714,6 +715,10 @@ input.link-btn {
 .blogpost-list {
   display: flex;
   gap: 20px;
+}
+
+.blogpost-card-body {
+  background-color: var(--cc-white-sugar);
 }
 /* footer */
 .footer-links,
