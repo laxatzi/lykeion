@@ -712,10 +712,13 @@ input.link-btn {
 .blogpost-list {
   display: flex;
   gap: 20px;
+  max-width: 1200px;
+  width: 1200px;
 }
 
 .blogpost-card {
   border-radius: 5px;
+  flex: 1;
 }
 
 .blogpost-card-body {
