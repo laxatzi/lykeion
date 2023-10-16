@@ -392,17 +392,17 @@ button.heart:active .bi-heart-fill {
 
 .tutor,
 .author {
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .tutor h4,
-.author h4 {
+.author-profile h4 {
   font-size: 16px;
 }
 
 .tutor img,
-.author img {
+.author-profile img {
   border-radius: 50%;
 }
 
@@ -751,8 +751,14 @@ input.link-btn {
   border-top-left-radius: 5px;
   width: 100%;
 }
+
 .author {
   flex-direction: column;
+}
+
+.author-profile img {
+  border-radius: 50%;
+  margin: 0 10px 10px 0;
 }
 
 .tagline {
