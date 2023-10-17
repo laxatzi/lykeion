@@ -266,14 +266,18 @@ section {
 
 .shape-image.shape-image-1 {
   top: 100px;
-  left: 180px;
+  left: 100px;
 }
 
 .shape-image.shape-image-2 {
-  top: 300px;
+  top: 100px;
   left: 1500px;
 }
 
+.shape-image.shape-image-3 {
+  top: 250px;
+  left: 1000px;
+}
 .topic {
   background-color: var(--cc-white-sugar);
   border-radius: 5px;
