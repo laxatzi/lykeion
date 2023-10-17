@@ -295,6 +295,26 @@ section {
   left: 1700px;
 }
 
+.shape-image.shape-image-7 {
+  top: 150px;
+  left: 100px;
+}
+
+.shape-image.shape-image-8 {
+  top: 100px;
+  left: 1600px;
+}
+
+.shape-image.shape-image-9 {
+  top: 650px;
+  right: 30px;
+}
+
+.shape-image.shape-image-10 {
+  top: 650px;
+  left: 130px;
+}
+
 .topic {
   background-color: var(--cc-white-sugar);
   border-radius: 5px;
