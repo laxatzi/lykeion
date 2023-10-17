@@ -262,7 +262,7 @@ section {
 .shape-image {
   position: absolute;
   z-index: 1;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .shape-image.shape-image-1 {
