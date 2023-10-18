@@ -1,6 +1,6 @@
+// Wrapping the code in a function and assigning it to window.onload makes sure the script is executed right after everything on the page is loaded, hence nothing remains null
+// otherwise it logs Uncaught TypeError: Cannot set property 'onclick' of null
 window.onload = function () {
-  // your code
-
   // Scroll back to top program
   const scrollTopLink = document.getElementById("js--back-to-top");
 
