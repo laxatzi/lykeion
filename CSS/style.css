@@ -105,6 +105,17 @@ a:focus::after {
   transform: scale(1);
 }
 
+.sr-only {
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+}
+
 header {
   background-color: var(--cc-white-off);
   background-image: linear-gradient(
