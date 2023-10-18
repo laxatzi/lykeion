@@ -1,50 +1,40 @@
-// © Lambros Hatzinikolaou, 2023
+window.onload = function () {
+  // your code
 
-const links = document.querySelectorAll(".nav .nav-link a");
+  // Scroll back to top program
+  const scrollTopLink = document.getElementById("js--back-to-top");
 
-for (const link of links) {
-  link.addEventListener("click", clickToScrollSmoothly);
-}
+  // Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
+  const showScrollButton = function showScrollButtonWhenBeyondWindow() {
+    let scrollY = window.scrollY;
+    if (scrollY > 350) {
+      scrollTopLink.classList.add("show");
+      scrollTopLink.classList.remove("hidden");
+      console.log(">350");
+    } else {
+      scrollTopLink.classList.add("hidden");
+      scrollTopLink.classList.remove("show");
+      console.log("<350");
+    }
+  };
 
-function clickToScrollSmoothly(el) {
-  el.preventDefault();
-  const href = this.getAttribute("href");
-  const offsetTop = document.querySelector(href).offsetTop;
+  window.addEventListener("scroll", showScrollButton);
 
-  scroll({
-    top: offsetTop,
-    behavior: "smooth",
-  });
-}
+  const scrollToTop = function scrollToTopOfDoc() {
+    const distanceFromTop =
+      document.documentElement.scrollTop || document.body.scrollTop;
+    // We'll also animate that scroll with requestAnimationFrame:
+    // https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
+    if (distanceFromTop > 0) {
+      window.requestAnimationFrame(scrollToTop);
+      // ScrollTo takes an x and a y coordinate.
+      // Increase the '10' value to get a smoother/slower scroll!
+      window.scrollTo(0, distanceFromTop - distanceFromTop / 5);
+    }
+  };
 
-const scrollTopButton = document.getElementById("js--back-to-top");
-
-// Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
-const showScrollButton = function showScrollButtonWhenBeyondWindow() {
-  let scrollY = window.scrollY;
-  if (scrollY > 250) {
-    scrollTopButton.className = "back-to-top show";
-  } else {
-    scrollTopButton.className = "back-to-top hidden";
-  }
-};
-
-window.addEventListener("scroll", showScrollButton);
-
-const scrollToTop = function scrollToTopOfDoc() {
-  const distanceFromTop =
-    document.documentElement.scrollTop || document.body.scrollTop;
-  // We'll also animate that scroll with requestAnimationFrame:
-  // https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
-  if (distanceFromTop > 0) {
-    window.requestAnimationFrame(scrollToTop);
-    // ScrollTo takes an x and a y coordinate.
-    // Increase the '10' value to get a smoother/slower scroll!
-    window.scrollTo(0, distanceFromTop - distanceFromTop / 5);
-  }
-};
-
-scrollTopButton.onclick = function (el) {
-  el.preventDefault();
-  scrollToTop();
+  scrollTopLink.onclick = function (el) {
+    el.preventDefault();
+    scrollToTop();
+  };
 };
