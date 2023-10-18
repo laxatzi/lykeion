@@ -43,6 +43,7 @@ body {
   height: 100%;
   box-sizing: border-box;
   font-family: montserrat, sans-serif;
+  scroll-behavior: smooth;
 }
 /*
   Improve media defaults
@@ -913,20 +914,15 @@ input.link-btn {
 .back-to-top {
   display: block;
   position: fixed;
-  bottom: 40px;
-  right: 40px;
+  bottom: 20px;
+  right: 20px;
   z-index: 99;
   cursor: pointer;
+  font-size: 48px;
+  opacity: 0;
+  transition: all 0.5s ease-in;
 }
 
 .vicon-back-to-top {
   font-size: 40px;
-}
-
-.hidden {
-  visibility: hidden;
-}
-
-.show {
-  visibility: visible;
 }
