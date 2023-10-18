@@ -293,8 +293,8 @@ section {
 }
 
 .shape-image.shape-image-4 {
-  top: 600px;
-  left: 70px;
+  top: 50px;
+  left: 50px;
 }
 
 .shape-image.shape-image-5 {
@@ -303,23 +303,24 @@ section {
 }
 
 .shape-image.shape-image-6 {
-  top: 750px;
-  left: 1700px;
+  bottom: 40px;
+  right: 100px;
+  transform: rotate(45deg);
 }
 
 .shape-image.shape-image-7 {
   top: 150px;
-  left: 100px;
+  right: 100px;
 }
 
 .shape-image.shape-image-8 {
   top: 100px;
-  left: 1600px;
+  left: -10px;
 }
 
 .shape-image.shape-image-9 {
   top: 650px;
-  right: 30px;
+  right: 0px;
 }
 
 .shape-image.shape-image-10 {
