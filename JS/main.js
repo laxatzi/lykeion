@@ -7,14 +7,12 @@ window.onload = function () {
   // Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
   const showScrollButton = function showScrollButtonWhenBeyondWindow() {
     let scrollY = window.scrollY;
-    if (scrollY > 350) {
+    if (scrollY > 700) {
       scrollTopLink.classList.add("show");
       scrollTopLink.classList.remove("hidden");
-      console.log(">350");
     } else {
       scrollTopLink.classList.add("hidden");
       scrollTopLink.classList.remove("show");
-      console.log("<350");
     }
   };
 
