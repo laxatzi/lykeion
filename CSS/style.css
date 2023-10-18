@@ -394,6 +394,23 @@ section {
   padding: 40px;
 }
 
+.topic img.white {
+  display: none;
+}
+
+.topic:hover {
+  background-color: var(--cc-primary-bg);
+  color: var(--cc-white-sugar);
+}
+
+.topic:hover img.white {
+  display: block;
+}
+
+.topic:hover img.primary {
+  display: none;
+}
+
 #gallery {
   flex: 3;
 }
