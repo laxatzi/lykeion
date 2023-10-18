@@ -116,14 +116,6 @@ a:focus::after {
   overflow: hidden;
 }
 
-.hidden {
-  visibility: hidden;
-}
-
-.show {
-  visibility: visible;
-}
-
 header {
   background-color: var(--cc-white-off);
   background-image: linear-gradient(
@@ -918,7 +910,7 @@ input.link-btn {
 }
 
 /* back to top button */
-a.back-to-top {
+.back-to-top {
   display: block;
   position: fixed;
   bottom: 40px;
@@ -935,4 +927,12 @@ a.back-to-top {
 
 .vicon-back-to-top {
   font-size: 40px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
 }
