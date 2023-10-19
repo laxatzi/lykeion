@@ -332,13 +332,15 @@ section {
 
 .shape-image.shape-image-5 {
   top: 230px;
-  left: 1600px;
+  right: 230px;
+  z-index: -1;
 }
 
 .shape-image.shape-image-6 {
-  bottom: 40px;
-  right: 100px;
-  transform: rotate(45deg);
+  bottom: 60px;
+  right: 210px;
+  transform: rotate(-60deg);
+  z-index: -1;
 }
 
 .shape-image.shape-image-7 {
@@ -378,7 +380,8 @@ section {
 
 .shape-image.shape-image-14 {
   top: 230px;
-  right: 200px;
+  right: 230px;
+  z-index: -1;
 }
 
 .shape-image.shape-image-15 {
@@ -397,13 +400,14 @@ section {
 }
 
 .shape-image.shape-image-18 {
-  top: 300px;
-  left: 200px;
+  top: 400px;
+  left: 150px;
 }
 
 .shape-image.shape-image-19 {
-  top: 120px;
-  right: 250px;
+  top: 220px;
+  right: 150px;
+  transform: rotate(30deg);
 }
 
 .shape-image.shape-image-20 {
