@@ -1029,3 +1029,11 @@ input.link-btn {
 .vicon-back-to-top {
   font-size: 40px;
 }
+
+a.back-to-top::after {
+  background-color: transparent;
+}
+
+a.back-to-top:hover {
+  transform: scale(1.27);
+}
