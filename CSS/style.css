@@ -119,12 +119,42 @@ a:focus::after {
   overflow: hidden;
 }
 
-header {
+header,
+section#about {
   background-color: var(--cc-white-off);
   background-image: linear-gradient(
     to right bottom,
     var(--cc-bg-distinct-lighter),
     var(--cc-bg-primary-lighter)
+  );
+}
+
+section#events-section {
+  background-color: var(--cc-white-off);
+  background-image: linear-gradient(
+    to left top,
+    var(--cc-bg-distinct-lighter),
+    var(--cc-bg-primary-lighter)
+  );
+}
+
+section#testimonials-section {
+  background-color: var(--cc-white-off);
+  background-image: linear-gradient(
+    0.25turn,
+    var(--cc-bg-distinct-lighter),
+    10%,
+    var(--cc-bg-primary-lighter)
+  );
+}
+
+section#blog-latest {
+  background-color: var(--cc-white-off);
+  background-image: linear-gradient(
+    0.15turn,
+    var(--cc-bg-primary-lighter),
+    30%,
+    var(--cc-bg-distinct-lighter)
   );
 }
 
