@@ -390,8 +390,8 @@ section {
 }
 
 .shape-image.shape-image-23 {
-  top: 50px;
-  left: 80px;
+  bottom: 50px;
+  right: 180px;
 }
 
 .shape-image.shape-image-24 {
@@ -401,21 +401,43 @@ section {
 }
 
 .shape-image.shape-image-25 {
-  top: 750px;
-  right: 80px;
+  top: 250px;
+  left: 80px;
   transform: rotate(45deg);
 }
 
 .shape-image.shape-image-26 {
   top: 50px;
+  right: 280px;
+  transform: rotate(85deg);
+}
+
+.shape-image.shape-image-27 {
+  top: 150px;
+  left: 80px;
+  transform: rotate(45deg);
+}
+
+.shape-image.shape-image-28 {
+  top: 650px;
   right: 80px;
   transform: rotate(45deg);
 }
 
-.shape-image.shape-image-27 {
-  top: 350px;
-  right: 80px;
+.shape-image.shape-image-29 {
+  top: 250px;
+  right: 180px;
   transform: rotate(45deg);
+}
+
+.shape-image.shape-image-30 {
+  top: 150px;
+  right: 180px;
+}
+
+.shape-image.shape-image-31 {
+  top: 250px;
+  right: 180px;
 }
 
 .topic {
