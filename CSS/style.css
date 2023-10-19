@@ -10,6 +10,8 @@
   --cc-primary-bg: #525fe1;
   --cc-primary-light: #8289d8;
   --cc-bg-dark: #231f40;
+  --cc-bg-primary-lighter: #e5e1f2;
+  --cc-bg-distinct-lighter: #fbdcc3;
   --cc-distinct-dark: #f86f03;
   --cc-distinct: #ffa04d;
   --cc-distinct-light: #fde2d1;
@@ -121,8 +123,8 @@ header {
   background-color: var(--cc-white-off);
   background-image: linear-gradient(
     to right bottom,
-    var(--cc-white-off),
-    var(--cc-distinct-light)
+    var(--cc-bg-distinct-lighter),
+    var(--cc-bg-primary-lighter)
   );
 }
 
