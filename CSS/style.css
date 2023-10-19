@@ -294,7 +294,7 @@ section {
 
 .shape-image.shape-image-4 {
   top: 50px;
-  left: 50px;
+  left: -15px;
 }
 
 .shape-image.shape-image-5 {
@@ -315,7 +315,7 @@ section {
 
 .shape-image.shape-image-8 {
   top: 100px;
-  left: -10px;
+  left: -12px;
 }
 
 .shape-image.shape-image-9 {
@@ -339,8 +339,8 @@ section {
 }
 
 .shape-image.shape-image-13 {
-  top: 100px;
-  left: 150px;
+  top: 150px;
+  left: 10px;
 }
 
 .shape-image.shape-image-14 {
@@ -355,7 +355,7 @@ section {
 
 .shape-image.shape-image-16 {
   top: 600px;
-  right: 300px;
+  right: 100px;
 }
 
 .shape-image.shape-image-17 {
@@ -380,7 +380,7 @@ section {
 
 .shape-image.shape-image-21 {
   top: 50px;
-  left: 80px;
+  left: -35px;
 }
 
 .shape-image.shape-image-22 {
@@ -414,13 +414,13 @@ section {
 
 .shape-image.shape-image-27 {
   top: 150px;
-  left: 80px;
+  left: -40px;
   transform: rotate(45deg);
 }
 
 .shape-image.shape-image-28 {
-  top: 650px;
-  right: 80px;
+  bottom: 50px;
+  right: 30px;
   transform: rotate(45deg);
 }
 
