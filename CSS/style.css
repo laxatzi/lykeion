@@ -279,12 +279,13 @@ section {
 
 .shape-image.shape-image-1 {
   top: 100px;
-  left: 100px;
+  left: -30px;
 }
 
 .shape-image.shape-image-2 {
-  top: 100px;
-  left: 1500px;
+  top: 130px;
+  right: 50px;
+  transform: rotate(-90deg);
 }
 
 .shape-image.shape-image-3 {
