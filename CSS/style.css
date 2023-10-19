@@ -332,13 +332,13 @@ section {
 
 .shape-image.shape-image-5 {
   top: 230px;
-  right: 230px;
+  right: 250px;
   z-index: -1;
 }
 
 .shape-image.shape-image-6 {
   bottom: 60px;
-  right: 210px;
+  right: 250px;
   transform: rotate(-60deg);
   z-index: -1;
 }
@@ -380,7 +380,7 @@ section {
 
 .shape-image.shape-image-14 {
   top: 230px;
-  right: 230px;
+  right: 250px;
   z-index: -1;
 }
 
