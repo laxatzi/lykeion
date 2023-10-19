@@ -612,8 +612,8 @@ button.heart:active .bi-heart-fill {
 
 .tutor,
 .author {
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .tutor h4,
