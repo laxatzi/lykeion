@@ -1049,3 +1049,11 @@ a.back-to-top:hover {
   border: 1px solid red;
   background-color: var(--cc-white-sugar);
 }
+
+#hero.interior h1 {
+  font-size: 48px;
+}
+
+header.container-fluid {
+  padding: 0px;
+}
