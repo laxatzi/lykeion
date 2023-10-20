@@ -1098,6 +1098,14 @@ header.container-fluid {
   font-weight: bold;
 }
 
+.breadcrumb-item a::after {
+  background-color: transparent;
+}
+
+.breadcrumb-item a:hover,
+.breadcrumb-item a:active {
+  color: var(--cc-primary);
+}
 .separator span {
   font-size: 10px;
   margin: 0 5px;
