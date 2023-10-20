@@ -1,6 +1,7 @@
 :root {
   /* colors */
   --cc-color-dark: #231f40;
+  --cc-color: #303030;
   --cc-grey: #4f5969;
   --cc-grey-light: #808ea4;
   --cc-white-off: #fef6f3;
@@ -46,6 +47,7 @@ body {
   box-sizing: border-box;
   font-family: montserrat, sans-serif;
   scroll-behavior: smooth;
+  color: var(--cc-color);
 }
 /*
   Improve media defaults
@@ -213,6 +215,7 @@ section#blog-latest {
 #hero {
   display: flex;
 }
+
 section#hero {
   padding-bottom: 0;
 }
@@ -1046,14 +1049,34 @@ a.back-to-top:hover {
   COURSES
 ****************************************************************************************/
 .navigation {
-  border: 1px solid red;
   background-color: var(--cc-white-sugar);
 }
 
-#hero.interior h1 {
+#hero.inner h1 {
   font-size: 48px;
+  color: var(--cc-color);
 }
 
+section#hero.container.inner,
 header.container-fluid {
   padding: 0px;
+}
+
+.breadcrumb {
+  align-items: center;
+  color: var(--cc-color);
+}
+
+.breadcrumb li {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.separator span {
+  font-size: 10px;
+  margin: 0 5px;
+}
+
+.breadcrumb-item a {
+  color: var(--cc-color);
 }
