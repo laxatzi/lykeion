@@ -1104,3 +1104,13 @@ header.container-fluid {
 .breadcrumb-item a {
   color: var(--cc-color);
 }
+
+.vicon-user {
+  font-size: 24px;
+}
+
+.nav-plus {
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
