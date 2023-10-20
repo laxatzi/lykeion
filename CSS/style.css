@@ -480,6 +480,11 @@ section {
   right: 180px;
 }
 
+.shape-image.shape-image-32 {
+  top: 150px;
+  right: 180px;
+  transform: rotate(45deg);
+}
 .topic {
   background-color: var(--cc-white-sugar);
   border-radius: 5px;
