@@ -498,6 +498,12 @@ section {
   transform: rotate(45deg);
 }
 
+.shape-image.shape-image-35 {
+  top: 230px;
+  right: 880px;
+  transform: rotate(12deg);
+}
+
 .topic {
   background-color: var(--cc-white-sugar);
   border-radius: 5px;
