@@ -1136,3 +1136,30 @@ header.container-fluid {
   color: #716e7f;
   align-items: center;
 }
+
+.pagination {
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.pagination .page,
+.pagination .prev,
+.pagination .next {
+  font-size: 1.15rem;
+  font-weight: bold;
+  background-color: var(--cc-grey-light);
+  padding: 20px;
+  border: 1px solid var(--cc-grey-light);
+  border-radius: 100%;
+  min-width: 60px;
+}
+
+.pagination .page,
+.pagination .prev {
+  margin-right: 5px;
+}
+
+#virtual-classes.courses {
+  padding-bottom: 150px;
+}
