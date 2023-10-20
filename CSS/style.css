@@ -1119,6 +1119,19 @@ header.container-fluid {
 .nav-plus a:active .vicon-user {
   transform: scale(1.05);
 }
+
 .nav-plus a::after {
   background-color: transparent;
+}
+
+.info-list {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-list-time,
+.info-list-level {
+  flex: 1;
+  font-size: 14px;
+  color: #716e7f;
 }
