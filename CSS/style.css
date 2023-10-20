@@ -1167,3 +1167,31 @@ header.container-fluid {
 #virtual-classes.courses {
   padding-bottom: 150px;
 }
+
+.pagination a::after {
+  background-color: transparent;
+}
+
+.prev:hover,
+.prev:active,
+.next:hover,
+.next:active {
+  background-color: var(--cc-primary-bg);
+}
+
+.prev:hover .vicon-chevron--left,
+.prev:active .vicon-chevron--left,
+.next:hover .vicon-chevron--right,
+.next:active .vicon-chevron--right {
+  display: none;
+}
+
+.page:hover,
+.page:active {
+  background-color: var(--cc-primary-bg);
+}
+
+.page:hover a,
+.page:active a {
+  color: var(--cc-white-sugar);
+}
