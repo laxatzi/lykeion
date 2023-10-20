@@ -1172,6 +1172,11 @@ header.container-fluid {
   background-color: transparent;
 }
 
+.prev .vicon-chevron--left-white,
+.next .vicon-chevron--right-white {
+  display: none;
+}
+
 .prev:hover,
 .prev:active,
 .next:hover,
@@ -1184,6 +1189,13 @@ header.container-fluid {
 .next:hover .vicon-chevron--right,
 .next:active .vicon-chevron--right {
   display: none;
+}
+
+.prev:hover .vicon-chevron--left-white,
+.prev:active .vicon-chevron--left-white,
+.next:hover .vicon-chevron--right-white,
+.next:active .vicon-chevron--right-white {
+  display: block;
 }
 
 .page:hover,
