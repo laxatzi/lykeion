@@ -1258,3 +1258,19 @@ header.container-fluid {
 .page:active a {
   color: var(--cc-white-sugar);
 }
+
+/*  ************************************************************************************
+  COURSE-INFO
+****************************************************************************************/
+
+.video-gallery-wrapper-2 {
+  border-radius: 5px;
+  border: 10px solid var(--cc-white-sugar);
+  border: 10px solid red;
+  background: var(--cc-primary-bg) url("../img/back-to-school-thumbnail.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.07);
+  z-index: 99;
+  position: absolute;
+}
