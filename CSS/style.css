@@ -1169,6 +1169,7 @@ header.container-fluid {
   display: inline-block;
   line-height: 40px;
   text-align: center;
+  transition: 0.4s;
 }
 
 .pagination .page,
