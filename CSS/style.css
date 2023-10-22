@@ -1076,6 +1076,9 @@ a.back-to-top:hover {
 ****************************************************************************************/
 .navigation {
   background-color: var(--cc-white-sugar);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.06);
+  position: fixed;
+  z-index: 99;
 }
 
 #hero.inner h1 {
