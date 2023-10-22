@@ -674,11 +674,22 @@ button.heart:active .bi-heart-fill {
   overflow: hidden;
 }
 
-.card:hover img {
-  transform: scale(1.07);
+.card-img-container img {
+  object-fit: contain;
+  width: 100%;
   overflow: hidden;
 }
 
+.card:hover img,
+.card:focus img {
+  transform: scale(1.07);
+  transition: 0.3s;
+}
+
+.card-body {
+  z-index: 1;
+  position: relative;
+}
 .video-gallery-wrapper {
   border-radius: 5px;
   border: 10px solid var(--cc-white-sugar);
