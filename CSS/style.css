@@ -690,6 +690,7 @@ button.heart:active .bi-heart-fill {
   z-index: 1;
   position: relative;
 }
+
 .video-gallery-wrapper {
   border-radius: 5px;
   border: 10px solid var(--cc-white-sugar);
@@ -1010,6 +1011,12 @@ input.link-btn {
   background-color: var(--cc-white-sugar);
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+  z-index: 1;
+  position: relative;
+}
+
+.blogpost-img {
+  overflow: hidden;
 }
 
 .blogpost-card .blogpost-img a {
@@ -1020,8 +1027,18 @@ input.link-btn {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   width: 100%;
+  object-fit: contain;
+  overflow: hidden;
 }
 
+.blogpost-card:hover img {
+  transition: 0.3s;
+  transform: scale(1.07);
+}
+
+.blogpost-card .blogpost-img a::after {
+  background-color: transparent;
+}
 .author {
   flex-direction: column;
 }
