@@ -1353,6 +1353,16 @@ header.container-fluid {
   visibility: hidden;
 }
 
-.active {
-  visibility: visible;
+#overview-page,
+#curriculum-page,
+#reviews-page,
+#tutor-nav-page {
+  display: none;
+}
+
+#overview-page.active,
+#curriculum-page.active,
+#reviews-page.active,
+#tutor-nav-page.active {
+  display: block;
 }
