@@ -4,7 +4,7 @@
   --cc-color: #303030;
   --cc-grey: #4f5969;
   --cc-grey-light: #808ea4;
-  --cc-grey-lighter: #c5c7e3;
+  --cc-grey-lighter: #d3d5f1;
   --cc-white-off: #fef6f3;
   --cc-white-sugar: #f5f5f5;
   --cc-white: #ffffff;
@@ -1341,4 +1341,10 @@ header.container-fluid {
 
 .course-info .info-list:last-of-type {
   border-bottom: none;
+}
+
+.course-nav {
+  background-color: var(--cc-grey-lighter);
+  justify-content: space-between;
+  align-items: center;
 }
