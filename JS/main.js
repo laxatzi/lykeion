@@ -59,27 +59,18 @@ window.onload = function () {
   //   }
   // };
 
-  const coursePages = document.querySelectorAll(".course-page");
-  const overview = document.querySelector(".overview");
-  const curriculum = document.querySelector(".curriculum");
-  const overviewPage = document.querySelector(".overview-page");
-  const curriculumPage = document.querySelector(".curriculum-page");
-  const navItems = document.querySelectorAll(".course-nav-item");
+  // active page code
+  function changeSubPage(p) {
+    if (p == 0) {
+      document.getElementById("overview-page").classList.toggle("active");
+    } else if (p == 1) {
+      document.getElementById("curriculum-page").classList.toggle("active");
+    } else if (p == 2) {
+      document.getElementById("tutor-nav-page").classList.toggle("active");
+    } else if (p == 3) {
+      document.getElementById("reviews-page").classList.toggle("active");
+    } else return;
+  }
 
-  // const activeToggler = function activeClassToggler(ev) {
-  //   ev.preventDefault();
-  // };
-
-  navItems.forEach((item) => {
-    item.addEventListener("click", (e) => {
-      e.preventDefault();
-      coursePages.forEach((page) => {
-        if (page.classList.contains("active")) {
-          page.classList.remove("active");
-        } else {
-          page.classList.add("active");
-        }
-      });
-    });
-  });
+  // end of wrapper function
 };
