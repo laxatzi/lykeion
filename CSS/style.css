@@ -1336,6 +1336,7 @@ header.container-fluid {
 .course-info .info-list {
   width: 90%;
   border-bottom: 1px solid var(--cc-grey-lighter);
+  align-items: center;
 }
 
 .course-info .info-list:last-of-type {
