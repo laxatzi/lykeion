@@ -1264,11 +1264,11 @@ header.container-fluid {
 ****************************************************************************************/
 
 .video-gallery-wrapper-2 {
+  border-radius: 5px;
   background: var(--cc-primary-bg) url("../img/business-meeting-thumb.png");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.07);
-  z-index: 99;
   position: absolute;
   width: 400px;
   max-width: 390px;
@@ -1282,16 +1282,23 @@ header.container-fluid {
 
 .sidebar {
   border-radius: 5px;
-  border: 10px solid blue;
+  border: 10px solid var(--cc-white-sugar);
   margin: 0;
   padding: 0;
   overflow: hidden;
   position: relative;
+  height: 1100px;
 }
 
 .video-gallery-wrapper-2 .thumbnail {
   max-width: 100px;
   width: 100px;
-  display: block;
-  margin: 10% auto;
+  display: flex;
+  margin: 14% auto;
+}
+
+.course-info {
+  position: absolute;
+  top: 240px;
+  left: 0;
 }
