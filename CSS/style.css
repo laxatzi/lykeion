@@ -1287,7 +1287,7 @@ header.container-fluid {
   padding: 0;
   overflow: hidden;
   position: relative;
-  height: 1100px;
+  height: 1200px;
   width: 390px;
   max-width: 390px;
 }
@@ -1336,4 +1336,8 @@ header.container-fluid {
 .course-info .info-list {
   width: 90%;
   border-bottom: 1px solid var(--cc-grey-lighter);
+}
+
+.course-info .info-list:last-of-type {
+  border-bottom: none;
 }
