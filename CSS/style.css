@@ -1282,8 +1282,8 @@ header.container-fluid {
 
 .sidebar {
   border-radius: 5px;
-  border: 10px solid var(--cc-white-sugar);
-  margin: 0;
+  border: 15px solid var(--cc-white-sugar);
+  margin: -150px 0 0;
   padding: 0;
   overflow: hidden;
   position: relative;
@@ -1301,4 +1301,26 @@ header.container-fluid {
   position: absolute;
   top: 240px;
   left: 0;
+}
+
+.course-meta {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.course-meta h4 {
+  font-size: 1rem;
+}
+
+.course-meta img {
+  border: 1px solid transparent;
+  border-radius: 100%;
+}
+
+.course-meta .tutor-profile {
+  align-items: center;
+}
+
+.course-meta .ratings {
+  align-items: center;
 }
