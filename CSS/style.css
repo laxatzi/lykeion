@@ -1270,7 +1270,7 @@ header.container-fluid {
   background-size: cover;
   box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.07);
   position: absolute;
-  width: 400px;
+  width: 390px;
   max-width: 390px;
   height: 237px;
   max-height: 237px;
@@ -1288,6 +1288,8 @@ header.container-fluid {
   overflow: hidden;
   position: relative;
   height: 1100px;
+  width: 390px;
+  max-width: 390px;
 }
 
 .video-gallery-wrapper-2 .thumbnail {
@@ -1301,6 +1303,8 @@ header.container-fluid {
   position: absolute;
   top: 240px;
   left: 0;
+  width: 390px;
+  max-width: 390px;
 }
 
 .course-meta {
@@ -1323,4 +1327,13 @@ header.container-fluid {
 
 .course-meta .ratings {
   align-items: center;
+}
+
+.course-title h1 {
+  font-size: 40px;
+}
+
+.course-info .info-list {
+  width: 90%;
+  border-bottom: 1px solid var(--cc-grey-lighter);
 }
