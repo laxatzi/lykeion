@@ -1348,3 +1348,11 @@ header.container-fluid {
   justify-content: space-between;
   align-items: center;
 }
+
+.course-page {
+  visibility: hidden;
+}
+
+.active {
+  visibility: visible;
+}
