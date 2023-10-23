@@ -67,9 +67,9 @@ window.onload = function () {
       document.getElementById("curriculum-page").classList.toggle("active");
     } else if (p == 2) {
       document.getElementById("tutor-nav-page").classList.toggle("active");
-    } else if (p == 3) {
+    } else {
       document.getElementById("reviews-page").classList.toggle("active");
-    } else return;
+    }
   }
 
   // end of wrapper function

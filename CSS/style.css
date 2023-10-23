@@ -1349,10 +1349,6 @@ header.container-fluid {
   align-items: center;
 }
 
-.course-page {
-  visibility: hidden;
-}
-
 #overview-page,
 #curriculum-page,
 #reviews-page,
