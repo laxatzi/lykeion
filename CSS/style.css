@@ -1425,7 +1425,7 @@ button.course-nav-item:active {
   border-radius: 5px;
 }
 
-.tutor-profile {
+.course-tutor-profile {
   flex: 3;
 }
 
@@ -1433,19 +1433,19 @@ button.course-nav-item:active {
   align-items: center;
 }
 
-.tutor-profile-social span {
+.course-tutor-profile-social span {
   font-size: 2rem;
 }
 
-.tutor-profile-description p {
+.course-tutor-profile-description p {
   font-size: 1rem;
 }
 
-.tutor-profile-social a:hover span {
+.course-tutor-profile-social a:hover span {
   transform: scale(1.21);
 }
 
-.tutor-profile-social a::after {
+.course-tutor-profile-social a::after {
   background-color: transparent;
 }
 
