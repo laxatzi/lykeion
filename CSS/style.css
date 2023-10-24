@@ -1415,21 +1415,18 @@ button.course-nav-item:active {
   border-bottom: none;
 }
 
-.tutor-img {
+.course-tutor-profile img {
+  border-radius: 5px;
   max-width: 200px;
   max-height: 235px;
-  flex: 1;
-}
-
-.tutor-img img {
-  border-radius: 5px;
+  float: right;
 }
 
 .course-tutor-profile {
-  flex: 3;
+  border: 1px solid blue;
 }
 
-.tutor-profile-social {
+.course-tutor-profile-social {
   align-items: center;
 }
 
@@ -1451,4 +1448,10 @@ button.course-nav-item:active {
 
 .reviews {
   flex-direction: column;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
