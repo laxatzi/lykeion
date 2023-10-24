@@ -1371,7 +1371,7 @@ header.container-fluid {
   font-weight: bold;
 }
 
-.show {
+.subpage.show {
   display: block;
 }
 
@@ -1415,10 +1415,6 @@ button.course-nav-item:active {
   border-bottom: none;
 }
 
-.tutor-nav-page {
-  display: flex;
-}
-
 .tutor-img {
   max-width: 200px;
   max-height: 235px;
@@ -1451,4 +1447,8 @@ button.course-nav-item:active {
 
 .tutor-profile-social a::after {
   background-color: transparent;
+}
+
+.reviews {
+  flex-direction: column;
 }
