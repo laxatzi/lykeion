@@ -1347,10 +1347,12 @@ header.container-fluid {
   background-color: var(--cc-grey-lighter);
   justify-content: space-between;
   align-items: center;
+  border-radius: 5px;
 }
 
 .subpage {
   display: none;
+  margin-top: 30px;
 }
 
 .show {
