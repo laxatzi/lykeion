@@ -1349,16 +1349,20 @@ header.container-fluid {
   align-items: center;
 }
 
-#overview-page,
-#curriculum-page,
-#reviews-page,
-#tutor-nav-page {
+.subpage {
   display: none;
 }
 
-#overview-page.active,
-#curriculum-page.active,
-#reviews-page.active,
-#tutor-nav-page.active {
+.show {
   display: block;
+}
+
+button.course-nav-item {
+  background-color: #d3d5f1;
+  border: none;
+}
+
+button.course-nav-item:focus,
+button.course-nav-item:active {
+  color: var(--cc-primary);
 }
