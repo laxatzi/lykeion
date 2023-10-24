@@ -1440,3 +1440,15 @@ button.course-nav-item:active {
 .tutor-profile-social span {
   font-size: 2rem;
 }
+
+.tutor-profile-description p {
+  font-size: 1rem;
+}
+
+.tutor-profile-social a:hover span {
+  transform: scale(1.21);
+}
+
+.tutor-profile-social a::after {
+  background-color: transparent;
+}
