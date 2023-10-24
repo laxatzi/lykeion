@@ -70,9 +70,9 @@ window.onload = function () {
     // Check to see if its a button
     if (e.target.matches("button")) {
       // For every element in the `panels` node list use `classList`
-      // to remove the show class
+      // to remove the active class
 
-      subpages.forEach((subpage) => subpage.classList.remove("show"));
+      subpages.forEach((subpage) => subpage.classList.remove("active"));
 
       // "Destructure" the `id` from the button's data set
       const { id } = e.target.dataset;
@@ -85,8 +85,8 @@ window.onload = function () {
       const matchId = `.subpage[id="${id}"]`;
 
       // Select the `div` and, using classList, again add the
-      // show class
-      document.querySelector(matchId).classList.add("show");
+      // active class
+      document.querySelector(matchId).classList.add("active");
     }
   }
 

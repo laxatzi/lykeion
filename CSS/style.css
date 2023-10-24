@@ -1371,7 +1371,7 @@ header.container-fluid {
   font-weight: bold;
 }
 
-.subpage.show {
+.subpage.active {
   display: block;
 }
 
@@ -1450,4 +1450,8 @@ button.course-nav-item:active {
   content: "";
   clear: both;
   display: table;
+}
+
+.subpage-content {
+  flex-direction: column;
 }
