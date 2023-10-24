@@ -1414,3 +1414,21 @@ button.course-nav-item:active {
 .course-vid:last-of-type {
   border-bottom: none;
 }
+
+.tutor-nav-page {
+  display: flex;
+}
+
+.tutor-img {
+  max-width: 200px;
+  max-height: 235px;
+  flex: 1;
+}
+
+.tutor-img img {
+  border-radius: 5px;
+}
+
+.tutor-profile {
+  flex: 3;
+}
