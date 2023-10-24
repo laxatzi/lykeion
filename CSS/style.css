@@ -1406,3 +1406,11 @@ button.course-nav-item:active {
   align-items: center;
   justify-content: space-between;
 }
+
+.course-vid {
+  border-bottom: 1px solid var(--cc-grey-lighter);
+}
+
+.course-vid:last-of-type {
+  border-bottom: none;
+}
