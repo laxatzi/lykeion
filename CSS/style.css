@@ -1367,16 +1367,35 @@ header.container-fluid {
   font-size: 1rem;
 }
 
+.accordion-button {
+  font-weight: bold;
+}
+
 .show {
   display: block;
 }
 
 button.course-nav-item {
-  background-color: #d3d5f1;
+  background-color: var(--cc-grey-lighter);
   border: none;
 }
 
 button.course-nav-item:focus,
 button.course-nav-item:active {
   color: var(--cc-primary);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--cc-grey-lighter);
+  border: none;
+}
+
+.accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+  border-radius: 5px;
+}
+
+.accordion {
+  --bs-accordion-btn-focus-border-color: var(--cc-bg-primary-lighter);
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem var(--cc-primary);
 }
