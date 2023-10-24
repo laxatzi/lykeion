@@ -59,7 +59,7 @@ window.onload = function () {
   //   }
   // };
 
-  // active page code
+  // Code for selecting subPages
 
   const courseNav = document.querySelector(".course-nav");
   const subpages = document.querySelectorAll(".subpage");
