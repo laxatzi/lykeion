@@ -1422,10 +1422,6 @@ button.course-nav-item:active {
   float: right;
 }
 
-.course-tutor-profile {
-  border: 1px solid blue;
-}
-
 .course-tutor-profile-social {
   align-items: center;
 }
