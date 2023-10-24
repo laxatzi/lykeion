@@ -1432,3 +1432,11 @@ button.course-nav-item:active {
 .tutor-profile {
   flex: 3;
 }
+
+.tutor-profile-social {
+  align-items: center;
+}
+
+.tutor-profile-social span {
+  font-size: 2rem;
+}
