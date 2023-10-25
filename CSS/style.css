@@ -510,11 +510,19 @@ section {
   bottom: 600px;
   right: -30px;
   transform: rotate(15deg);
+  z-index: -1;
 }
 
 .shape-image.shape-image-37 {
   bottom: 100px;
   left: -30px;
+}
+
+.shape-image.shape-image-38 {
+  top: 450px;
+  left: 230px;
+  z-index: -1;
+  transform: rotate(16deg);
 }
 
 .topic {
