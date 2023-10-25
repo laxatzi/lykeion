@@ -506,6 +506,17 @@ section {
   transform: rotate(12deg);
 }
 
+.shape-image.shape-image-36 {
+  bottom: 600px;
+  right: -30px;
+  transform: rotate(15deg);
+}
+
+.shape-image.shape-image-37 {
+  bottom: 100px;
+  left: -30px;
+}
+
 .topic {
   background-color: var(--cc-white-sugar);
   border-radius: 5px;
