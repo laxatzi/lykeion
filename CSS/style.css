@@ -1511,3 +1511,9 @@ button.course-nav-item:active {
 .carousel-item {
   border: 1px solid red;
 }
+
+.testimonial-card-review {
+  margin: 0 100px;
+  width: 60%;
+  display: block;
+}
