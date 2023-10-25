@@ -1486,3 +1486,7 @@ button.course-nav-item:active {
 .review-bar {
   align-items: center;
 }
+
+.progress-bar {
+  background-color: var(--cc-distinct);
+}
