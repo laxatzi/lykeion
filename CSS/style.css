@@ -1456,6 +1456,10 @@ button.course-nav-item:active {
   flex-direction: column;
 }
 
+.reviews-total {
+  align-items: center;
+}
+
 .grade {
   border: 1px solid var(--cc-grey-lighter);
   box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.06);
@@ -1467,6 +1471,10 @@ button.course-nav-item:active {
   border: 1px solid red;
 }
 
+.progress {
+  width: 80%;
+}
+
 .rating-num {
   font-size: 72px;
   font-weight: bold;
@@ -1474,4 +1482,8 @@ button.course-nav-item:active {
 
 .ratings {
   justify-content: center;
+}
+
+.review-bar {
+  align-items: center;
 }
