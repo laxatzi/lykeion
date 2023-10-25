@@ -1039,9 +1039,10 @@ input.link-btn {
 .blogpost-card .blogpost-img a::after {
   background-color: transparent;
 }
-.author {
+
+/* .author {
   flex-direction: column;
-}
+} */
 
 .author-profile img {
   border-radius: 50%;
@@ -1186,6 +1187,14 @@ header.container-fluid {
   font-size: 14px;
   color: #716e7f;
   align-items: center;
+}
+
+.info-list-level {
+  justify-content: flex-start;
+}
+
+.info-list-duration {
+  justify-content: flex-end;
 }
 
 .pagination {
