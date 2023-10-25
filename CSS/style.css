@@ -1468,7 +1468,6 @@ button.course-nav-item:active {
 
 .progress-bars {
   flex: 3;
-  border: 1px solid red;
 }
 
 .progress {
