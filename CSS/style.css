@@ -1554,3 +1554,12 @@ button.course-nav-item:active {
 .brands-title {
   flex: 1;
 }
+
+#our-process {
+  background-color: var(--cc-white-off);
+  background-image: linear-gradient(
+    to right bottom,
+    var(--cc-bg-distinct-lighter),
+    var(--cc-bg-primary-lighter)
+  );
+}
