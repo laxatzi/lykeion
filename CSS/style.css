@@ -1541,5 +1541,16 @@ button.course-nav-item:active {
 
 .clients {
   margin: 100px auto;
-  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.the_brands {
+  flex: 3;
+  justify-content: center;
+  align-items: center;
+}
+
+.brands-title {
+  flex: 1;
 }
