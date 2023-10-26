@@ -570,6 +570,7 @@ section#about {
 
 .about-tip {
   flex-direction: column;
+  flex: 1;
 }
 
 #virtual-classes {
