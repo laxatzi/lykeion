@@ -1575,3 +1575,8 @@ button.course-nav-item:active {
     var(--cc-bg-primary-lighter)
   );
 }
+
+#our-process-details {
+  justify-content: center;
+  align-items: center;
+}
