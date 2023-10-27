@@ -1580,3 +1580,7 @@ button.course-nav-item:active {
   justify-content: center;
   align-items: center;
 }
+
+.intro-details p {
+  font-size: 1rem;
+}
