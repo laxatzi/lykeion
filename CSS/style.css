@@ -949,7 +949,8 @@ footer h5 {
   margin: 0 auto;
 }
 
-.tutor-tab {
+.tutor-tab,
+.data-tab {
   flex: 1;
   max-width: 265px;
   max-height: 315px;
@@ -1583,4 +1584,21 @@ button.course-nav-item:active {
 
 .intro-details p {
   font-size: 1rem;
+}
+
+.data-container {
+  max-width: 800px;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#data-section {
+  background-color: var(--cc-primary-bg);
+}
+
+#data-section h6,
+#data-section h5 {
+  color: var(--cc-white-sugar);
 }
