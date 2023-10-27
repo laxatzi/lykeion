@@ -553,6 +553,18 @@ section {
   transform: rotate(-35deg);
 }
 
+.shape-image.shape-image-43 {
+  top: 10px;
+  right: -50px;
+  transform: rotate(-35deg);
+}
+
+.shape-image.shape-image-43 {
+  top: 10px;
+  left: -50px;
+  transform: rotate(-35deg);
+}
+
 /* End of shapes */
 .topic {
   background-color: var(--cc-white-sugar);
