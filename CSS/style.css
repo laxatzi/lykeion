@@ -537,6 +537,22 @@ section {
   transform: rotate(-16deg);
 }
 
+.shape-image.shape-image-41 {
+  bottom: 10px;
+  right: -5px;
+}
+
+.shape-image.shape-image-42 {
+  top: 50px;
+  left: -35px;
+}
+
+.shape-image.shape-image-43 {
+  top: 0px;
+  left: 0px;
+}
+
+/* End of shapes */
 .topic {
   background-color: var(--cc-white-sugar);
   border-radius: 5px;
