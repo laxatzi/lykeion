@@ -1623,3 +1623,12 @@ button.course-nav-item:active {
 .data-tab {
   border-right: 1px solid var(--cc-grey-light);
 }
+
+.data-info img {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.data-info h3 {
+  font-size: 40px;
+}
