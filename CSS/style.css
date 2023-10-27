@@ -548,8 +548,9 @@ section {
 }
 
 .shape-image.shape-image-43 {
-  top: 0px;
-  left: 0px;
+  top: 10px;
+  right: -50px;
+  transform: rotate(-35deg);
 }
 
 /* End of shapes */
