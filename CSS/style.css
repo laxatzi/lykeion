@@ -1604,7 +1604,7 @@ button.course-nav-item:active {
 }
 
 .data-container {
-  max-width: 800px;
+  max-width: 1200px;
   gap: 20px;
   justify-content: space-between;
   align-items: center;
@@ -1615,7 +1615,11 @@ button.course-nav-item:active {
   background-color: var(--cc-primary-bg);
 }
 
-#data-section h6,
+#data-section h3,
 #data-section h5 {
   color: var(--cc-white-sugar);
+}
+
+.data-tab {
+  border: 1px solid white;
 }
