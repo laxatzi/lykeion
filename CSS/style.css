@@ -1632,3 +1632,7 @@ button.course-nav-item:active {
 .data-info h3 {
   font-size: 40px;
 }
+
+button.accordion-button {
+  text-transform: capitalize;
+}
