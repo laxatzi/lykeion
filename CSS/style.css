@@ -1621,5 +1621,5 @@ button.course-nav-item:active {
 }
 
 .data-tab {
-  border: 1px solid white;
+  border-right: 1px solid var(--cc-grey-light);
 }
