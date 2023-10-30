@@ -1666,7 +1666,7 @@ button.accordion-button {
   background-color: var(--cc-grey-lighter);
 }
 
-#contactForm input.btn.btn-primary {
+#contactForm input.btn-primary {
   background-color: var(--cc-primary-bg);
   border-color: var(--cc-primary-bg);
 }
@@ -1674,4 +1674,12 @@ button.accordion-button {
 /* --bs-btn-hover-bg: var(--cc-bg-dark);
   --bs-btn-hover-border-color: var(--cc-bg-dark);
   --bs-btn-active-bg: var(--cc-primary);
+
+
   --bs-btn-active-border-color: var(--cc-primary); */
+
+#contactForm input.btn-primary:hover,
+#contactForm input.btn-primary:active {
+  background-color: var(--cc-bg-dark);
+  border-color: var(--cc-dark);
+}
