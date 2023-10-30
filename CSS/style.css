@@ -1780,3 +1780,15 @@ small {
 .list-group span {
   text-transform: capitalize;
 }
+
+/*  ************************************************************************************
+  Privacy
+****************************************************************************************/
+
+#privacy-section h4 {
+  font-size: 1rem;
+}
+
+#privacy-section p {
+  font-size: 1rem;
+}
