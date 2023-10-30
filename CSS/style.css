@@ -1764,6 +1764,10 @@ small {
   margin-left: 25%;
 }
 
+.pricing-tables .card-body h1 {
+  color: var(--cc-primary);
+}
+
 .list-group li img {
   flex: 1;
   max-width: 16px;
