@@ -1688,3 +1688,21 @@ p.card-text {
   background-color: var(--cc-bg-dark);
   border-color: var(--cc-dark);
 }
+
+/*  ************************************************************************************
+  CONTACT
+****************************************************************************************/
+#pricing-section {
+  background-color: var(--cc-white-off);
+  /* background-image: linear-gradient(
+    to right bottom,
+    var(--cc-bg-distinct-lighter),
+    var(--cc-bg-primary-lighter)
+  ); */
+  background-image: linear-gradient(
+    to right,
+    var(--cc-white-sugar),
+    var(--cc-bg-primary-lighter) 500px,
+    var(--cc-white-sugar)
+  );
+}
