@@ -1792,3 +1792,12 @@ small {
 #privacy-section p {
   font-size: 1rem;
 }
+
+#privacy-section img {
+  border: 2px solid var(--cc-grey-light);
+  border-radius: 5px;
+  max-width: 1115px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
