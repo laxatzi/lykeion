@@ -1724,7 +1724,6 @@ p.card-text {
 
 .billing-duration-indicators {
   background-color: var(--cc-bg-primary-lighter);
-  border: 1px solid red;
 }
 
 .btn.btn-secondary {
@@ -1763,7 +1762,7 @@ small {
 
 .pricing-tables .card-body ul {
   text-align: left;
-  margin-left: 25%;
+  margin-left: 15%;
 }
 
 .pricing-tables .card-body h1 {
