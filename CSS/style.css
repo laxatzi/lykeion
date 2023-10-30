@@ -1684,7 +1684,9 @@ p.card-text {
 }
 
 #contactForm input.btn-primary:hover,
-#contactForm input.btn-primary:active {
+#pricing-section button.btn-primary:hover,
+#contactForm input.btn-primary:active,
+#pricing-section .button.btn-primary:active {
   background-color: var(--cc-bg-dark);
   border-color: var(--cc-dark);
 }
