@@ -1737,3 +1737,17 @@ p.card-text {
   border-color: transparent;
   font-weight: bold;
 }
+
+h1 .small,
+small {
+  font-size: 0.3em;
+}
+
+.pricing-tables .card,
+.pricing-tables .card-header {
+  background-color: var(--cc-white-sugar);
+}
+
+.pricing-tables .card-header {
+  border-bottom: none;
+}
