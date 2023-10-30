@@ -1751,3 +1751,13 @@ small {
 .pricing-tables .card-header {
   border-bottom: none;
 }
+
+.pricing-tables .card-body li {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+.pricing-tables .card-body ul {
+  text-align: left;
+  margin-left: 25%;
+}
