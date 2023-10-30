@@ -1690,7 +1690,7 @@ p.card-text {
 }
 
 /*  ************************************************************************************
-  CONTACT
+  Pricing
 ****************************************************************************************/
 #pricing-section {
   background-color: var(--cc-white-off);
@@ -1701,8 +1701,39 @@ p.card-text {
   ); */
   background-image: linear-gradient(
     to right,
-    var(--cc-white-sugar),
-    var(--cc-bg-primary-lighter) 500px,
+    var(--cc-white-sugar) 200px,
+    var(--cc-bg-primary-lighter) 1200px,
     var(--cc-white-sugar)
   );
+}
+
+.intro--pricing {
+  flex: 5;
+}
+
+.billing-duration {
+  flex: 1;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-self: start;
+  background-color: var(--cc-bg-primary-lighter);
+  border-radius: 5px;
+}
+
+.billing-duration-indicators {
+  background-color: var(--cc-bg-primary-lighter);
+  border: 1px solid red;
+}
+
+.btn.btn-secondary {
+  background-color: var(--cc-bg-primary-lighter);
+  color: var(--cc-dark);
+  border-color: transparent;
+  font-weight: bold;
+}
+
+.btn.btn-primary {
+  background-color: var(--cc-primary-bg);
+  border-color: transparent;
+  font-weight: bold;
 }
