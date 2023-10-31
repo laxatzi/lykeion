@@ -1898,3 +1898,17 @@ h6.the-credential {
 .instructor-similar-courses {
   margin-top: 100px;
 }
+
+/*  ************************************************************************************
+  Instructor profile
+****************************************************************************************/
+
+#login-section {
+  background-color: var(--cc-white-off);
+  background-image: linear-gradient(
+    to right,
+    var(--cc-white-sugar) 200px,
+    var(--cc-bg-primary-lighter) 900px,
+    var(--cc-white-sugar)
+  );
+}
