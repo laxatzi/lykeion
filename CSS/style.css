@@ -1848,6 +1848,10 @@ small {
   transform: scale(1.05);
 }
 
+.instructor {
+  max-width: 900px;
+}
+
 .credentials {
   color: var(--cc-white-sugar);
   background-color: var(--cc-primary);
@@ -1855,8 +1859,20 @@ small {
 
 .credential {
   flex: 1;
+  border-right: 1px solid var(--cc-white-sugar);
 }
 
+.credential:last-of-type {
+  border-right: none;
+}
+
+.credential p {
+  font-size: 1rem;
+}
+
+.credential h4 {
+  font-size: 1.5rem;
+}
 h6.the-credential {
   font-size: 0.95rem;
   color: var(--cc-primary);
