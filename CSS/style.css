@@ -1840,6 +1840,14 @@ small {
   max-height: 25px;
 }
 
+#instructor-profile .social a::after {
+  background-color: transparent;
+}
+
+#instructor-profile .social a:hover {
+  transform: scale(1.05);
+}
+
 .credentials {
   color: var(--cc-white-sugar);
   background-color: var(--cc-primary);
