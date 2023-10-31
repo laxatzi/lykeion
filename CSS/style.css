@@ -1835,9 +1835,9 @@ small {
   align-items: center;
 }
 
-#instructor-profile .social-item {
-  border: 1px solid grey;
-  border-radius: 100%;
+#instructor-profile .social img {
+  max-width: 25px;
+  max-height: 25px;
 }
 
 .credentials {
