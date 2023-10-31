@@ -1828,6 +1828,18 @@ small {
   margin-left: 28px;
 }
 
+#instructor-profile .social {
+  width: 50%;
+  margin-left: 75px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#instructor-profile .social-item {
+  border: 1px solid grey;
+  border-radius: 100%;
+}
+
 .credentials {
   color: var(--cc-white-sugar);
   background-color: var(--cc-primary);
