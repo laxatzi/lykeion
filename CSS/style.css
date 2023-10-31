@@ -1873,6 +1873,7 @@ small {
 .credential h4 {
   font-size: 1.5rem;
 }
+
 h6.the-credential {
   font-size: 0.95rem;
   color: var(--cc-primary);
@@ -1880,4 +1881,9 @@ h6.the-credential {
 
 .communication p {
   font-size: 1rem;
+}
+
+.instructor-similar-courses {
+  margin-top: 100px;
+  border: 1px solid red;
 }
