@@ -1809,6 +1809,7 @@ small {
   background-color: var(--cc-grey-lighter);
   border: 1px solid var(--cc-grey-lighter);
   border-radius: 5px;
+  max-height: 800px;
 }
 
 #instructor-profile .instructor-thumbnail {
