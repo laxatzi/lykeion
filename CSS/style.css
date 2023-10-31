@@ -1807,6 +1807,8 @@ small {
 ****************************************************************************************/
 #instructor-profile {
   background-color: var(--cc-grey-lighter);
+  border: 1px solid var(--cc-grey-lighter);
+  border-radius: 5px;
 }
 
 #instructor-profile .instructor-thumbnail {
@@ -1818,4 +1820,28 @@ small {
   border-radius: 100%;
   width: 100%;
   height: 100%;
+  margin-left: 28px;
+}
+
+#instructor-profile .read-more {
+  max-width: 220px;
+  margin-left: 28px;
+}
+
+.credentials {
+  color: var(--cc-white-sugar);
+  background-color: var(--cc-primary);
+}
+
+.credential {
+  flex: 1;
+}
+
+h6.the-credential {
+  font-size: 0.95rem;
+  color: var(--cc-primary);
+}
+
+.communication p {
+  font-size: 1rem;
 }
