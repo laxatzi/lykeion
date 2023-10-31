@@ -1805,3 +1805,17 @@ small {
 /*  ************************************************************************************
   Instructor profile
 ****************************************************************************************/
+#instructor-profile {
+  background-color: var(--cc-grey-lighter);
+}
+
+#instructor-profile .instructor-thumbnail {
+  max-width: 230px;
+  max-height: 230px;
+}
+
+#instructor-profile .instructor-thumbnail img {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
