@@ -1643,6 +1643,8 @@ button.course-nav-item:active {
 
 .data-tab {
   border-right: 1px solid var(--cc-grey-light);
+  justify-content: center;
+  align-items: center;
 }
 
 .data-info img {
