@@ -1256,6 +1256,15 @@ header.container-fluid {
   justify-content: flex-start;
 }
 
+.info-list-level img {
+  flex: 1;
+  max-width: 16px;
+}
+
+.info-list-level span {
+  flex: 3;
+}
+
 .info-list-duration {
   justify-content: flex-end;
 }
