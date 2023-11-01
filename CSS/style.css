@@ -1927,3 +1927,10 @@ p.lost {
 .purchasing-guide h3 {
   text-transform: capitalize;
 }
+
+#purchase-guide img {
+  max-width: 563px;
+  max-height: 395px;
+  border: 1px solid var(--cc-grey-light);
+  border-radius: 5px;
+}
