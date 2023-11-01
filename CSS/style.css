@@ -1252,7 +1252,7 @@ header.container-fluid {
 .info-list-duration,
 .info-list-level {
   flex: 1;
-  font-size: 14px;
+  font-size: 16px;
   color: #716e7f;
   align-items: center;
 }
