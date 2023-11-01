@@ -1989,6 +1989,10 @@ p.lost {
   opacity: 1;
 }
 
+.instructor-tab a::after {
+  background-color: transparent;
+}
+
 .instructor-info h5 a::after {
   background-color: transparent;
 }
