@@ -1054,6 +1054,10 @@ input.link-btn {
   border: none;
 }
 
+p#emailHelp {
+  font-size: 0.85rem;
+}
+
 /* blog section */
 #blog-latest {
   background-color: #e6d9e0;
