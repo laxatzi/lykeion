@@ -156,13 +156,13 @@
 
               <div class="row mb-3 py-3">
                 <form-group class="d-flex">
-                  <label for="remember">Remember me</label>
                   <input
                     type="checkbox"
                     name="remember"
                     id="remember"
-                    class="ms-3"
+                    class="me-3"
                   />
+                  <label for="remember">Remember me</label>
                 </form-group>
               </div>
 
@@ -210,16 +210,35 @@
                   />
                 </div>
               </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <input
+                    type="password"
+                    class="form-control py-3 mb-3"
+                    name="password"
+                    id="password"
+                    placeholder="Password"
+                  />
+                </div>
+              </div>
 
               <div class="row">
                 <div class="col-md-12">
                   <input
                     type="submit"
-                    value="Sign In"
+                    value="Register"
                     class="btn btn-primary rounded py-2 px-4"
                   />
                   <span class="submitting"></span>
                 </div>
+              </div>
+              <div class="row mb-3 py-3">
+                <form-group class="d-flex">
+                  <input type="checkbox" name="agree" id="agree" class="me-3" />
+                  <label for="agree"
+                    >I read and agree with terms and conditions</label
+                  >
+                </form-group>
               </div>
             </form>
           </div>
