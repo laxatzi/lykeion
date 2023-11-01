@@ -970,7 +970,8 @@ footer h5 {
   color: var(--cc-white-sugar);
 }
 
-.tutors-container {
+.tutors-container,
+.instructors-container {
   max-width: 800px;
   gap: 20px;
   justify-content: space-between;
@@ -1933,4 +1934,61 @@ p.lost {
   max-height: 395px;
   border: 2px solid var(--cc-bg-primary-lighter);
   border-radius: 5px;
+}
+
+/*  ************************************************************************************
+  Instructors
+****************************************************************************************/
+
+.instructor-tab {
+  flex: 1;
+  max-width: 265px;
+  max-height: 315px;
+}
+
+.instructor-tab .thumbnail {
+  position: relative;
+}
+
+.instructor-tab .thumbnail a {
+  display: block;
+  position: relative;
+}
+
+.instructor-tab .thumbnail a img {
+  border-radius: 5px;
+}
+
+.instructor-info {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background: var(--cc-white-sugar);
+  margin-top: -100px;
+  border-radius: 5px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  z-index: 3;
+  position: absolute;
+  max-width: 235px;
+  width: 235px;
+  max-height: 100px;
+  height: 100px;
+  color: var(--cc-primary);
+}
+
+.instructor-info a {
+  color: var(--cc-primary);
+}
+
+.instructor-tab:hover .instructor-info {
+  visibility: visible;
+  opacity: 1;
+}
+
+.instructor-info h5 a::after {
+  background-color: transparent;
 }
