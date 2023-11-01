@@ -133,6 +133,10 @@ section#about-us {
   );
 }
 
+li {
+  margin: 10px 0;
+}
+
 section#events-section {
   background-color: var(--cc-white-off);
   background-image: linear-gradient(
@@ -2034,7 +2038,7 @@ p.lost {
 
 .event-sidebar {
   background-color: var(--cc-white-sugar);
-  height: 800px;
+  height: 700px;
 }
 
 .event-info .info-list {
