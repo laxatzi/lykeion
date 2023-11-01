@@ -1923,3 +1923,7 @@ p.lost {
   color: var(--cc-distinct-dark);
   font-size: 0.85rem;
 }
+
+.purchasing-guide h3 {
+  text-transform: capitalize;
+}
