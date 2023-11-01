@@ -1805,7 +1805,7 @@ small {
 }
 
 #privacy-section img {
-  border: 2px solid var(--cc-grey-light);
+  border: 2px solid var(--cc-bg-primary-lighter);
   border-radius: 5px;
   max-width: 1115px;
   width: 100%;
@@ -1931,6 +1931,6 @@ p.lost {
 #purchase-guide img {
   max-width: 563px;
   max-height: 395px;
-  border: 1px solid var(--cc-grey-light);
+  border: 2px solid var(--cc-bg-primary-lighter);
   border-radius: 5px;
 }
