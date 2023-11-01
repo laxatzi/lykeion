@@ -1,99 +1,356 @@
-<!-- events tabs -->
-<div id="vclasses-events" class="p-5 ps-0 container-fluid">
-  <h3 class="intro text-center">Learning can be fun!</h3>
-  <h2 class="mt-2 mb-3 fw-bold text-center">Upcoming Events!</h2>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Edu_Theme | F.A.Q</title>
+    <link rel="stylesheet" href="css/vicons.css" />
 
-  <div id="event-list" class="d-flex mt-5 container">
-    <div class="event-item d-flex mb-3 p-4">
-      <div class="event-thumbnail me-4">
-        <a href=""><img src="img/pen-thumbnail-145.png" alt="" /></a>
-      </div>
-      <div class="event-info">
-        <a href=""><h4 class="fw-bold mb-3">Storytelling Week</h4></a>
-        <div class="events-meta d-flex">
-          <div class="meta meta-date d-flex me-4">
-            <span class="vicon-calendar me-2"></span>
-            <p>30 October 2023</p>
-          </div>
-          <div class="meta meta-time d-flex me-4">
-            <span class="vicon-time me-2"></span>
-            <p>20:00</p>
-          </div>
-          <div class="meta meta-location d-flex">
-            <span class="vicon-geo-pin me-2"></span>
-            <p>Main Premises, 21 Lincoln Str, Boston</p>
-          </div>
-        </div>
-      </div>
-      <div class="event-book">
-        <div class="read-more p-3">
-          <a href="" class="link-btn">Book your seat</a>
-          <span class="vicon-arrow--right"></span>
-        </div>
-      </div>
-    </div>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="navigation container-fluid">
+        <nav class="navbar navbar-expand-lg text-primary container p-3 ps-0">
+          <div class="container-fluid">
+            <a class="navbar-brand me-3 d-flex" href="#"
+              ><span class="vicon-logo me-1"></span>
+              <h4 class="fw-bold">edu_theme</h4></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon toggle-menu"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-5" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
 
-    <div class="event-item d-flex mb-3 p-4">
-      <div class="event-thumbnail me-4">
-        <a href=""><img src="img/london-bridge-thumbnail-145.png" alt="" /></a>
-      </div>
-      <div class="event-info">
-        <a href=""
-          ><h4 class="fw-bold mb-3">Trip to London guided by teachers</h4></a
-        >
-        <div class="events-meta d-flex">
-          <div class="meta meta-date d-flex me-4">
-            <span class="vicon-calendar me-2"></span>
-            <p>15 November 2023</p>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Became a Student
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Level Test</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Refer A Friend</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >First Time Student Offer</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="nav-plus d-flex">
+              <button class="btn btn-outline btn-search" type="submit">
+                <span class="vicon-search"></span>
+                <!-- Search -->
+              </button>
+              <a href="" ms-3><span class="vicon-user"></span></a>
+            </div>
           </div>
-          <div class="meta meta-time d-flex me-4">
-            <span class="vicon-time me-2"></span>
+        </nav>
+      </div>
+      <section id="hero" class="container inner pt-5 pb-5">
+        <div class="intro pt-5 pb-3">
+          <h1 class="mt-5 mb-1 fw-bold">Frequently Asked Questions</h1>
+          <nav class="breadcrumb-nav">
+            <ol class="breadcrumb d-flex">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="separator">
+                <span class="vicon-double-right-arrow-black"></span>
+              </li>
+              <li class="breadcrumb-item" aria-current="page">FAQ</li>
+            </ol>
+          </nav>
+        </div>
+      </section>
+      <!-- Shapes -->
+      <div class="shapes">
+        <div class="shape-image shape-image-32">
+          <img src="img/icons/world_orange-small.png" alt="" />
+        </div>
+        <div class="shape-image shape-image-33">
+          <img src="img/shapes/Lykeion/shape-circles.png" alt="" />
+        </div>
+        <div class="shape-image shape-image-34">
+          <img src="img/shapes/Lykeion/geo-shape-transparent-15.png" alt="" />
+        </div>
+        <div class="shape-image shape-image-35">
+          <img src="img/icons/abstract419.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <!-- events tabs -->
+    <div id="vclasses-events" class="p-5 ps-0 container-fluid">
+      <h3 class="intro text-center">Learning can be fun!</h3>
+      <h2 class="mt-2 mb-3 fw-bold text-center">Upcoming Events!</h2>
 
-            <p>11:00</p>
+      <div id="event-list" class="d-flex mt-5 container">
+        <div class="event-item d-flex mb-3 p-4">
+          <div class="event-thumbnail me-4">
+            <a href=""><img src="img/pen-thumbnail-145.png" alt="" /></a>
           </div>
-          <div class="meta meta-location d-flex">
-            <span class="vicon-geo-pin me-2"></span>
-            <p>Waiting Lot Logan Airport Boston</p>
+          <div class="event-info">
+            <a href=""><h4 class="fw-bold mb-3">Storytelling Week</h4></a>
+            <div class="events-meta d-flex">
+              <div class="meta meta-date d-flex me-4">
+                <span class="vicon-calendar me-2"></span>
+                <p>30 October 2023</p>
+              </div>
+              <div class="meta meta-time d-flex me-4">
+                <span class="vicon-time me-2"></span>
+                <p>20:00</p>
+              </div>
+              <div class="meta meta-location d-flex">
+                <span class="vicon-geo-pin me-2"></span>
+                <p>Main Premises, 21 Lincoln Str, Boston</p>
+              </div>
+            </div>
+          </div>
+          <div class="event-book">
+            <div class="read-more p-3">
+              <a href="" class="link-btn">Book your seat</a>
+              <span class="vicon-arrow--right"></span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="event-book">
-        <div class="read-more p-3">
-          <a href="" class="link-btn">Book your seat</a>
-          <span class="vicon-arrow--right"></span>
-        </div>
-      </div>
-    </div>
 
-    <div class="event-item d-flex mb-3 p-4">
-      <div class="event-thumbnail me-4">
-        <a href=""><img src="img/globe-thumbnail-145.png" alt="" /></a>
-      </div>
-      <div class="event-info">
-        <a href=""><h4 class="fw-bold mb-3">Connect Around the world</h4></a>
-        <!-- <p>Grab your favorite beverage and join fellow English language teachers to chat and connect around the world! We will spend this hour conversing about our lives, sharing classroom practices, and making new friends. Let’s value virtual connections - join us to network, share, and learn! This event is open to TESOL International Association members and non-members, so invite your friends and colleagues</p> -->
-        <div class="events-meta d-flex">
-          <div class="meta meta-date d-flex me-4">
-            <span class="vicon-calendar me-2"></span>
-            <p>14 December 2023</p>
+        <div class="event-item d-flex mb-3 p-4">
+          <div class="event-thumbnail me-4">
+            <a href=""
+              ><img src="img/london-bridge-thumbnail-145.png" alt=""
+            /></a>
           </div>
-          <div class="meta meta-time d-flex me-4">
-            <span class="vicon-time me-2"></span>
+          <div class="event-info">
+            <a href=""
+              ><h4 class="fw-bold mb-3">
+                Trip to London guided by teachers
+              </h4></a
+            >
+            <div class="events-meta d-flex">
+              <div class="meta meta-date d-flex me-4">
+                <span class="vicon-calendar me-2"></span>
+                <p>15 November 2023</p>
+              </div>
+              <div class="meta meta-time d-flex me-4">
+                <span class="vicon-time me-2"></span>
 
-            <p>19:30</p>
+                <p>11:00</p>
+              </div>
+              <div class="meta meta-location d-flex">
+                <span class="vicon-geo-pin me-2"></span>
+                <p>Waiting Lot Logan Airport Boston</p>
+              </div>
+            </div>
           </div>
-          <div class="meta meta-location d-flex">
-            <span class="vicon-geo-pin me-2"></span>
-            <p>Main Premises, 21 Lincoln Str, Boston</p>
+          <div class="event-book">
+            <div class="read-more p-3">
+              <a href="" class="link-btn">Book your seat</a>
+              <span class="vicon-arrow--right"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="event-item d-flex mb-3 p-4">
+          <div class="event-thumbnail me-4">
+            <a href=""><img src="img/globe-thumbnail-145.png" alt="" /></a>
+          </div>
+          <div class="event-info">
+            <a href=""
+              ><h4 class="fw-bold mb-3">Connect Around the world</h4></a
+            >
+            <!-- <p>Grab your favorite beverage and join fellow English language teachers to chat and connect around the world! We will spend this hour conversing about our lives, sharing classroom practices, and making new friends. Let’s value virtual connections - join us to network, share, and learn! This event is open to TESOL International Association members and non-members, so invite your friends and colleagues</p> -->
+            <div class="events-meta d-flex">
+              <div class="meta meta-date d-flex me-4">
+                <span class="vicon-calendar me-2"></span>
+                <p>14 December 2023</p>
+              </div>
+              <div class="meta meta-time d-flex me-4">
+                <span class="vicon-time me-2"></span>
+
+                <p>19:30</p>
+              </div>
+              <div class="meta meta-location d-flex">
+                <span class="vicon-geo-pin me-2"></span>
+                <p>Main Premises, 21 Lincoln Str, Boston</p>
+              </div>
+            </div>
+          </div>
+          <div class="event-book">
+            <div class="read-more p-3">
+              <a href="" class="link-btn">Book your seat</a>
+              <span class="vicon-arrow--right"></span>
+            </div>
           </div>
         </div>
       </div>
-      <div class="event-book">
-        <div class="read-more p-3">
-          <a href="" class="link-btn">Book your seat</a>
-          <span class="vicon-arrow--right"></span>
+       <!-- Footer section -->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="dflex footer-cols">
+          <div class="social">
+            <div class="social-header d-flex">
+              <span class="vicon-logo-white me-1"></span>
+              <h4 class="fw-bold mb-4">edu_theme</h4>
+            </div>
+            <div class="social-text">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
+                recusandae odio a facere beatae dolor repudiandae quod debitis
+                inventore exercitationem fuga totam incidunt, quisquam sint
+                blanditiis deserunt. Exercitationem illum eius quo omnis.
+              </p>
+            </div>
+            <div class="social-icons d-flex mt-4 gap-2">
+              <div class="social-icon">
+                <a href="facebook.com"
+                  ><img src="img/icons/icons8-facebook-50.png" alt=""
+                /></a>
+              </div>
+              <div class="social-icon">
+                <a href="twitter.com"
+                  ><img src="img/icons/icons8-twitterx-50.png" alt=""
+                /></a>
+              </div>
+              <div class="social-icon">
+                <a href="linkedin.com"
+                  ><img src="img/icons/icons8-linkedin-50.png" alt=""
+                /></a>
+              </div>
+              <div class="social-icon">
+                <a href="youtube.com"
+                  ><img src="img/icons/icons8-youtube-50.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-links d-flex">
+            <h4 class="fw-bold ms-1">Explore</h4>
+            <div class="footer-link mt-4 d-flex">
+              <span class="vicon-double-right-arrow"></span>
+              <a class="ms-1 fw-bold" href="#">Blog</a>
+            </div>
+            <div class="footer-link mt-4 d-flex">
+              <span class="vicon-double-right-arrow"></span>
+              <a class="ms-1 fw-bold" href="#">About Us</a>
+            </div>
+            <div class="footer-link mt-4 d-flex">
+              <span class="vicon-double-right-arrow"></span>
+              <a class="ms-1 fw-bold" href="#">Testimonials</a>
+            </div>
+            <div class="footer-link mt-4 d-flex">
+              <span class="vicon-double-right-arrow"></span>
+              <a class="ms-1 fw-bold" href="#">Our Instructors</a>
+            </div>
+            <div class="footer-link mt-4 d-flex">
+              <span class="vicon-double-right-arrow"></span>
+              <a class="ms-1 fw-bold" href="#">Pricing Plans</a>
+            </div>
+            <div class="footer-link mt-4 d-flex">
+              <span class="vicon-double-right-arrow"></span>
+              <a class="ms-1 fw-bold" href="#">Upcoming Events</a>
+            </div>
+          </div>
+          <div class="footer-links d-flex">
+            <h4 class="fw-bold ms-1">Useful</h4>
+            <div class="footer-link mt-4 d-flex">
+              <span class="vicon-double-right-arrow"></span>
+              <a class="ms-1 fw-bold" href="#">FAQ</a>
+            </div>
+            <div class="footer-link mt-4 d-flex">
+              <span class="vicon-double-right-arrow"></span>
+              <a class="ms-1 fw-bold" href="#">Members Area</a>
+            </div>
+            <div class="footer-link mt-4 d-flex">
+              <span class="vicon-double-right-arrow"></span>
+              <a class="ms-1 fw-bold" href="#">Terms of Use</a>
+            </div>
+            <div class="footer-link mt-4 d-flex">
+              <span class="vicon-double-right-arrow"></span>
+              <a class="ms-1 fw-bold" href="#">Privacy Policy</a>
+            </div>
+          </div>
+          <div class="contact d-flex">
+            <h4 class="fw-bold ms-1">Contact Info</h4>
+            <div class="footer-link mt-4 d-flex">
+              <span class="vicon-telephone me-2"></span>
+              <p>+302110111111</p>
+            </div>
+            <div class="footer-link mt-4 d-flex">
+              <span class="vicon-skype me-2"></span>
+              <p>02895 81 4691</p>
+            </div>
+            <div class="footer-link mt-4 d-flex">
+              <span class="vicon-email me-2"></span>
+              <p>lambros@lambroshatzinikolaou.com</p>
+            </div>
+            <div class="footer-link mt-4 d-flex">
+              <span class="vicon-geo-pin--white me-2"></span>
+              <p>Mikras Asias 89, Thessaloniki, Greece</p>
+            </div>
+            <div class="footer-link mt-4 d-flex">
+              <span class="vicon-zip me-2"></span>
+              <p>57010</p>
+            </div>
+          </div>
+        </div>
+        <div class="copyright mt-5 p-5">
+          <h5 class="text-center">
+            <span>&copy;</span> 2023 edu_theme. Developed By Lambros
+            Hatzinikolaou. All Rights Reserved
+          </h5>
         </div>
       </div>
-    </div>
-  </div>
-</div>
+    </footer>
+    <a class="back-to-top hidden" href="#" id="js--back-to-top">
+      <span class="vicon-back-to-top"></span>
+      <span class="sr-only">Back to top</span>
+    </a>
+    <script
+      src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+      integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <script src="https://vjs.zencdn.net/8.5.2/video.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
+  </body>
+</html>
