@@ -1368,7 +1368,8 @@ header.container-fluid {
   left: 0;
 }
 
-.sidebar {
+.sidebar,
+.event-sidebar {
   border-radius: 5px;
   border: 15px solid var(--cc-white-sugar);
   margin: -150px 0 0;
@@ -2029,4 +2030,30 @@ p.lost {
   transition: 0.4s;
   justify-content: center;
   align-items: center;
+}
+
+.event-sidebar {
+  background-color: var(--cc-white-sugar);
+  height: 800px;
+}
+
+.event-info .info-list {
+  width: 90%;
+  border-bottom: 1px solid var(--cc-grey-lighter);
+  align-items: center;
+}
+
+.event-info .info-list:last-of-type {
+  border-bottom: none;
+}
+
+.event-info {
+  top: 40px;
+  left: 0;
+  width: 390px;
+  max-width: 390px;
+}
+
+.event-title {
+  margin-bottom: -30px;
 }
