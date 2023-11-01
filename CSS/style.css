@@ -2000,3 +2000,31 @@ p.lost {
 .instructor-info h5 a::after {
   background-color: transparent;
 }
+
+/*  ************************************************************************************
+  Events
+****************************************************************************************/
+
+.events-pagination {
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.events-pagination .page,
+.events-pagination .prev,
+.events-pagination .next {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: var(--cc-grey-lighter);
+  border: 1px solid var(--cc-grey-lighter);
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  line-height: 40px;
+  text-align: center;
+  transition: 0.4s;
+  justify-content: center;
+  align-items: center;
+}
