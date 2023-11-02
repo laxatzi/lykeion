@@ -49,6 +49,7 @@ body {
   font-family: montserrat, sans-serif;
   scroll-behavior: smooth;
   color: var(--cc-color);
+  overflow: hidden;
 }
 /*
   Improve media defaults
@@ -2123,11 +2124,15 @@ a:focus::after {
   background-color: var(--cc-white-off);
   background-image: linear-gradient(
     to right,
-    var(--cc-white-sugar) 100px,
-    var(--cc-bg-primary-lighter) 1200px,
+    var(--cc-bg-distinct-lighter) 100px,
+    var(--cc-bg-primary-lighter) 300px,
+    var(--cc-bg-primary-lighter) 1500px,
     var(--cc-bg-distinct-lighter)
   );
   min-height: 100vh;
+  min-width: 100vw;
+  width: 100vw;
+  height: 100vh;
 }
 
 a.edu_theme::after {
