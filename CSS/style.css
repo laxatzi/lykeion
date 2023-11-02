@@ -2115,3 +2115,8 @@ a.edu_theme::after {
 .card-group > .card + .card {
   border-left: 1px solid #c1c2cc;
 }
+
+.edu_theme h2,
+.edu_theme h1 {
+  letter-spacing: -1px;
+}
