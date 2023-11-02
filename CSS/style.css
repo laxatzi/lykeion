@@ -2142,3 +2142,19 @@ a.edu_theme::after {
 .edu_theme h1 {
   letter-spacing: -1px;
 }
+
+.not-found-msg {
+  flex-direction: column;
+}
+
+.not-found-msg h1 {
+  font-size: 128px;
+}
+
+.go-to-home {
+  background-color: var(--cc-primary-bg);
+}
+
+a.go-to-home:hover {
+  cursor: pointer;
+}
