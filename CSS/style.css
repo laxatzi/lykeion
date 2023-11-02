@@ -2158,3 +2158,7 @@ a.edu_theme::after {
 a.go-to-home:hover {
   cursor: pointer;
 }
+
+#coming-soon-content {
+  flex-direction: column;
+}
