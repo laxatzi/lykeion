@@ -2041,17 +2041,17 @@ p.lost {
   height: 1000px;
 }
 
-.event-info .info-list {
+.event-detailing .info-list {
   width: 90%;
   border-bottom: 1px solid var(--cc-grey-lighter);
   align-items: center;
 }
 
-.event-info .info-list:last-of-type {
+.event-detailing .info-list:last-of-type {
   border-bottom: none;
 }
 
-.event-info {
+.event-detailing {
   top: 40px;
   left: 0;
   width: 390px;
