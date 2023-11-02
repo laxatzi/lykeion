@@ -2038,7 +2038,7 @@ p.lost {
 
 .event-sidebar {
   background-color: var(--cc-white-sugar);
-  height: 700px;
+  height: 1000px;
 }
 
 .event-info .info-list {
@@ -2060,4 +2060,43 @@ p.lost {
 
 .event-title {
   margin-bottom: -30px;
+}
+
+.book-seat {
+  display: flex;
+  background-color: var(--cc-primary-bg);
+  max-width: 60%;
+  border-radius: var(--bs-border-radius);
+}
+
+.book-seat:hover {
+  background-color: var(--cc-color-dark);
+}
+
+.book-seat:hover a:hover::after,
+a:focus::after {
+  transform: scale(0);
+}
+
+.book-seat a {
+  color: var(--cc-white-sugar);
+  text-decoration: none;
+  font-size: 1.15rem;
+  font-weight: var(--cc-body-font-weight);
+}
+
+.book-seat a:hover {
+  color: var(--cc-bg-primary-lighter);
+}
+
+.share-event {
+  width: 90%;
+}
+
+.share-event span {
+  font-size: 20px;
+}
+
+.share-event h6 {
+  font-size: 20px;
 }
