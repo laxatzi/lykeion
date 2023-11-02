@@ -49,7 +49,6 @@ body {
   font-family: montserrat, sans-serif;
   scroll-behavior: smooth;
   color: var(--cc-color);
-  overflow: hidden;
 }
 /*
   Improve media defaults
