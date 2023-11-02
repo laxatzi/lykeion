@@ -2108,3 +2108,7 @@ a:focus::after {
 a.edu_theme::after {
   background-color: transparent;
 }
+
+.card-group > .card + .card {
+  border-left: 1px solid #c1c2cc;
+}
