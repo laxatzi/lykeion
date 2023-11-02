@@ -13,7 +13,7 @@
   --cc-primary-light: #8289d8;
   --cc-bg-dark: #231f40;
   --cc-bg-primary-lighter: #e5e1f2;
-  --cc-bg-distinct-lighter: #fbdcc3;
+  --cc-bg-distinct-lighter: #fae1cd;
   --cc-distinct-dark: #f86f03;
   --cc-distinct: #ffa04d;
   --cc-distinct-light: #fde2d1;
@@ -558,7 +558,7 @@ section {
 }
 
 .shape-image.shape-image-44 {
-  bottom: 410px;
+  bottom: 210px;
   right: -50px;
   transform: rotate(-35deg);
 }
@@ -567,6 +567,18 @@ section {
   bottom: 110px;
   left: -50px;
   transform: rotate(-35deg);
+}
+
+.shape-image.shape-image-46 {
+  top: 110px;
+  left: -20px;
+  transform: rotate(-35deg);
+}
+
+.shape-image.shape-image-47 {
+  top: 0px;
+  right: -150px;
+  transform: rotate(-60deg);
 }
 
 /* End of shapes */
@@ -2113,7 +2125,7 @@ a:focus::after {
     to right,
     var(--cc-white-sugar) 100px,
     var(--cc-bg-primary-lighter) 1200px,
-    var(--cc-white-sugar)
+    var(--cc-bg-distinct-lighter)
   );
   min-height: 100vh;
 }
