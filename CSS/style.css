@@ -2166,3 +2166,25 @@ a.go-to-home:hover {
 #coming-soon-content {
   flex-direction: column;
 }
+
+/*  ************************************************************************************
+  Gallery
+****************************************************************************************/
+
+.images {
+  column-count: 3;
+}
+
+.images img {
+  width: 100%;
+  padding: 0;
+  border: 5px solid var(--cc-bg-primary-lighter);
+  border-radius: 5px;
+  margin: 12px;
+}
+
+@media (max-width: 500px) {
+  .images {
+    column-count: 1;
+  }
+}
