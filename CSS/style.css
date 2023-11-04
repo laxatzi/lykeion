@@ -2225,6 +2225,10 @@ a.go-to-home:hover {
   opacity: 0.8;
 }
 
+.images a::after {
+  background-color: transparent;
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
