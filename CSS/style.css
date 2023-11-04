@@ -2183,6 +2183,40 @@ a.go-to-home:hover {
   margin: 12px;
 }
 
+.img-item {
+  position: relative;
+}
+
+.gallery-zoom-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  font-size: 2rem;
+}
+
+.hovered-content {
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+  z-index: 1;
+  padding: 30px;
+  transition: 0.5s;
+  opacity: 0.8;
+  color: white;
+  background-color: var(--cc-primary-light);
+  display: flex;
+  width: 98.5%;
+  height: 100%;
+}
+
+.hovered-content h6 {
+  position: absolute;
+  bottom: 20%;
+  left: 25%;
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
