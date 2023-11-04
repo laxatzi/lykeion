@@ -2203,7 +2203,7 @@ a.go-to-home:hover {
   z-index: 1;
   padding: 30px;
   transition: 0.5s;
-  opacity: 0.8;
+  opacity: 0;
   color: white;
   background-color: var(--cc-primary-light);
   display: flex;
@@ -2215,6 +2215,14 @@ a.go-to-home:hover {
   position: absolute;
   bottom: 20%;
   left: 25%;
+}
+
+.images a:hover {
+  cursor: pointer;
+}
+
+.images a:hover .hovered-content {
+  opacity: 0.8;
 }
 
 @media (max-width: 500px) {
