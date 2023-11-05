@@ -2221,6 +2221,12 @@ a.go-to-home:hover {
   cursor: pointer;
 }
 
+.images a:hover img {
+  transition: 0.5s;
+  transform: scale(0.95);
+  overflow: hidden;
+}
+
 .images a:hover .hovered-content {
   opacity: 0.8;
 }
