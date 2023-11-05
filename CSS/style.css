@@ -2223,7 +2223,7 @@ a.go-to-home:hover {
 
 .images a:hover img {
   transition: 0.5s;
-  transform: scale(0.95);
+  transform: scale(0.98);
   overflow: hidden;
 }
 
