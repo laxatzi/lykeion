@@ -1,4 +1,5 @@
 const galleryFilters = document.querySelector(".gallery-filters");
+const galleryFilterAll = document.querySelectorAll(".gallery-filter");
 const images = document.querySelectorAll(".gal-image");
 const allImages = document.querySelector(".images");
 
