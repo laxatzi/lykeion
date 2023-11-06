@@ -8,17 +8,13 @@ galleryFilters.addEventListener("click", (ev) => {
     if (galleryFilterText === "All") {
       image.style.display = "block";
     } else if (galleryFilterText === "Events") {
-      if (image.classList.contains("event")) {
-        image.style.display = "block";
-      } else {
-        image.style.display = "none";
-      }
+      image.classList.contains("event")
+        ? (image.style.display = "block")
+        : (image.style.display = "none");
     } else if (galleryFilterText === "Classroom") {
-      if (image.classList.contains("classroom")) {
-        image.style.display = "block";
-      } else {
-        image.style.display = "none";
-      }
+      image.classList.contains("classroom")
+        ? (image.style.display = "block")
+        : (image.style.display = "none");
     }
   });
 });
