@@ -2180,7 +2180,7 @@ a.go-to-home:hover {
   padding: 0;
   border: 5px solid var(--cc-bg-primary-lighter);
   border-radius: 5px;
-  margin: 12px;
+  /* margin: 12px; */
 }
 
 .img-item {
