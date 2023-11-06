@@ -2172,7 +2172,8 @@ a.go-to-home:hover {
 ****************************************************************************************/
 
 .images {
-  column-count: 3;
+  column-count: 4;
+  transition: 500ms;
 }
 
 .images img {
@@ -2233,6 +2234,10 @@ a.go-to-home:hover {
 
 .images a::after {
   background-color: transparent;
+}
+
+.images img {
+  transition: 3s;
 }
 
 @media (max-width: 500px) {
