@@ -21,4 +21,20 @@ galleryFilters.addEventListener("click", (ev) => {
       allImages.style.columnCount = "3";
     }
   });
+
+  galleryFilterAll.forEach((theFilter) => {
+    const active = theFilter.querySelector(".active");
+
+    if (active) {
+      active.classList.remove("active");
+      active.classList.add("inactive");
+    }
+
+    if ((ev.target.classList.contains = "inactive")) {
+      ev.target.classList.remove("inactive");
+      ev.target.classList.add("active");
+    }
+  });
+
+  // end of event
 });
