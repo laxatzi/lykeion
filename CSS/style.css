@@ -2173,7 +2173,6 @@ a.go-to-home:hover {
 
 .images {
   column-count: 4;
-  transition: 500ms;
 }
 
 .images img {
@@ -2238,6 +2237,25 @@ a.go-to-home:hover {
 
 .images img {
   transition: 3s;
+}
+
+.gallery-filter .btn.active {
+  background-color: var(--cc-primary-bg);
+  color: var(--cc-white-sugar);
+  border-color: transparent;
+  font-weight: bold;
+}
+
+.gallery-filter .btn {
+  background-color: var(--cc-bg-primary-lighter);
+  color: var(--cc-dark);
+  border-color: transparent;
+  font-weight: bold;
+}
+
+.gallery-filter .btn:hover {
+  background-color: var(--cc-primary-light);
+  color: var(--cc-white-sugar);
 }
 
 @media (max-width: 500px) {
