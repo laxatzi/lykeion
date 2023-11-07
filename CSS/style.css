@@ -1848,7 +1848,7 @@ small {
   background-color: var(--cc-grey-lighter);
   border: 1px solid var(--cc-grey-lighter);
   border-radius: 5px;
-  max-height: 800px;
+  max-height: 750px;
 }
 
 #instructor-profile .instructor-thumbnail {
@@ -1942,9 +1942,7 @@ h6.the-credential {
 }
 
 form {
-  border: 2px solid var(--cc-bg-primary-lighter);
   border-radius: 5px;
-  background-color: var(--cc-white-sugar);
 }
 
 p.lost {
