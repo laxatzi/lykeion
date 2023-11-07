@@ -2305,6 +2305,18 @@ a.go-to-home:hover {
 .blog-details--share h5 {
   margin: 0;
 }
+
+.pagination-prev,
+.pagination-next {
+  background-color: var(--cc-bg-primary-lighter);
+  font-weight: bold;
+}
+
+.pagination-prev span,
+.pagination-next span {
+  font-size: 18.5px;
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
