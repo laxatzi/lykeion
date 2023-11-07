@@ -2284,6 +2284,11 @@ a.go-to-home:hover {
   border-radius: 100%;
 }
 
+.content-img img {
+  max-width: 463px;
+  max-height: 315px;
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
