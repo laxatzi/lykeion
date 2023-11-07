@@ -2315,6 +2315,15 @@ a.go-to-home:hover {
 .pagination-next {
   background-color: var(--cc-bg-primary-lighter);
   font-weight: bold;
+  border-radius: 5px;
+  color: var(--cc-bg-dark);
+}
+
+.pagination-prev:hover,
+.pagination-next:hover {
+  background-color: var(--cc-white-sugar);
+  cursor: pointer;
+  border-bottom: 1px solid var(--cc-primary);
 }
 
 .pagination-prev span,
