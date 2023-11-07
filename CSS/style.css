@@ -2317,6 +2317,7 @@ a.go-to-home:hover {
   font-weight: bold;
   border-radius: 5px;
   color: var(--cc-bg-dark);
+  min-height: 175px;
 }
 
 .pagination-prev:hover,
@@ -2328,7 +2329,17 @@ a.go-to-home:hover {
 
 .pagination-prev span,
 .pagination-next span {
-  font-size: 18.5px;
+  font-size: 1.5rem;
+}
+
+.pagination-prev span,
+.pagination-next span {
+  flex: 1;
+}
+
+.pagination-prev p,
+.pagination-next p {
+  flex: 6;
 }
 
 .the-comment {
