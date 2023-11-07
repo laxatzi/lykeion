@@ -2289,6 +2289,10 @@ a.go-to-home:hover {
   max-height: 315px;
 }
 
+.blog-details--image {
+  max-width: 1100px;
+  max-height: 550px;
+}
 @media (max-width: 500px) {
   .images {
     column-count: 1;
