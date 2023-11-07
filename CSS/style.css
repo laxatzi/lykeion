@@ -2298,8 +2298,13 @@ a.go-to-home:hover {
   font-size: 1.25rem;
 }
 
-.blog-details--share span.vicon-youtube {
-  font-size: 1.75rem;
+.blog-details--share span.vicon-youtube,
+.blog-details--share span.vicon-facebook {
+  font-size: 1.5rem;
+}
+
+.blog-details--share a::after {
+  background-color: transparent;
 }
 
 .blog-details--share h5 {
