@@ -2331,6 +2331,42 @@ a.go-to-home:hover {
   font-size: 18.5px;
 }
 
+.the-comment {
+  border-bottom: 1px solid var(--cc-grey-lighter);
+}
+.comment-img {
+  flex: 1;
+}
+
+.comment-img img {
+  border-radius: 100%;
+}
+
+.comment-info {
+  flex: 9;
+}
+
+.comment-info-date {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.comment-info-button h5 {
+  color: var(--cc-color);
+  font-size: 1.05rem;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin: 0px;
+}
+
+.comment-info-button:hover h5 {
+  color: var(--cc-primary);
+}
+
+a.comment-info-button::after {
+  background-color: transparent;
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
