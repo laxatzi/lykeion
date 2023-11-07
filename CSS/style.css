@@ -2267,6 +2267,14 @@ a.go-to-home:hover {
   padding: 0 2%;
 }
 
+.tag {
+  flex: 1;
+}
+
+.meta {
+  flex: 2;
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
