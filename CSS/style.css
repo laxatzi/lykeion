@@ -2367,6 +2367,22 @@ a.comment-info-button::after {
   background-color: transparent;
 }
 
+.vicon-replay {
+  display: block;
+}
+
+.vicon-replay--primary {
+  display: none;
+}
+
+.comment-info-button:hover .vicon-replay--primary {
+  display: block;
+}
+
+.comment-info-button:hover .vicon-replay {
+  display: none;
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
