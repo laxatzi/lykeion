@@ -2451,6 +2451,11 @@ a.comment-form--cancel::after {
   border-bottom: 2px solid var(--cc-grey-lighter);
 }
 
+.aside-content .form-outline input {
+  border-width: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
 @media (max-width: 500px) {
   .images {
     column-count: 1;
