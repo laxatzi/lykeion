@@ -2412,10 +2412,16 @@ a.comment-form--cancel::after {
   background-color: var(--cc-white-sugar);
   margin-bottom: 40px;
 }
+
 .blogPost-meta h5 {
   margin: 0;
   margin-left: 5px;
   font-size: 1rem;
+}
+
+.blogPost-image img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 @media (max-width: 500px) {
