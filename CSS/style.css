@@ -2448,7 +2448,7 @@ a.comment-form--cancel::after {
 }
 
 .aside-title {
-  border-bottom: 1px solid var(--cc-grey-light);
+  border-bottom: 2px solid var(--cc-grey-lighter);
 }
 
 @media (max-width: 500px) {
