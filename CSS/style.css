@@ -2408,7 +2408,9 @@ a.comment-form--cancel::after {
 /*  ************************************************************************************
   Blog Details
 ****************************************************************************************/
-
+.the-blogPost {
+  background-color: var(--cc-white-sugar);
+}
 .blogPost-meta h5 {
   margin: 0;
   margin-left: 5px;
