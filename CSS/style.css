@@ -2438,6 +2438,10 @@ a.comment-form--cancel::after {
   border-top-left-radius: 5px;
 }
 
+aside div {
+  background-color: var(--cc-white-sugar);
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
