@@ -2392,6 +2392,19 @@ a.comment-info-button::after {
   display: none;
 }
 
+a.comment-form--cancel {
+  color: var(--cc-color);
+}
+
+a.comment-form--cancel:hover {
+  color: var(--cc-primary);
+  cursor: pointer;
+}
+
+a.comment-form--cancel::after {
+  background-color: transparent;
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
