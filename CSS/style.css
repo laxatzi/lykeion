@@ -2050,6 +2050,20 @@ p.lost {
   align-items: center;
 }
 
+.events-pagination .prev:hover,
+.events-pagination .next:hover,
+.events-pagination .page:hover {
+  background-color: var(--cc-primary-bg);
+  cursor: pointer;
+  border-bottom: 1px solid var(--cc-white-sugar);
+}
+
+.events-pagination .prev a::after,
+.events-pagination .next a::after,
+.events-pagination .page a::after {
+  background-color: transparent;
+}
+
 .event-sidebar {
   background-color: var(--cc-white-sugar);
   height: 1000px;
