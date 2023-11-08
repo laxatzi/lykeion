@@ -2438,8 +2438,17 @@ a.comment-form--cancel::after {
   border-top-left-radius: 5px;
 }
 
-aside div {
+.aside-div {
   background-color: var(--cc-white-sugar);
+  border-radius: 5px;
+}
+
+.aside-title h3 {
+  font-weight: bold;
+}
+
+.aside-title {
+  border-bottom: 1px solid var(--cc-grey-light);
 }
 
 @media (max-width: 500px) {
