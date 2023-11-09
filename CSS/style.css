@@ -2489,17 +2489,23 @@ a.comment-form--cancel::after {
 }
 
 .latest-post-title a,
-.categories a {
+.categories a,
+.the-tag a,
+.blogPost-title a {
   color: var(--cc-color);
 }
 
 .latest-post-title a::after,
-.categories a::after {
+.categories a::after,
+.the-tag a::after,
+.blogPost-title a::after {
   background-color: transparent;
 }
 
 .latest-post-title a:hover,
-.categories a:hover {
+.categories a:hover,
+.the-tag a:hover,
+.blogPost-title a:hover {
   color: var(--cc-primary);
   cursor: pointer;
 }
@@ -2515,6 +2521,10 @@ a.comment-form--cancel::after {
 
 .the-category .category-name {
   flex: 3;
+}
+
+.the-tag {
+  background-color: white;
 }
 
 @media (max-width: 500px) {
