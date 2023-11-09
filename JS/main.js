@@ -26,11 +26,7 @@ window.onload = function () {
     document.documentElement.scrollTop = 0;
   }
 
-  scrollTopButton.onclick = function (el) {
-    el.preventDefault();
-    // scrollToTop();
-    topFunction();
-  };
+  scrollTopButton.addEventListener("click", topFunction);
 
   // Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
 
