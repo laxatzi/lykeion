@@ -2178,6 +2178,16 @@ a.edu_theme::after {
 
 a.go-to-home:hover {
   cursor: pointer;
+  background-color: var(--cc-bg-dark);
+}
+
+a.go-to-home:hover input {
+  cursor: pointer;
+  background-color: var(--cc-bg-dark);
+}
+
+a.go-to-home::after {
+  background-color: transparent;
 }
 
 #coming-soon-content {
