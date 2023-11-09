@@ -2456,6 +2456,28 @@ a.comment-form--cancel::after {
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
+
+.aside-content .img-wrapper img {
+  min-width: 350px;
+  min-height: 350px;
+}
+
+.latest-post-img {
+  flex: 2;
+}
+
+.latest-post-img img {
+  border-radius: 5px;
+}
+
+.latest-post-info {
+  flex: 5;
+}
+
+.latest-post-item {
+  border-bottom: 2px solid var(--cc-grey-lighter);
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
