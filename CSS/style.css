@@ -2494,6 +2494,19 @@ a.comment-form--cancel::after {
   color: var(--cc-primary);
 }
 
+.the-category {
+  background-color: var(--cc-white);
+}
+
+.the-category .category-sub-number {
+  border-left: 2px solid var(--cc-grey-lighter);
+  flex: 1;
+}
+
+.the-category .category-name {
+  flex: 3;
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
