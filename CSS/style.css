@@ -2478,6 +2478,22 @@ a.comment-form--cancel::after {
   border-bottom: 2px solid var(--cc-grey-lighter);
 }
 
+.latest-post-title h5 {
+  font-size: 18px;
+}
+
+.latest-post-title a {
+  color: var(--cc-color);
+}
+
+.latest-post-title a::after {
+  background-color: transparent;
+}
+
+.latest-post-title a:hover {
+  color: var(--cc-primary);
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
