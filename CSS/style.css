@@ -2482,16 +2482,20 @@ a.comment-form--cancel::after {
   font-size: 18px;
 }
 
-.latest-post-title a {
+.latest-post-title a,
+.categories a {
   color: var(--cc-color);
 }
 
-.latest-post-title a::after {
+.latest-post-title a::after,
+.categories a::after {
   background-color: transparent;
 }
 
-.latest-post-title a:hover {
+.latest-post-title a:hover,
+.categories a:hover {
   color: var(--cc-primary);
+  cursor: pointer;
 }
 
 .the-category {
