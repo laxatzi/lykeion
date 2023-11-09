@@ -1405,6 +1405,10 @@ header.container-fluid {
   margin: 14% auto;
 }
 
+a.video-play-btn:after {
+  background-color: transparent;
+}
+
 .course-info {
   position: absolute;
   top: 240px;
