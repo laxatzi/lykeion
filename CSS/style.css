@@ -2484,6 +2484,10 @@ a.comment-form--cancel::after {
   border-bottom: 2px solid var(--cc-grey-lighter);
 }
 
+.latest-post-item:last-of-type {
+  border-bottom: 0px;
+}
+
 .latest-post-title h5 {
   font-size: 18px;
 }
@@ -2525,6 +2529,21 @@ a.comment-form--cancel::after {
 
 .the-tag {
   background-color: white;
+}
+
+.blogPost-image {
+  overflow: hidden;
+}
+
+.blogPost-image img {
+  object-fit: contain;
+  width: 100%;
+  overflow: hidden;
+}
+
+.blogPost-image:hover img {
+  transform: scale(1.07);
+  transition: 0.3s;
 }
 
 @media (max-width: 500px) {
