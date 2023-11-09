@@ -2560,6 +2560,11 @@ a.comment-form--cancel::after {
   transition: 0.3s;
 }
 
+.countdown-wrapper .card:hover {
+  background-color: var(--cc-primary-bg);
+  color: var(--cc-white-sugar);
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
