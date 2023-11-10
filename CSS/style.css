@@ -848,10 +848,6 @@ button.heart:active .bi-heart-fill {
   color: var(--cc-primary);
 }
 
-.events-meta {
-  align-items: center;
-}
-
 .meta p {
   font-size: 0.9rem;
   color: var(--cc-grey-light);
