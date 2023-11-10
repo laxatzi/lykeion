@@ -848,9 +848,19 @@ button.heart:active .bi-heart-fill {
   color: var(--cc-primary);
 }
 
+.event-vicon {
+  width: 24px;
+  height: 24px;
+}
+
 .meta p {
   font-size: 0.9rem;
   color: var(--cc-grey-light);
+}
+
+span.event-vicon.vicon-geo-pin {
+  min-width: 24px;
+  height: 24px;
 }
 
 footer {
