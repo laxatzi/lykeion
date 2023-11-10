@@ -1449,6 +1449,10 @@ a.video-play-btn:after {
   align-items: center;
 }
 
+.info-list-level .info-list-level-vicon {
+  flex: 1;
+}
+
 .course-info .info-list:last-of-type {
   border-bottom: none;
 }
