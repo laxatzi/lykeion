@@ -823,13 +823,27 @@ button.heart:active .bi-heart-fill {
 
 .event-thumbnail {
   flex: 1;
+  overflow: hidden;
 }
+
 .event-book {
   flex: 1;
 }
 
 .event-thumbnail img {
   border-radius: 5px;
+  object-fit: contain;
+  width: 100%;
+  overflow: hidden;
+}
+
+.event-thumbnail:hover img {
+  transform: scale(1.07);
+  transition: 0.3s;
+}
+
+.event-thumbnail a::after {
+  background-color: transparent;
 }
 
 .event-info {
@@ -849,8 +863,8 @@ button.heart:active .bi-heart-fill {
 }
 
 .event-vicon {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
 }
 
 .meta p {
@@ -859,8 +873,8 @@ button.heart:active .bi-heart-fill {
 }
 
 span.event-vicon.vicon-geo-pin {
-  min-width: 24px;
-  height: 24px;
+  min-width: 18px;
+  height: 18px;
 }
 
 footer {
@@ -2334,6 +2348,17 @@ a.go-to-home::after {
 
 .meta {
   flex: 2;
+}
+
+.meta-time {
+  flex: 1;
+}
+.meta-date {
+  flex: 2;
+}
+
+.meta-location {
+  flex: 4;
 }
 
 .meta h5 {
