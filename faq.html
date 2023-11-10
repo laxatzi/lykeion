@@ -137,9 +137,9 @@
                   <button data-id="tutor-nav-page" class="course-nav-item" >Classes</button>
                   <button data-id="review-nav-page" class="course-nav-item">Miscellaneous</button>
                 </div>
-          <!-- SubPage Intro -->
+          <!-- SubPage General -->
             <div class="subpage active col-lg-12" id="intro-page">
-              <div class="subpage-content" id="intro">
+              <div class="subpage-content" id="general">
                <div class="accordion" id="accordionPanelsStayOpenExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -178,12 +178,12 @@
                   </div>
                 </div>
                   <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingFour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                       when was the school established?
                     </button>
                   </h2>
-                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
                     <div class="accordion-body">
                       <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                     </div>
@@ -192,7 +192,7 @@
               </div>
               </div>
             </div>
-          <!-- SubPage Tutor -->
+          <!-- SubPage Enrollment -->
             <div class="subpage  curriculum-page" id="curriculum-page">
               <div class="subpage-content">
                 <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -235,12 +235,12 @@
                   </div>
                 </div>
                   <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingFour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                        how do i redeem a coupon?
                     </button>
                   </h2>
-                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
                     <div class="accordion-body">
                       <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                     </div>
@@ -249,9 +249,10 @@
               </div>
               </div>
             </div>
-  <div class="subpage tutor-page" id="tutor-nav-page">
+          <!-- subPage classes -->
+            <div class="subpage tutor-page" id="tutor-nav-page">
               <div class="subpage-content">
-<div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
@@ -306,9 +307,10 @@
               </div>
               </div>
             </div>
-  <div class="subpage  review-page" id="review-nav-page">
+            <!-- subPage Misc -->
+            <div class="subpage  review-page" id="review-nav-page">
               <div class="subpage-content">
-<div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
                   <div class="accordion-item">
                   <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
@@ -496,6 +498,48 @@
       async
     ></script>
     <script src="https://vjs.zencdn.net/8.5.2/video.min.js"></script>
+     <script>
+      const courseNav = document.querySelector(".course-nav");
+      const subpages = document.querySelectorAll(".subpage");
+      const courseNavItems = document.querySelectorAll(".course-nav-item");
+      const accordionButtonItems = document.querySelectorAll(".accordion-button");
+      const accordion = document.querySelector(".accordion");
+
+      courseNav.addEventListener("click", subpageInteraction);
+      // When a child element of `buttons` is clicked
+      function subpageInteraction(e) {
+      // Check to see if its a button
+       if (e.target.matches("button")) {
+       // For every element in the `panels` node list use `classList`
+       // to remove the active class
+         courseNavItems.forEach((courseNavItem) => courseNavItem.classList.remove('focused-nav-item'));
+         subpages.forEach((subpage) => subpage.classList.remove("active"));
+
+        // "Destructure" the `id` from the button's data set
+        const { id } = e.target.dataset;
+
+        // Create a selector that will match the corresponding
+        // panel with that id. We're using a template string to
+        // help form the selector. Basically it says find me an element
+        // with a "panel" class which also has an id that matches the id of
+        // the button's data attribute which we just retrieved.
+        const matchId = `.subpage[id="${id}"]`;
+
+        // Select the `div` and, using classList, again add the
+        // active class
+        document.querySelector(matchId).classList.add("active");
+      }
+  }
+
+     accordion.addEventListener('click', accordionButtonInteraction);
+
+     function accordionButtonInteraction(e) {
+        if (e.target.matches('.accordion-button')){
+            accordionButtonItems.forEach((accordionButtonItem) => accordionButtonItem.classList.remove('focused-nav-item'));
+        }
+     }
+
+    </script>
     <script src="js/main.js"></script>
   </body>
 </html>
