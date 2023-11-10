@@ -1460,6 +1460,10 @@ a.video-play-btn:after {
   border-radius: 5px;
 }
 
+.focused-nav-item {
+  color: var(--cc-primary);
+}
+
 .subpage {
   margin-top: 30px;
   display: none;
