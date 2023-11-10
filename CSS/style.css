@@ -1969,11 +1969,6 @@ form {
   border-radius: 5px;
 }
 
-p.lost {
-  color: var(--cc-distinct-dark);
-  font-size: 0.85rem;
-}
-
 .purchasing-guide h3 {
   text-transform: capitalize;
 }
@@ -1983,6 +1978,20 @@ p.lost {
   max-height: 395px;
   border: 2px solid var(--cc-bg-primary-lighter);
   border-radius: 5px;
+}
+
+a.lost {
+  color: var(--cc-distinct-dark);
+  font-size: 0.85rem;
+}
+
+a.lost:hover {
+  color: var(--cc-primary);
+  cursor: pointer;
+}
+
+a.lost::after {
+  background-color: transparent;
 }
 
 /*  ************************************************************************************
