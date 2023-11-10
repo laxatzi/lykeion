@@ -2494,7 +2494,7 @@ a.comment-form--cancel::after {
 }
 
 /*  ************************************************************************************
-  Blog Details
+  Blog
 ****************************************************************************************/
 .the-blogPost {
   background-color: var(--cc-white-sugar);
@@ -2623,6 +2623,15 @@ a.comment-form--cancel::after {
 .countdown-wrapper .card:hover {
   background-color: var(--cc-primary-bg);
   color: var(--cc-white-sugar);
+}
+
+/*  ************************************************************************************
+  FAQ
+****************************************************************************************/
+/* Get rid of accordion icon */
+#general .accordion-button::after {
+  width: 0;
+  height: 0;
 }
 
 @media (max-width: 500px) {
