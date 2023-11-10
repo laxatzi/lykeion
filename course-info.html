@@ -181,7 +181,7 @@
               <!-- Accordion item #1 -->
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <button class="accordion-button collapsed focused-nav-item" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                         Getting Started
                       </button>
                     </h2>
@@ -746,6 +746,7 @@
       const courseNav = document.querySelector(".course-nav");
       const subpages = document.querySelectorAll(".subpage");
       const courseNavItems = document.querySelectorAll(".course-nav-item");
+      const accordionButtonItems = document.querySelectorAll("accordion-button");
 
       courseNav.addEventListener("click", subpageInteraction);
       // When a child element of `buttons` is clicked
