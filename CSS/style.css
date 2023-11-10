@@ -1552,6 +1552,18 @@ button.course-nav-item:active {
   background-color: transparent;
 }
 
+.course-tutor-profile-description a {
+  color: var(--cc-color);
+}
+
+.course-tutor-profile-description a::after {
+  background-color: transparent;
+}
+
+.course-tutor-profile-description a:hover {
+  color: var(--cc-primary);
+}
+
 .reviews {
   flex-direction: column;
 }
