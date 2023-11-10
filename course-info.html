@@ -271,51 +271,46 @@
               </div>
             </div>
           <!-- SubPage Tutor -->
-            <div class="subpage p-3 ps-0 pe-5 tutor-page" id="tutor-nav-page">
-              <div class="subpage-content">
-
-              <div class="course-tutor-profile pe-3 clearfix">
-
-                <img src="img/sigmund-thumbnail-265.jpg" alt="">
-
-                <div class="course-tutor-profile-description">
+        <div class="subpage p-3 ps-0 pe-5 tutor-page" id="tutor-nav-page">
+          <div class="subpage-content">
+            <div class="course-tutor-profile pe-3 clearfix">
+              <img src="img/sigmund-thumbnail-265.jpg" alt="">
+              <div class="course-tutor-profile-description">
                   <h3 class="fw-bold"><a href="">Daniel Gerard</a></h3>
                   <h6 class="fw-bold">Certified English Tutor</h6>
-
-
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, fuga itaque, suscipit enim reiciendis eius aspernatur ut sapiente minus iure minima sit.</p>
-                </div>
+              </div>
                 <!-- <div class="course-tutor-profile-social d-flex mt-4">
                   <a href=""><span class="vicon-facebook me-3"></span></a>
                   <a href=""><span class="vicon-x me-3"></span></a>
                   <a href=""><span class="vicon-linkedin me-3"></span></a>
                   <a href=""><span class="vicon-youtube"></span></a>
                 </div> -->
-                            <div class="social-icons d-flex mt-4 gap-2">
-              <div class="social-icon">
-                <a href="facebook.com"
-                  ><img src="img/icons/icons8-facebook-50.png" alt=""
-                /></a>
-              </div>
-              <div class="social-icon">
-                <a href="twitter.com"
-                  ><img src="img/icons/icons8-twitterx-50.png" alt=""
-                /></a>
-              </div>
-              <div class="social-icon">
-                <a href="linkedin.com"
-                  ><img src="img/icons/icons8-linkedin-50.png" alt=""
-                /></a>
-              </div>
-              <div class="social-icon">
-                <a href="youtube.com"
-                  ><img src="img/icons/icons8-youtube-50.png" alt=""
-                /></a>
-              </div>
-            </div>
-              </div>
+              <div class="social-icons d-flex mt-4 gap-2">
+                <div class="social-icon">
+                  <a href="facebook.com"
+                    ><img src="img/icons/icons8-facebook-50.png" alt=""
+                  /></a>
+                </div>
+                <div class="social-icon">
+                  <a href="twitter.com"
+                    ><img src="img/icons/icons8-twitterx-50.png" alt=""
+                  /></a>
+                </div>
+                <div class="social-icon">
+                  <a href="linkedin.com"
+                    ><img src="img/icons/icons8-linkedin-50.png" alt=""
+                  /></a>
+                </div>
+                <div class="social-icon">
+                  <a href="youtube.com"
+                    ><img src="img/icons/icons8-youtube-50.png" alt=""
+                  /></a>
+                </div>
               </div>
             </div>
+          </div>
+        </div>
           <!-- SubPage Reviews -->
             <div class="subpage p-3 ps-0 pe-5 reviews" id="reviews-page">
               <div class="subpage-content d-flex">
@@ -749,32 +744,32 @@
     ></script>
     <script>
       const courseNav = document.querySelector(".course-nav");
-  const subpages = document.querySelectorAll(".subpage");
+      const subpages = document.querySelectorAll(".subpage");
 
-  courseNav.addEventListener("click", subpageInteraction);
-  // When a child element of `buttons` is clicked
-  function subpageInteraction(e) {
-    // Check to see if its a button
-    if (e.target.matches("button")) {
-      // For every element in the `panels` node list use `classList`
-      // to remove the active class
+      courseNav.addEventListener("click", subpageInteraction);
+      // When a child element of `buttons` is clicked
+      function subpageInteraction(e) {
+      // Check to see if its a button
+       if (e.target.matches("button")) {
+       // For every element in the `panels` node list use `classList`
+       // to remove the active class
 
-      subpages.forEach((subpage) => subpage.classList.remove("active"));
+         subpages.forEach((subpage) => subpage.classList.remove("active"));
 
-      // "Destructure" the `id` from the button's data set
-      const { id } = e.target.dataset;
+        // "Destructure" the `id` from the button's data set
+        const { id } = e.target.dataset;
 
-      // Create a selector that will match the corresponding
-      // panel with that id. We're using a template string to
-      // help form the selector. Basically it says find me an element
-      // with a "panel" class which also has an id that matches the id of
-      // the button's data attribute which we just retrieved.
-      const matchId = `.subpage[id="${id}"]`;
+        // Create a selector that will match the corresponding
+        // panel with that id. We're using a template string to
+        // help form the selector. Basically it says find me an element
+        // with a "panel" class which also has an id that matches the id of
+        // the button's data attribute which we just retrieved.
+        const matchId = `.subpage[id="${id}"]`;
 
-      // Select the `div` and, using classList, again add the
-      // active class
-      document.querySelector(matchId).classList.add("active");
-    }
+        // Select the `div` and, using classList, again add the
+        // active class
+        document.querySelector(matchId).classList.add("active");
+      }
   }
 
     </script>
