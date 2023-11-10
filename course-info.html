@@ -152,7 +152,7 @@
               <h1 class="fw-bold mt-5 mb-5">English for Secretaries</h1>
             </div>
             <div class="course-nav d-flex me-3 p-3 fw-bold">
-              <button data-id="intro-page" class="course-nav-item" >Intro</button>
+              <button data-id="intro-page" class="course-nav-item focused-nav-item" >Intro</button>
               <button data-id="curriculum-page" class="course-nav-item" >Curriculum</button>
               <button data-id="tutor-nav-page" class="course-nav-item" >Tutor</button>
               <button data-id="reviews-page" class="course-nav-item">Reviews</button>
@@ -745,6 +745,7 @@
     <script>
       const courseNav = document.querySelector(".course-nav");
       const subpages = document.querySelectorAll(".subpage");
+      const courseNavItems = document.querySelectorAll(".course-nav-item");
 
       courseNav.addEventListener("click", subpageInteraction);
       // When a child element of `buttons` is clicked
@@ -753,7 +754,7 @@
        if (e.target.matches("button")) {
        // For every element in the `panels` node list use `classList`
        // to remove the active class
-
+         courseNavItems.forEach((courseNavItem) => courseNavItem.classList.remove('focused-nav-item'));
          subpages.forEach((subpage) => subpage.classList.remove("active"));
 
         // "Destructure" the `id` from the button's data set
