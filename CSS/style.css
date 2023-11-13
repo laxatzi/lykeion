@@ -2277,7 +2277,7 @@ a.go-to-home::after {
   bottom: 5px;
   left: 15px;
   z-index: 1;
-  padding: 30px;
+  padding: 50px;
   transition: 0.5s;
   opacity: 0;
   color: white;
@@ -2290,7 +2290,7 @@ a.go-to-home::after {
 .hovered-content h6 {
   position: absolute;
   bottom: 20%;
-  left: 25%;
+  left: 15%;
 }
 
 .images a:hover {
