@@ -2725,12 +2725,17 @@ a.comment-form--cancel::after {
   background-color: var(--cc-bg-dark);
   color: var(--cc-white-sugar);
   min-height: 45px;
+  max-width: 40%;
 }
 
 .level-test-pagination .pagination-prev:hover,
 .level-test-pagination .pagination-next:hover {
   background-color: var(--cc-grey-light);
   color: var(--cc-white-sugar);
+}
+
+.qa {
+  border-bottom: 1px solid var(--cc-grey-lighter);
 }
 
 @media (max-width: 500px) {
