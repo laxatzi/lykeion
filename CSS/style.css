@@ -2701,6 +2701,15 @@ a.comment-form--cancel::after {
   border-radius: 5px;
 }
 
+.input-group-text {
+  border-right: none;
+  margin-right: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: var(--cc-primary);
+  color: var(--cc-white-sugar);
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
