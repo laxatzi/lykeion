@@ -70,6 +70,7 @@ textarea,
 select {
   font: inherit;
 }
+
 /*
   Avoid text overflows
 */
@@ -2738,6 +2739,9 @@ a.comment-form--cancel::after {
   border-bottom: 1px solid var(--cc-grey-lighter);
 }
 
+.input-group-prepend:hover {
+  cursor: pointer;
+}
 @media (max-width: 500px) {
   .images {
     column-count: 1;
