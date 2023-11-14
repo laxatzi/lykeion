@@ -1820,6 +1820,10 @@ small {
   font-size: 0.9em;
 }
 
+small.attribute {
+  font-size: 0.75rem;
+}
+
 .pricing-tables .card,
 .pricing-tables .card-header {
   background-color: var(--cc-white-sugar);
