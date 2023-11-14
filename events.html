@@ -116,47 +116,58 @@
       </div>
     </header>
     <main class="container-fluid">
-     <div class="py-5 pe-5 container" id="instructors">
+     <div class="py-5 pe-5 container" id="events">
       <div class="row">
-      <!-- events tabs -->
-      <div id="vclasses-events" class="p-5 ps-0 container-fluid">
-        <h3 class="intro text-center">Learning can be fun!</h3>
-        <h2 class="mt-2 mb-3 fw-bold text-center">Upcoming Events!</h2>
-        <div id="event-list" class="d-flex my-5 container">
-
+        <!-- events headings -->
+        <div id="vclasses-headings" class="p-5 ps-0 text-center">
+          <h3 class="intro text-center">Learning can be fun!</h3>
+          <h2 class="mt-2 mb-3 fw-bold text-center">Upcoming Events!</h2>
+          <small class="attribute mb-3 text-center">
+                Photos by <a href="https://unsplash.com/">Unsplash</a>.
+                Attribution <a href="attribute-page">page</a>
+          </small>
+        </div>
+      </div>
+    <!-- event list -->
+      <div id="event-list" class="d-flex my-5 container">
       <!-- event-item -->
-          <div class="event-item d-flex mb-3 p-4">
+      <div class="row">
+        <div class="event-item d-flex mb-3 p-4">
             <div class="event-thumbnail">
               <a href=""><img src="img/pen-thumbnail-145.png" alt="" /></a>
             </div>
-            <div class="event-info">
-              <a href=""><h4 class="fw-bold mb-3">Storytelling Week</h4></a>
-
-              <div class="events-meta d-flex py-3">
-                <div class="meta meta-date d-flex">
-                  <span class="event-vicon vicon-calendar me-2"></span>
-                  <p>30 October 2023</p>
-                </div>
-                <div class="meta meta-time d-flex">
-                  <span class="event-vicon vicon-time me-2"></span>
-                  <p>20:00</p>
-                </div>
-                <div class="meta meta-location d-flex">
-                  <span class="event-vicon vicon-geo-pin me-2"></span>
-                  <p>Main Premises, 21 Lincoln Str, Boston</p>
-                </div>
+          <!-- event info -->
+          <div class="event-info">
+            <a href=""><h4 class="fw-bold mb-3">Storytelling Week</h4></a>
+          <!-- event-meta -->
+            <div class="events-meta d-flex py-3">
+              <div class="meta meta-date d-flex">
+                <span class="event-vicon vicon-calendar me-2"></span>
+                <p>30 October 2023</p>
               </div>
-
+              <div class="meta meta-time d-flex">
+                <span class="event-vicon vicon-time me-2"></span>
+                <p>20:00</p>
+              </div>
+              <div class="meta meta-location d-flex">
+                <span class="event-vicon vicon-geo-pin me-2"></span>
+                <p>Main Premises, 21 Lincoln Str, Boston</p>
+              </div>
             </div>
-            <div class="event-book">
+          <!-- end event info -->
+          </div>
+
+          <div class="event-book">
               <div class="read-more p-3">
                 <a href="" class="link-btn">Book your seat</a>
                 <span class="vicon-arrow--right"></span>
               </div>
             </div>
-          </div>
-
-         <!-- event-item -->
+      <!-- end event item -->
+        </div>
+      </div>
+     <!-- event-item -->
+      <div class="row">
         <div class="event-item d-flex mb-3 p-4">
           <div class="event-thumbnail">
             <a href=""><img src="img/halloween-thumbnail.png" alt="" /></a>
@@ -189,8 +200,9 @@
             </div>
           </div>
         </div>
-
+        </div>
         <!-- event-item -->
+        <div class="row">
           <div class="event-item d-flex mb-3 p-4">
             <div class="event-thumbnail">
               <a href=""
@@ -226,8 +238,9 @@
               </div>
             </div>
           </div>
-
+        </div>
        <!-- event-item -->
+       <div class="row">
         <div class="event-item d-flex mb-3 p-4">
           <div class="event-thumbnail">
             <a href=""><img src="img/globe-thumbnail-145.png" alt="" /></a>
@@ -260,6 +273,8 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="row">
       <!-- event-item -->
         <div class="event-item d-flex mb-3 p-4">
           <div class="event-thumbnail">
@@ -290,7 +305,8 @@
             </div>
           </div>
         </div>
-
+     </div>
+     <div class="row">
        <!-- event-item -->
         <div class="event-item d-flex mb-3 p-4">
           <div class="event-thumbnail">
@@ -320,10 +336,13 @@
             </div>
           </div>
         </div>
-
       </div>
+    <!-- end of event list -->
+      </div>
+      <!-- ? -->
+
       <nav>
-        <div class="events-pagination d-flex gap-1 container">
+        <div class="events-pagination d-flex gap-1 container mb-5">
           <div class="prev d-flex">
             <a href="">
               <span class="vicon-chevron--left"></span>
@@ -351,7 +370,7 @@
         </div>
       </nav>
     </div>
-    </div>
+
     </main>
        <!-- Footer section -->
     <footer class="container-fluid">
