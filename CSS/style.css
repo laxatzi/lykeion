@@ -2748,6 +2748,12 @@ a.comment-form--cancel::after {
   margin: 0 5px;
 }
 
+.form-select:focus {
+  border-color: var(--cc-primary);
+  outline: 0;
+  box-shadow: inset 0 0 2px var(--cc-primary-light), 0 0 2px var(--cc-primary);
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
