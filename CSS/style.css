@@ -2742,6 +2742,12 @@ a.comment-form--cancel::after {
 .input-group-prepend:hover {
   cursor: pointer;
 }
+
+.page-select {
+  max-width: 8%;
+  margin: 0 5px;
+}
+
 @media (max-width: 500px) {
   .images {
     column-count: 1;
