@@ -2050,7 +2050,7 @@ a.lost::after {
   flex-direction: column;
   padding: 10px;
   background: var(--cc-white-sugar);
-  margin-top: -100px;
+  margin-top: -150px;
   border-radius: 5px;
   border-bottom-right-radius: 0px;
   border-top-left-radius: 0px;
@@ -2058,8 +2058,8 @@ a.lost::after {
   position: absolute;
   max-width: 235px;
   width: 235px;
-  max-height: 100px;
-  height: 100px;
+  max-height: 150px;
+  height: 150px;
   color: var(--cc-primary);
 }
 
