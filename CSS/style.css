@@ -2762,7 +2762,7 @@ a.comment-form--cancel::after {
   color: var(--cc-white-sugar);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   .images {
     column-count: 1;
   }
