@@ -2781,6 +2781,12 @@ a.comment-form--cancel::after {
   transform: rotate(60deg);
 }
 
+span.brand.img-300 img {
+  display: none;
+  margin: 25px auto;
+  max-width: 150px;
+}
+
 @media (max-width: 1700px) {
   .shape-image-33,
   .shape-image-40 {
@@ -2802,7 +2808,17 @@ a.comment-form--cancel::after {
   .down-arrow-thumbnail {
     display: block;
   }
+
+  .brand.img-100 img {
+    display: none;
+  }
+
+  span.brand.img-300 img {
+    display: block;
+    margin: 25 auto;
+  }
 }
+
 @media (max-width: 576px) {
   .images {
     column-count: 1;
