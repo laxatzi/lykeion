@@ -2771,6 +2771,16 @@ a.comment-form--cancel::after {
   color: var(--cc-white-sugar);
 }
 
+.down-arrow-thumbnail,
+.down-arrow-thumbnail-rev {
+  display: none;
+  margin: 0 auto;
+}
+
+.down-arrow-thumbnail-rev {
+  transform: rotate(60deg);
+}
+
 @media (max-width: 1700px) {
   .shape-image-33,
   .shape-image-40 {
@@ -2784,6 +2794,15 @@ a.comment-form--cancel::after {
   }
 }
 
+@media (max-width: 767px) {
+  .pointing-arrow {
+    display: none;
+  }
+
+  .down-arrow-thumbnail {
+    display: block;
+  }
+}
 @media (max-width: 576px) {
   .images {
     column-count: 1;
