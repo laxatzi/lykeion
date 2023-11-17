@@ -1720,6 +1720,8 @@ button.course-nav-item:active {
 .data-info img {
   display: block;
   margin: 0 auto 15px;
+  max-width: 75px;
+  max-height: 75px;
 }
 
 .data-info h3 {
@@ -2837,13 +2839,13 @@ span.brand.img-300 img {
     margin-bottom: 20px;
   }
 
-  .data-tab h3 {
+  .data-info h3 {
     font-size: 32px;
   }
 
-  .data-tab img {
-    min-width: 80px;
-    min-height: 80px;
+  .data-info img {
+    max-width: 100px;
+    max-height: 100px;
   }
 }
 
