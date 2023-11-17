@@ -2262,6 +2262,7 @@ a.go-to-home::after {
 
 .images-about {
   column-count: 2;
+  flex: 2;
 }
 
 .images img,
