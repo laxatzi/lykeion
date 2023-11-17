@@ -2771,6 +2771,19 @@ a.comment-form--cancel::after {
   color: var(--cc-white-sugar);
 }
 
+@media (max-width: 1700px) {
+  .shape-image-33,
+  .shape-image-40 {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .shape-image {
+    display: none;
+  }
+}
+
 @media (max-width: 576px) {
   .images {
     column-count: 1;
