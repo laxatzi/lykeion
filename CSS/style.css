@@ -2260,7 +2260,12 @@ a.go-to-home::after {
   column-count: 4;
 }
 
-.images img {
+.images-about {
+  column-count: 2;
+}
+
+.images img,
+.images-about img {
   width: 100%;
   padding: 0;
   border: 5px solid var(--cc-bg-primary-lighter);
