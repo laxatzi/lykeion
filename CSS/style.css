@@ -2800,6 +2800,12 @@ span.brand.img-300 img {
   }
 }
 
+@media (max-width: 992px) {
+  .images-about {
+    margin-bottom: 50px;
+  }
+}
+
 @media (max-width: 767px) {
   .pointing-arrow {
     display: none;
