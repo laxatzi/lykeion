@@ -2274,6 +2274,9 @@ a.go-to-home::after {
   margin: 12px;
 }
 
+.images-about a::after {
+  background-color: transparent;
+}
 .img-item {
   position: relative;
 }
