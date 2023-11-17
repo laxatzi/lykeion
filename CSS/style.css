@@ -2806,6 +2806,10 @@ span.brand.img-300 img {
   .images-about {
     margin-bottom: 50px;
   }
+
+  .about-tip:last-of-type {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 767px) {
