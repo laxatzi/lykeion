@@ -2813,6 +2813,10 @@ span.brand.img-300 img {
 }
 
 @media (max-width: 767px) {
+  .nav-item a::after {
+    background-color: transparent;
+  }
+
   .pointing-arrow {
     display: none;
   }
@@ -2856,5 +2860,9 @@ span.brand.img-300 img {
 @media (max-width: 576px) {
   .images {
     column-count: 1;
+  }
+
+  .intro {
+    margin-left: 25px;
   }
 }
