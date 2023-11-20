@@ -2824,6 +2824,11 @@ span.brand.img-300 img {
   #blog-details-section .author-meta {
     margin-bottom: 10px;
   }
+
+  #coming-soon-content .input-container {
+    max-width: auto;
+    width: 90%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -2905,6 +2910,15 @@ span.brand.img-300 img {
 
   .mission-gallery-wrapper small {
     margin-left: 12%;
+  }
+
+  .coming-soon-msg h1 {
+    font-size: 48px;
+  }
+
+  main#coming-soon-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
   }
 }
 
