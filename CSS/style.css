@@ -2565,11 +2565,6 @@ h5 {
   box-shadow: inset 0 0 1px var(--cc-primary-light), 0 0 1px var(--cc-primary);
 }
 
-.aside-content .img-wrapper img {
-  min-width: 350px;
-  min-height: 350px;
-}
-
 .latest-post-img {
   flex: 2;
 }
