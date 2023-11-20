@@ -2845,6 +2845,10 @@ span.brand.img-300 img {
     padding-top: 20px;
     border-top: 1px dotted var(--cc-grey-lighter);
   }
+
+  .content-img img {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 767px) {
