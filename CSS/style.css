@@ -2547,10 +2547,14 @@ h5 {
   border-bottom: 2px solid var(--cc-grey-lighter);
 }
 
-.aside-content .form-outline input {
+/* .aside-content .form-outline input {
   border-width: 2px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
+} */
+
+.aside-content .input-group {
+  max-width: 400px;
 }
 
 .form-control:focus {
@@ -2563,6 +2567,18 @@ h5 {
   border-color: var(--cc-primary);
   outline: 0;
   box-shadow: inset 0 0 1px var(--cc-primary-light), 0 0 1px var(--cc-primary);
+}
+
+.input-group-search {
+  border-right: none;
+  margin-right: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: var(--cc-primary);
+  color: var(--cc-white-sugar);
+  border: 3px solid var(--cc-primary);
 }
 
 .latest-post-img {
