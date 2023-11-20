@@ -2255,6 +2255,10 @@ a.go-to-home::after {
   flex-direction: column;
 }
 
+.newsletter-container .read-more:hover {
+  background-color: var(--cc-primary-bg);
+}
+
 /*  ************************************************************************************
   Gallery
 ****************************************************************************************/
