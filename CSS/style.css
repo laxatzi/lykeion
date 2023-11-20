@@ -2816,6 +2816,14 @@ span.brand.img-300 img {
   .shape-image {
     display: none;
   }
+
+  #blog-details-section .meta div {
+    padding: 3px;
+  }
+
+  #blog-details-section .author-meta {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 992px) {
