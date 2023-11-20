@@ -1226,12 +1226,12 @@ a.back-to-top:hover {
   z-index: 99;
 }
 
-#hero.inner h1 {
+#hero.intro h1 {
   font-size: 48px;
   color: var(--cc-color);
 }
 
-section#hero.container.inner,
+section#hero.container,
 header.container-fluid {
   padding: 0px;
 }
@@ -2810,6 +2810,10 @@ span.brand.img-300 img {
   .about-tip:last-of-type {
     margin-top: 20px;
   }
+
+  #hero .intro h1 {
+    font-size: 48px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2864,5 +2868,9 @@ span.brand.img-300 img {
 
   .intro {
     margin-left: 25px;
+  }
+
+  #hero .intro h1 {
+    font-size: 42px;
   }
 }
