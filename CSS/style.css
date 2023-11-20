@@ -2090,7 +2090,7 @@ a.lost::after {
 .events-pagination {
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
+  margin: 70px 0;
 }
 
 .events-pagination .page,
@@ -2653,6 +2653,10 @@ a.comment-form--cancel::after {
   color: var(--cc-white-sugar);
 }
 
+.blogPost-content .read-more {
+  width: 30%;
+  min-width: 185px;
+}
 /*  ************************************************************************************
   FAQ
 ****************************************************************************************/
