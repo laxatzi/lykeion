@@ -1777,6 +1777,7 @@ p.card-text {
 
 .form-wrapper {
   flex: 1;
+  margin-top: 15px;
 }
 
 .card-deck-wrapper {
@@ -2866,6 +2867,10 @@ span.brand.img-300 img {
   .content-img img {
     margin-bottom: 10px;
   }
+
+  .form-wrapper {
+    margin-top: 75px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2959,5 +2964,9 @@ span.brand.img-300 img {
 
   .card-deck .card:last-of-type {
     margin-bottom: 0px;
+  }
+
+  a.card-text {
+    min-width: 427px;
   }
 }
