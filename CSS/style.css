@@ -1784,6 +1784,11 @@ p.card-text {
   flex: 1;
 }
 
+a.card-text {
+  width: 100%;
+  font-size: 0.65rem;
+}
+
 /*  ************************************************************************************
   Pricing
 ****************************************************************************************/
@@ -2937,6 +2942,10 @@ span.brand.img-300 img {
     padding-top: 50px;
     padding-bottom: 100px;
   }
+
+  a.card-text {
+    font-size: 0.85rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -2964,9 +2973,5 @@ span.brand.img-300 img {
 
   .card-deck .card:last-of-type {
     margin-bottom: 0px;
-  }
-
-  a.card-text {
-    min-width: 427px;
   }
 }
