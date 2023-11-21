@@ -2847,6 +2847,11 @@ span.brand.img-300 img {
     max-width: auto;
     width: 90%;
   }
+
+  #vclasses-list .card {
+    max-width: 516px;
+    margin: 0 auto 25px;
+  }
 }
 
 @media (max-width: 992px) {
