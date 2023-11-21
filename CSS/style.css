@@ -2952,4 +2952,12 @@ span.brand.img-300 img {
   .blogPost-dates {
     margin-bottom: 5px;
   }
+
+  .card-deck .card {
+    margin-bottom: 1rem;
+  }
+
+  .card-deck .card:last-of-type {
+    margin-bottom: 0px;
+  }
 }
