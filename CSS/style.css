@@ -1386,6 +1386,10 @@ header.container-fluid {
   color: var(--cc-white-sugar);
 }
 
+#vclasses-list .read-more {
+  min-width: 175px;
+}
+
 /*  ************************************************************************************
   COURSE-INFO
 ****************************************************************************************/
@@ -2851,6 +2855,10 @@ span.brand.img-300 img {
   #vclasses-list .card-body img {
     max-width: 516px;
     margin-left: 0;
+  }
+
+  #vclasses-list .info-list-level img.level-chart {
+    max-width: 16px;
   }
 }
 
