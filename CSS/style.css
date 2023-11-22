@@ -2998,6 +2998,10 @@ span.brand.img-300 img {
   .event-book .read-more {
     max-width: 430px;
   }
+
+  .gallery-info .gallery-title {
+    margin-bottom: 25px;
+  }
 }
 
 @media (max-width: 576px) {
