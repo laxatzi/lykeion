@@ -2832,6 +2832,17 @@ span.brand.img-300 img {
   .shape-image-40 {
     display: none;
   }
+  .shape-image-34 {
+    z-index: -10;
+  }
+
+  .events-meta .meta {
+    margin-bottom: 5px;
+  }
+
+  .events-meta .meta:last-of-type {
+    margin-bottom: 0px;
+  }
 }
 
 @media (max-width: 1200px) {
