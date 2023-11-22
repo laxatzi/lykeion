@@ -3070,4 +3070,8 @@ span.brand.img-300 img {
     min-width: 95px;
     margin: 35% 40%;
   }
+
+  .intro--pricing h3.intro {
+    margin-left: 0px;
+  }
 }
