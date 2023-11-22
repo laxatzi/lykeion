@@ -3002,6 +3002,21 @@ span.brand.img-300 img {
   .gallery-info .gallery-title {
     margin-bottom: 25px;
   }
+
+  .instructor-tab {
+    max-width: 400px;
+    max-height: 400px;
+    margin-bottom: 25px;
+  }
+
+  .instructor-tab:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  .instructor-tab img {
+    margin: 0 auto;
+    max-width: 245px;
+  }
 }
 
 @media (max-width: 576px) {
