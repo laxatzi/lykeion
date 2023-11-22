@@ -2852,6 +2852,10 @@ span.brand.img-300 img {
   .events-meta .meta:last-of-type {
     margin-bottom: 0px;
   }
+
+  #gallery {
+    flex: 2;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -2893,6 +2897,14 @@ span.brand.img-300 img {
 
   #hero-lower {
     justify-content: flex-start;
+  }
+
+  #gallery {
+    margin-bottom: 25px;
+  }
+
+  .topic {
+    max-width: 600px;
   }
 
   .images-about {
@@ -2948,6 +2960,14 @@ span.brand.img-300 img {
 
 @media (max-width: 767px) {
   #hero .student {
+    display: none;
+  }
+
+  .topic {
+    max-width: 500px;
+  }
+
+  #gallery {
     display: none;
   }
 
@@ -3085,6 +3105,11 @@ span.brand.img-300 img {
     margin-left: 0;
   }
 
+  .topic {
+    max-width: 400px;
+    margin-left: 25px;
+  }
+
   .blogPost-views,
   .blogPost-comments,
   .blogPost-dates {
@@ -3112,7 +3137,8 @@ span.brand.img-300 img {
     margin: 35% 40%;
   }
 
-  .intro--pricing h3.intro {
+  .intro--pricing h3.intro,
+  #about-info h3.intro {
     margin-left: 0px;
   }
 }
