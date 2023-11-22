@@ -2924,6 +2924,12 @@ span.brand.img-300 img {
   .event-book {
     flex: 1;
   }
+
+  .pricing-tables .card {
+    margin: 0 auto;
+    margin-bottom: 25px;
+    max-width: 522px;
+  }
 }
 
 @media (max-width: 767px) {
