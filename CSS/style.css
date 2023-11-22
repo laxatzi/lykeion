@@ -2889,6 +2889,10 @@ span.brand.img-300 img {
     max-width: 575px;
     margin: 15px auto;
   }
+
+  .tutor img {
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 767px) {
