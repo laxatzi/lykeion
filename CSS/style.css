@@ -3024,6 +3024,11 @@ span.brand.img-300 img {
     left: 21%;
     margin-top: -153px;
   }
+
+  .video-presentation .thumbnail {
+    max-width: 40%;
+    margin: 25% 40%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -3058,5 +3063,11 @@ span.brand.img-300 img {
   }
   .img-wrapper-event--wide {
     display: none;
+  }
+
+  .video-presentation .thumbnail {
+    max-width: 80%;
+    min-width: 95px;
+    margin: 35% 40%;
   }
 }
