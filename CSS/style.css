@@ -1392,6 +1392,7 @@ header.container-fluid {
 
 .event-book .read-more {
   min-width: 225px;
+  max-width: 275px;
 }
 
 /*  ************************************************************************************
@@ -2108,6 +2109,9 @@ a.lost::after {
 /*  ************************************************************************************
   Events
 ****************************************************************************************/
+.img-wrapper-event--mobile {
+  display: none;
+}
 
 .events-pagination {
   justify-content: center;
@@ -2870,6 +2874,10 @@ span.brand.img-300 img {
   #vclasses-list .info-list-level img.level-chart {
     max-width: 16px;
   }
+
+  .event-thumbnail {
+    flex: 2;
+  }
 }
 
 @media (max-width: 992px) {
@@ -2915,10 +2923,6 @@ span.brand.img-300 img {
 
   .event-book {
     flex: 1;
-  }
-
-  .event-thumbnail {
-    flex: 2;
   }
 }
 
@@ -2990,6 +2994,10 @@ span.brand.img-300 img {
   a.card-text {
     font-size: 0.85rem;
   }
+
+  .event-book .read-more {
+    max-width: 430px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -3017,5 +3025,12 @@ span.brand.img-300 img {
 
   .card-deck .card:last-of-type {
     margin-bottom: 0px;
+  }
+
+  .img-wrapper-event--mobile {
+    display: block;
+  }
+  .img-wrapper-event--wide {
+    display: none;
   }
 }
