@@ -3017,6 +3017,13 @@ span.brand.img-300 img {
     margin: 0 auto;
     max-width: 245px;
   }
+
+  .instructor-info {
+    max-width: 245px;
+    width: 245px;
+    left: 21%;
+    margin-top: -153px;
+  }
 }
 
 @media (max-width: 576px) {
