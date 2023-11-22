@@ -3035,6 +3035,11 @@ span.brand.img-300 img {
     max-width: 40%;
     margin: 25% 40%;
   }
+
+  .purchasing-guide {
+    margin: 0 auto;
+    border: 1px solid red;
+  }
 }
 
 @media (max-width: 576px) {
