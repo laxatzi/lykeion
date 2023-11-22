@@ -3038,8 +3038,11 @@ span.brand.img-300 img {
 
   .video-presentation {
     max-width: 500px;
-
     background: var(--cc-primary-bg) url("../img/biz-handshake-500.png");
+  }
+
+  .video-presentation.refer {
+    background: var(--cc-primary-bg) url("../img/student-friends-500.png");
   }
 
   .purchasing-guide {
