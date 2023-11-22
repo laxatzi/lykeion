@@ -3036,9 +3036,14 @@ span.brand.img-300 img {
     margin: 25% 40%;
   }
 
+  .video-presentation {
+    max-width: 500px;
+
+    background: var(--cc-primary-bg) url("../img/biz-handshake-500.png");
+  }
+
   .purchasing-guide {
     margin: 0 auto;
-    border: 1px solid red;
   }
 }
 
