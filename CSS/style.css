@@ -1390,6 +1390,10 @@ header.container-fluid {
   min-width: 175px;
 }
 
+.event-book .read-more {
+  min-width: 225px;
+}
+
 /*  ************************************************************************************
   COURSE-INFO
 ****************************************************************************************/
@@ -2903,6 +2907,18 @@ span.brand.img-300 img {
 
   .tutor img {
     margin-left: 0px;
+  }
+
+  .event-info {
+    flex: 3;
+  }
+
+  .event-book {
+    flex: 1;
+  }
+
+  .event-thumbnail {
+    flex: 2;
   }
 }
 
