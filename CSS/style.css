@@ -2836,6 +2836,7 @@ span.brand.img-300 img {
 }
 
 @media (max-width: 1700px) {
+  .shape-image-2,
   .shape-image-33,
   .shape-image-40 {
     display: none;
@@ -2856,6 +2857,11 @@ span.brand.img-300 img {
 @media (max-width: 1200px) {
   .shape-image {
     display: none;
+  }
+
+  .hero-arrow {
+    max-width: 125px;
+    margin-top: 50px;
   }
 
   #blog-details-section .meta div {
@@ -2881,6 +2887,14 @@ span.brand.img-300 img {
 }
 
 @media (max-width: 992px) {
+  .hero-arrow {
+    display: none;
+  }
+
+  #hero-lower {
+    justify-content: flex-start;
+  }
+
   .images-about {
     margin-bottom: 50px;
   }
@@ -2933,6 +2947,10 @@ span.brand.img-300 img {
 }
 
 @media (max-width: 767px) {
+  #hero .student {
+    display: none;
+  }
+
   .nav-item a::after {
     background-color: transparent;
   }
@@ -3061,6 +3079,10 @@ span.brand.img-300 img {
 
   #hero .intro h1 {
     font-size: 42px;
+  }
+
+  #hero .intro h3 {
+    margin-left: 0;
   }
 
   .blogPost-views,
