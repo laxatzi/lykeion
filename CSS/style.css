@@ -1102,13 +1102,6 @@ p#emailHelp {
   background-color: #e6d9e0;
 }
 
-.blogpost-list {
-  display: flex;
-  gap: 20px;
-  max-width: 1200px;
-  width: 1200px;
-}
-
 .blogpost-card {
   border-radius: 5px;
   flex: 1;
@@ -2866,6 +2859,11 @@ span.brand.img-300 img {
   .hero-arrow {
     max-width: 125px;
     margin-top: 50px;
+  }
+
+  .blogpost-card {
+    max-width: 575px;
+    margin: 25px auto;
   }
 
   #blog-details-section .meta div {
