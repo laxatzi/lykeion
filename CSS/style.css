@@ -1078,8 +1078,6 @@ footer h5 {
   max-width: 1200px;
   width: 80%;
   margin: 0 auto;
-  flex-direction: column;
-  align-items: center;
 }
 
 .input-container {
@@ -3091,6 +3089,10 @@ span.brand.img-300 img {
 
   .purchasing-guide {
     margin: 0 auto;
+  }
+
+  .newsletter-container {
+    width: 100%;
   }
 }
 
