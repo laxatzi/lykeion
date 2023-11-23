@@ -3279,4 +3279,12 @@ span.brand.img-300 img {
   .video-gallery-wrapper {
     display: none;
   }
+
+  #virtual-classes {
+    padding-bottom: 100px;
+  }
+
+  #events-section {
+    padding-top: 100px;
+  }
 }
