@@ -397,12 +397,12 @@ section {
 }
 
 .shape-image.shape-image-15 {
-  top: 1100px;
-  right: 300px;
+  bottom: 100px;
+  right: 200px;
 }
 
 .shape-image.shape-image-16 {
-  top: 600px;
+  top: 400px;
   right: 100px;
 }
 
@@ -2829,11 +2829,48 @@ span.brand.img-300 img {
 @media (max-width: 1700px) {
   .shape-image-2,
   .shape-image-33,
-  .shape-image-40 {
+  .shape-image-40,
+  .shape-image-10 {
     display: none;
   }
+
+  .shape-image.shape-image-4,
+  .shape-image.shape-image-8 {
+    top: 20px;
+    left: -60px;
+  }
+
   .shape-image-34 {
     z-index: -10;
+  }
+
+  .shape-image.shape-image-19 {
+    right: 50px;
+  }
+
+  .shape-image.shape-image-28 {
+    bottom: 10px;
+  }
+
+  .shape-image.shape-image-29 {
+    top: 10px;
+  }
+
+  .shape-image.shape-image-15 {
+    bottom: 5px;
+  }
+
+  .shape-image.shape-image-16 {
+    right: 5px;
+  }
+
+  .shape-image.shape-image-17 {
+    bottom: 10px;
+  }
+
+  .shape-image.shape-image-18 {
+    top: 30px;
+    left: -30px;
   }
 
   .events-meta .meta {
@@ -3208,5 +3245,9 @@ span.brand.img-300 img {
   .tutor-info {
     margin-top: -35%;
     left: 22%;
+  }
+
+  h3.intro {
+    font-size: 0.85rem;
   }
 }
