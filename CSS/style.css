@@ -2885,6 +2885,11 @@ span.brand.img-300 img {
     max-width: 16px;
   }
 
+  #vclasses-list .card {
+    max-width: 575px;
+    margin: 15px auto;
+  }
+
   .event-thumbnail {
     flex: 2;
   }
@@ -2940,11 +2945,6 @@ span.brand.img-300 img {
 
   .form-wrapper {
     margin-top: 75px;
-  }
-
-  #vclasses-list .card {
-    max-width: 575px;
-    margin: 15px auto;
   }
 
   .tutor img {
