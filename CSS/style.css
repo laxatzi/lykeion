@@ -784,9 +784,8 @@ button.heart:active .bi-heart-fill {
   background-size: auto;
   box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.07);
   z-index: 99;
-  position: absolute;
-  top: -220px;
-  left: 25%;
+  position: relative;
+  margin: -550px auto 50px;
 }
 
 .video-gallery-wrapper .thumbnail {
@@ -3006,6 +3005,19 @@ span.brand.img-300 img {
   .testimonial-card:last-of-type {
     margin-bottom: 0px;
   }
+
+  .video-gallery-wrapper {
+    max-width: 650px;
+    width: 650px;
+    height: 300px;
+    max-height: 400px;
+    margin: -450px auto 50px;
+  }
+
+  .video-gallery-wrapper .thumbnail {
+    max-width: 20%;
+    margin: 12% 40%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -3168,6 +3180,19 @@ span.brand.img-300 img {
   .intro--topics {
     text-align: center;
   }
+
+  .video-gallery-wrapper {
+    max-width: 550px;
+    width: 550px;
+    height: 250px;
+    max-height: 250px;
+    margin: -425px auto 50px;
+  }
+
+  .video-gallery-wrapper .thumbnail {
+    max-width: 20%;
+    margin: 12% 40%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -3249,5 +3274,9 @@ span.brand.img-300 img {
 
   h3.intro {
     font-size: 0.85rem;
+  }
+
+  .video-gallery-wrapper {
+    display: none;
   }
 }
