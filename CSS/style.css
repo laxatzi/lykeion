@@ -3103,6 +3103,30 @@ span.brand.img-300 img {
   .newsletter-container {
     width: 100%;
   }
+
+  .input-container {
+    min-width: 322px;
+  }
+
+  .tutor-tab {
+    min-width: 500px;
+    min-height: 400px;
+  }
+
+  .tutor-tab .thumbnail img {
+    min-width: 322px;
+    width: 322px;
+    margin: 0 auto 25px;
+  }
+
+  .tutor-tab:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  .tutor-info {
+    margin-top: -25%;
+    left: 36%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -3163,5 +3187,22 @@ span.brand.img-300 img {
     max-width: 400px;
     width: 350px;
     min-width: 300px;
+  }
+
+  .tutor-tab {
+    min-width: 360px;
+    min-height: 310px;
+    height: 310px;
+    margin: auto;
+  }
+
+  .tutor-tab .thumbnail img {
+    min-width: 250px;
+    width: 250px;
+  }
+
+  .tutor-info {
+    margin-top: -35%;
+    left: 22%;
   }
 }
