@@ -2960,6 +2960,15 @@ span.brand.img-300 img {
     margin-bottom: 25px;
     max-width: 522px;
   }
+
+  .testimonial-card {
+    min-width: 555px;
+    margin-bottom: 25px;
+  }
+
+  .testimonial-card:last-of-type {
+    margin-bottom: 0px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -3148,5 +3157,11 @@ span.brand.img-300 img {
   .intro--pricing h3.intro,
   #about-info h3.intro {
     margin-left: 0px;
+  }
+
+  .testimonial-card {
+    max-width: 400px;
+    width: 350px;
+    min-width: 300px;
   }
 }
