@@ -3127,6 +3127,10 @@ span.brand.img-300 img {
     margin-top: -25%;
     left: 36%;
   }
+
+  .intro--topics {
+    text-align: center;
+  }
 }
 
 @media (max-width: 576px) {
