@@ -45,7 +45,7 @@
 html,
 body {
   height: 100%;
-  min-width: 399px;
+  min-width: 360px;
   box-sizing: border-box;
   font-family: montserrat, sans-serif;
   scroll-behavior: smooth;
@@ -251,6 +251,7 @@ section#hero {
   background-color: var(--cc-primary-bg);
   align-self: flex-start;
   border-radius: var(--bs-border-radius);
+  width: 50%;
 }
 
 .read-more:hover {
@@ -820,6 +821,7 @@ button.heart:active .bi-heart-fill {
   width: 100%;
   margin: 0 auto;
   align-items: center;
+  border-radius: 5px;
 }
 
 .event-thumbnail {
@@ -839,7 +841,7 @@ button.heart:active .bi-heart-fill {
 }
 
 .event-thumbnail:hover img {
-  transform: scale(1.07);
+  transform: scale(0.97);
   transition: 0.3s;
 }
 
@@ -3238,6 +3240,11 @@ span.brand.img-300 img {
     display: none;
   }
 
+  .img-wrapper-event--mobile img {
+    max-height: 320px;
+    height: 320px;
+  }
+
   .video-presentation .thumbnail {
     max-width: 80%;
     min-width: 95px;
@@ -3286,5 +3293,20 @@ span.brand.img-300 img {
 
   #events-section {
     padding-top: 100px;
+  }
+
+  .event-item {
+    max-width: 350px;
+  }
+
+  .read-more {
+    width: 100%;
+  }
+}
+
+@media (max-width: 399px) {
+  .topic {
+    max-width: 320px;
+    margin: auto;
   }
 }
