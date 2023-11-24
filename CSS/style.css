@@ -3314,6 +3314,22 @@ span.brand.img-300 img {
   h4 {
     font-size: 1.15rem;
   }
+
+  .input-container {
+    min-width: 222px;
+  }
+
+  .input-container .read-more {
+    width: 35%;
+  }
+
+  .input-container .link-btn {
+    font-size: 0.75rem;
+  }
+
+  input:placeholder-shown {
+    font-size: 0.75rem;
+  }
 }
 
 @media (max-width: 399px) {
