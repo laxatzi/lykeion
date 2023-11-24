@@ -3302,6 +3302,18 @@ span.brand.img-300 img {
   .read-more {
     width: 75%;
   }
+
+  .intro + h2 {
+    font-size: 1.5rem;
+  }
+
+  #hero .intro + h1 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1.15rem;
+  }
 }
 
 @media (max-width: 399px) {
