@@ -3288,7 +3288,7 @@ span.brand.img-300 img {
   }
 
   #virtual-classes {
-    padding-bottom: 100px;
+    padding-bottom: 30px;
   }
 
   #events-section {
@@ -3323,12 +3323,30 @@ span.brand.img-300 img {
     width: 35%;
   }
 
+  .read-more a {
+    font-size: 14px;
+  }
+
   .input-container .link-btn {
     font-size: 0.75rem;
   }
 
   input:placeholder-shown {
     font-size: 0.75rem;
+  }
+
+  .tutors-container,
+  .instructors-container {
+    margin: 20px auto;
+  }
+
+  footer {
+    padding: 100px 0 0 0;
+  }
+
+  section {
+    padding-top: 50px;
+    padding-bottom: 80px;
   }
 }
 
