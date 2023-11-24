@@ -3351,6 +3351,17 @@ span.brand.img-300 img {
   p {
     font-size: 0.85rem;
   }
+
+  .topic img,
+  .icon img {
+    max-width: 60px;
+    max-height: 60px;
+  }
+
+  .social-icon img {
+    max-width: 40px;
+    max-height: 40px;
+  }
 }
 
 @media (max-width: 399px) {
