@@ -2942,10 +2942,6 @@ span.brand.img-300 img {
     margin-bottom: 25px;
   }
 
-  #vclasses-selections {
-    text-align: center;
-  }
-
   .topic {
     max-width: 600px;
   }
@@ -3307,6 +3303,9 @@ span.brand.img-300 img {
     font-size: 1.75rem;
   }
 
+  h3 {
+    font-size: 20px;
+  }
   h4 {
     font-size: 1.15rem;
   }
@@ -3343,6 +3342,14 @@ span.brand.img-300 img {
   section {
     padding-top: 50px;
     padding-bottom: 80px;
+  }
+
+  section#hero {
+    padding-bottom: 80px;
+  }
+
+  p {
+    font-size: 0.85rem;
   }
 }
 
