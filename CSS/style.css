@@ -2900,6 +2900,19 @@ span.brand.img-300 img {
   #gallery {
     flex: 2;
   }
+
+  #coming-soon-content .input-container {
+    max-width: auto;
+    width: 90%;
+  }
+
+  #coming-soon-content .input-container input {
+    border: 1px solid var(--cc-white-sugar);
+  }
+
+  #coming-soon-content .input-container .read-more input {
+    border: 1px solid transparent;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -2930,11 +2943,6 @@ span.brand.img-300 img {
 
   #blog-details-section .author-meta {
     margin-bottom: 10px;
-  }
-
-  #coming-soon-content .input-container {
-    max-width: auto;
-    width: 90%;
   }
 
   #vclasses-list .info-list-level img.level-chart {
@@ -3184,6 +3192,13 @@ span.brand.img-300 img {
 
   .newsletter-container {
     width: 100%;
+  }
+
+  #coming-soon-content .input-container {
+    max-width: auto;
+    width: 75%;
+    margin: auto;
+    min-width: 280px;
   }
 
   .input-container {
