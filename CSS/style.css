@@ -721,8 +721,7 @@ button.heart:active .bi-heart-fill {
 }
 
 #vclasses-list {
-  max-width: 1400px;
-  margin: 0 auto;
+  max-width: 1200px;
 }
 
 #vclasses-list .card {
