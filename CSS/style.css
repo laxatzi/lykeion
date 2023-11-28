@@ -2897,9 +2897,15 @@ span.brand.img-300 img {
     margin-top: 50px;
   }
 
+  .blogpost-list {
+    max-width: 1000px;
+  }
+
   .blogpost-card {
-    max-width: 575px;
-    margin: 25px auto;
+    min-width: 250px;
+    max-width: 380px;
+    width: auto;
+    margin: 25px auto 0px;
   }
 
   #blog-details-section .meta div {
