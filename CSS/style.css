@@ -723,7 +723,6 @@ button.heart:active .bi-heart-fill {
 #vclasses-list {
   max-width: 1400px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 #vclasses-list .card {
