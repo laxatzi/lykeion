@@ -720,6 +720,13 @@ button.heart:active .bi-heart-fill {
   font-size: 1rem;
 }
 
+#vclasses-list .card {
+  min-width: 340px;
+  max-width: 380px;
+  width: auto;
+  margin: 25px auto 0px;
+}
+
 .tutor,
 .author {
   justify-content: space-between;
@@ -2901,7 +2908,8 @@ span.brand.img-300 img {
     max-width: 1000px;
   }
 
-  .blogpost-card {
+  .blogpost-card,
+  #vclasses-list .card {
     min-width: 250px;
     max-width: 380px;
     width: auto;
@@ -2923,11 +2931,6 @@ span.brand.img-300 img {
 
   #vclasses-list .info-list-level img.level-chart {
     max-width: 16px;
-  }
-
-  #vclasses-list .card {
-    max-width: 575px;
-    margin: 15px auto;
   }
 
   .event-thumbnail {
