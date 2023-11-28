@@ -3038,6 +3038,11 @@ span.brand.img-300 img {
     max-width: 20%;
     margin: 12% 40%;
   }
+
+  .content-img img {
+    max-width: 400px;
+    margin: 25px auto;
+  }
 }
 
 @media (max-width: 767px) {
@@ -3221,6 +3226,10 @@ span.brand.img-300 img {
   #vclasses-selections {
     text-align: center;
   }
+
+  .content-img img {
+    max-width: 300px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -3399,11 +3408,6 @@ span.brand.img-300 img {
   .data-info img {
     max-width: 75px;
     max-height: 75px;
-  }
-
-  .content-img img {
-    max-width: 300px;
-    margin: 25px auto;
   }
 }
 
