@@ -3400,6 +3400,11 @@ span.brand.img-300 img {
     max-width: 75px;
     max-height: 75px;
   }
+
+  .content-img img {
+    max-width: 300px;
+    margin: 25px auto;
+  }
 }
 
 @media (max-width: 399px) {
