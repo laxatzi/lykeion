@@ -2288,6 +2288,10 @@ a.go-to-home::after {
   background-color: var(--cc-primary-bg);
 }
 
+.newsletter-container .read-more {
+  width: 30%;
+}
+
 /*  ************************************************************************************
   Gallery
 ****************************************************************************************/
@@ -2940,6 +2944,10 @@ span.brand.img-300 img {
   .event-thumbnail {
     flex: 2;
   }
+
+  .read-more {
+    width: 80%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -2956,7 +2964,7 @@ span.brand.img-300 img {
   }
 
   .read-more.nletter {
-    width: 50%;
+    width: 35%;
   }
 
   #gallery {
@@ -3270,6 +3278,7 @@ span.brand.img-300 img {
   .img-wrapper-event--mobile {
     display: block;
   }
+
   .img-wrapper-event--wide {
     display: none;
   }
@@ -3344,6 +3353,7 @@ span.brand.img-300 img {
   h3 {
     font-size: 20px;
   }
+
   h4 {
     font-size: 1.15rem;
   }
@@ -3357,7 +3367,7 @@ span.brand.img-300 img {
   }
 
   .read-more a {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .input-container .link-btn {
