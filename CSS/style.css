@@ -720,9 +720,15 @@ button.heart:active .bi-heart-fill {
   font-size: 1rem;
 }
 
+#vclasses-list {
+  max-width: 1400px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
 #vclasses-list .card {
   min-width: 340px;
-  max-width: 380px;
+  max-width: 340px;
   width: auto;
   margin: 25px auto 0px;
 }
@@ -2911,7 +2917,7 @@ span.brand.img-300 img {
   .blogpost-card,
   #vclasses-list .card {
     min-width: 250px;
-    max-width: 380px;
+    max-width: 300px;
     width: auto;
     margin: 25px auto 0px;
   }
