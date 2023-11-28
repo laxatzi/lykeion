@@ -3244,7 +3244,7 @@ span.brand.img-300 img {
   }
 
   #vclasses-list .card {
-    min-width: 350px;
+    min-width: 400px;
   }
 
   #vclasses-selections {
@@ -3348,6 +3348,10 @@ span.brand.img-300 img {
 
   #virtual-classes {
     padding-bottom: 30px;
+  }
+
+  #vclasses-list .card {
+    max-width: 350px;
   }
 
   #events-section {
