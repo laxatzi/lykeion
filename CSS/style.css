@@ -3196,6 +3196,10 @@ span.brand.img-300 img {
     max-width: 20%;
     margin: 12% 40%;
   }
+
+  .read-more {
+    width: 100%;
+  }
 }
 
 @media (max-width: 576px) {
