@@ -2942,6 +2942,10 @@ span.brand.img-300 img {
     width: 75%;
   }
 
+  .read-more.nletter {
+    width: 50%;
+  }
+
   #gallery {
     margin-bottom: 25px;
   }
