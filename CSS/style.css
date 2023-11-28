@@ -2938,12 +2938,21 @@ span.brand.img-300 img {
     justify-content: flex-start;
   }
 
+  .read-more {
+    width: 75%;
+  }
+
   #gallery {
     margin-bottom: 25px;
   }
 
   .topic {
     max-width: 600px;
+    margin: auto;
+  }
+
+  .intro--topics {
+    text-align: center;
   }
 
   .images-about {
@@ -3171,10 +3180,6 @@ span.brand.img-300 img {
     left: 36%;
   }
 
-  .intro--topics {
-    text-align: center;
-  }
-
   .video-gallery-wrapper {
     max-width: 550px;
     width: 550px;
@@ -3208,7 +3213,6 @@ span.brand.img-300 img {
 
   .topic {
     max-width: 400px;
-    margin-left: 25px;
   }
 
   .blogPost-views,
@@ -3289,10 +3293,6 @@ span.brand.img-300 img {
 
   .event-item {
     max-width: 350px;
-  }
-
-  .read-more {
-    width: 75%;
   }
 
   .intro + h2 {
