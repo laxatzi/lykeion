@@ -3395,11 +3395,21 @@ span.brand.img-300 img {
     max-width: 40px;
     max-height: 40px;
   }
+
+  .data-info img {
+    max-width: 75px;
+    max-height: 75px;
+  }
 }
 
 @media (max-width: 399px) {
   .topic {
     max-width: 320px;
     margin: auto;
+  }
+
+  .data-info img {
+    max-width: 55px;
+    max-height: 55px;
   }
 }
