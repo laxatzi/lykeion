@@ -3269,6 +3269,12 @@ span.brand.img-300 img {
     margin-left: 0px;
   }
 
+  .faq-section .course-nav {
+    flex-direction: column;
+  }
+  .faq-section .course-nav button {
+    padding: 3px 0;
+  }
   #hero .intro h1 {
     font-size: 42px;
   }
