@@ -1478,7 +1478,7 @@ a.video-play-btn:after {
 }
 
 .course-info .info-list {
-  width: 90%;
+  width: 100%;
   border-bottom: 1px solid var(--cc-grey-lighter);
   align-items: center;
 }
@@ -3095,8 +3095,8 @@ span.brand.img-300 img {
     margin: 25px auto;
     position: relative;
     width: 100%;
-    min-width: 400px;
-    height: 2000px;
+    min-width: 500px;
+    min-height: 100%;
 
     display: flex;
   }
@@ -3113,6 +3113,7 @@ span.brand.img-300 img {
   .courses .course-info-main {
     flex-direction: column;
     min-height: 100%;
+    margin: auto;
   }
 
   .courses .course-info-main main,
