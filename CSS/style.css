@@ -3296,7 +3296,8 @@ span.brand.img-300 img {
     margin-left: 25px;
   }
 
-  .intro--faq .intro {
+  .intro--faq .intro,
+  .intro--instructor .intro {
     margin-left: 0px;
   }
 
