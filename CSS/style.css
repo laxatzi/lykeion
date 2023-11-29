@@ -1938,13 +1938,13 @@ small.attribute {
 #instructor-profile .instructor-thumbnail img {
   border-radius: 100%;
   width: 100%;
-  height: 100%;
-  margin-left: 28px;
+  max-width: 100%;
+  height: auto;
 }
 
 #instructor-profile .read-more {
   max-width: 220px;
-  margin-left: 28px;
+  margin: auto;
 }
 
 #instructor-profile .social {
@@ -1969,6 +1969,10 @@ small.attribute {
 
 .instructor {
   max-width: 900px;
+}
+
+.instructor-content .read-more {
+  width: 100%;
 }
 
 .credentials {
@@ -2957,6 +2961,21 @@ span.brand.img-300 img {
   .read-more {
     width: 80%;
   }
+
+  .instructor-section-intro {
+    flex-direction: column;
+  }
+
+  #instructor {
+    margin: 25px auto;
+    order: 0;
+  }
+
+  #instructor-profile {
+    margin: 25px auto;
+    order: 1;
+    width: 100%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -3059,6 +3078,18 @@ span.brand.img-300 img {
   .content-img img {
     max-width: 400px;
     margin: 25px auto;
+  }
+
+  .credentials {
+    flex-direction: column;
+  }
+
+  .credential {
+    border-bottom: 1px solid var(--cc-grey-lighter);
+  }
+
+  .instructor-similar-courses {
+    margin-top: 50px;
   }
 }
 
