@@ -3265,6 +3265,10 @@ span.brand.img-300 img {
     margin-left: 25px;
   }
 
+  .intro--faq .intro {
+    margin-left: 0px;
+  }
+
   #hero .intro h1 {
     font-size: 42px;
   }
