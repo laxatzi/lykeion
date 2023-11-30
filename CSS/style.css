@@ -1399,6 +1399,10 @@ header.container-fluid {
   flex: 3;
 }
 
+.courses .course-info-main .event-sidebar {
+  flex: 4;
+}
+
 .courses .course-info-main aside {
   flex: 2;
 }
@@ -2957,6 +2961,14 @@ span.brand.img-300 img {
     flex: 2;
   }
 
+  .courses .course-info-main .event-sidebar {
+    flex: 4;
+  }
+
+  .main-event-content .pics {
+    flex-direction: column;
+  }
+
   .read-more {
     width: 80%;
   }
@@ -3046,6 +3058,10 @@ span.brand.img-300 img {
     flex: 1;
   }
 
+  .main-event-content .pics {
+    flex-direction: row;
+  }
+
   .pricing-tables .card {
     margin: 0 auto;
     margin-bottom: 25px;
@@ -3097,7 +3113,8 @@ span.brand.img-300 img {
     margin-top: 50px;
   }
 
-  .sidebar {
+  .sidebar,
+  .event-sidebar {
     margin: 25px auto;
     position: relative;
     width: 100%;
@@ -3123,7 +3140,8 @@ span.brand.img-300 img {
   }
 
   .courses .course-info-main main,
-  .courses .course-info-main aside {
+  .courses .course-info-main aside,
+  .courses .course-info-main .event-sidebar {
     flex: 1;
   }
 }
