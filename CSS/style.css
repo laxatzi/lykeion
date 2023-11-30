@@ -2626,6 +2626,14 @@ h5 {
   border: 3px solid var(--cc-primary);
 }
 
+.form-control:focus .input-group-append {
+  border: 10px solid var(--cc-primary);
+}
+
+.btn-lg {
+  --bs-btn-font-size: 1.05rem;
+}
+
 .latest-post-img {
   flex: 2;
 }
