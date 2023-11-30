@@ -861,7 +861,11 @@ button.heart:active .bi-heart-fill {
 }
 
 .event-info {
-  flex: 3;
+  flex: 4;
+}
+
+.info-wrapper {
+  flex: 4;
 }
 
 .event-info a::after {
