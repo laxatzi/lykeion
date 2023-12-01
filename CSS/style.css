@@ -1677,7 +1677,7 @@ button.course-nav-item:active {
   align-items: center;
 }
 
-.the_brands {
+.the-brands {
   flex: 3;
   justify-content: space-around;
   align-items: center;
@@ -3309,6 +3309,10 @@ span.brand.img-300 img {
 
   .event-book .read-more {
     margin-left: 0%;
+  }
+
+  .the-brands {
+    justify-content: flex-start;
   }
 }
 
