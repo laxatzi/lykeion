@@ -3035,8 +3035,8 @@ span.brand.img-300 img {
     flex: 3;
   }
 
-  .event-book {
-    flex: 1;
+  .event-book .read-more {
+    margin-left: 40%;
   }
 
   .main-event-content .pics {
@@ -3306,6 +3306,10 @@ span.brand.img-300 img {
 
   .content-img img {
     max-width: 300px;
+  }
+
+  .event-book .read-more {
+    margin-left: 0%;
   }
 }
 
