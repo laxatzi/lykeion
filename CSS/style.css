@@ -2180,7 +2180,6 @@ a.lost::after {
 .book-seat {
   display: flex;
   background-color: var(--cc-primary-bg);
-  /* max-width: 60%; */
   border-radius: var(--bs-border-radius);
 }
 
@@ -3507,6 +3506,10 @@ span.brand.img-300 img {
   #purchase-guide img {
     max-width: 360px;
     max-height: auto;
+  }
+
+  .clients {
+    margin: 50px auto;
   }
 }
 
