@@ -251,7 +251,6 @@ section#hero {
   background-color: var(--cc-primary-bg);
   align-self: flex-start;
   border-radius: var(--bs-border-radius);
-  /* width: 50%; */
 }
 
 .read-more:hover {
@@ -1390,9 +1389,9 @@ header.container-fluid {
   color: var(--cc-white-sugar);
 }
 
-#vclasses-list .read-more {
+/* #vclasses-list .read-more {
   min-width: 175px;
-}
+} */
 
 /* .event-book .read-more {
   min-width: 225px;
@@ -1950,7 +1949,7 @@ small.attribute {
 }
 
 #instructor-profile .read-more {
-  max-width: 270px;
+  /* max-width: 270px; */
   margin: auto;
 }
 
@@ -2300,9 +2299,9 @@ a.go-to-home::after {
   background-color: var(--cc-primary-bg);
 }
 
-.newsletter-container .read-more {
+/* .newsletter-container .read-more {
   width: 30%;
-}
+} */
 
 /*  ************************************************************************************
   Gallery
@@ -2721,10 +2720,10 @@ h5 {
   color: var(--cc-white-sugar);
 }
 
-.blogPost-content .read-more {
+/* .blogPost-content .read-more {
   width: 30%;
   min-width: 185px;
-}
+} */
 /*  ************************************************************************************
   FAQ
 ****************************************************************************************/
@@ -2985,10 +2984,6 @@ span.brand.img-300 img {
     flex-direction: column;
   }
 
-  /* .read-more {
-    width: 80%;
-  } */
-
   .instructor-section-intro {
     flex-direction: column;
   }
@@ -3012,14 +3007,6 @@ span.brand.img-300 img {
 
   #hero-lower {
     justify-content: flex-start;
-  }
-
-  /* .read-more {
-    text-align: center;
-  } */
-
-  .read-more.nletter {
-    width: 35%;
   }
 
   #gallery {
@@ -3243,9 +3230,9 @@ span.brand.img-300 img {
     font-size: 0.85rem;
   }
 
-  .event-book .read-more {
+  /* .event-book .read-more {
     max-width: 430px;
-  }
+  } */
 
   .gallery-info .gallery-title {
     margin-bottom: 25px;
@@ -3493,9 +3480,9 @@ span.brand.img-300 img {
     min-width: 222px;
   }
 
-  .input-container .read-more {
+  /* .input-container .read-more {
     width: 35%;
-  }
+  } */
 
   .read-more a {
     font-size: 16px;
