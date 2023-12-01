@@ -251,7 +251,7 @@ section#hero {
   background-color: var(--cc-primary-bg);
   align-self: flex-start;
   border-radius: var(--bs-border-radius);
-  width: 50%;
+  /* width: 50%; */
 }
 
 .read-more:hover {
@@ -266,7 +266,7 @@ a:focus::after {
 .read-more a {
   color: var(--cc-white-sugar);
   text-decoration: none;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: var(--cc-body-font-weight);
 }
 
@@ -1394,10 +1394,10 @@ header.container-fluid {
   min-width: 175px;
 }
 
-.event-book .read-more {
+/* .event-book .read-more {
   min-width: 225px;
   max-width: 275px;
-}
+} */
 
 .courses .course-info-main main {
   flex: 3;
@@ -1978,9 +1978,9 @@ small.attribute {
   max-width: 900px;
 }
 
-.instructor-content .read-more {
+/* .instructor-content .read-more {
   width: 100%;
-}
+} */
 
 .credentials {
   color: var(--cc-white-sugar);
@@ -2973,6 +2973,10 @@ span.brand.img-300 img {
     flex: 2;
   }
 
+  .info-wrapper {
+    flex: 3;
+  }
+
   .courses .course-info-main .event-sidebar {
     flex: 4;
   }
@@ -2981,9 +2985,9 @@ span.brand.img-300 img {
     flex-direction: column;
   }
 
-  .read-more {
+  /* .read-more {
     width: 80%;
-  }
+  } */
 
   .instructor-section-intro {
     flex-direction: column;
@@ -3010,9 +3014,9 @@ span.brand.img-300 img {
     justify-content: flex-start;
   }
 
-  .read-more {
-    width: 75%;
-  }
+  /* .read-more {
+    text-align: center;
+  } */
 
   .read-more.nletter {
     width: 35%;
@@ -3334,10 +3338,10 @@ span.brand.img-300 img {
     max-width: 20%;
     margin: 12% 40%;
   }
-
+  /*
   .read-more {
     width: 100%;
-  }
+  } */
 
   #vclasses-list .card {
     min-width: 400px;
