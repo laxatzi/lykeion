@@ -1679,7 +1679,7 @@ button.course-nav-item:active {
 
 .the-brands {
   flex: 3;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
