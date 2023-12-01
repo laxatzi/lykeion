@@ -2180,7 +2180,7 @@ a.lost::after {
 .book-seat {
   display: flex;
   background-color: var(--cc-primary-bg);
-  max-width: 60%;
+  /* max-width: 60%; */
   border-radius: var(--bs-border-radius);
 }
 
