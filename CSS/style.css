@@ -1121,7 +1121,7 @@ p#emailHelp {
 }
 
 .blogpost-card-body {
-  background-color: var(--cc-white-sugar);
+  background-color: var(--cc-white-off);
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   z-index: 1;
@@ -3123,6 +3123,11 @@ span.brand.img-300 img {
   .courses .course-info-main aside,
   .courses .course-info-main .event-sidebar {
     flex: 1;
+  }
+
+  .mission-gallery-wrapper img {
+    max-width: 65%;
+    margin: auto;
   }
 }
 
