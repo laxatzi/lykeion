@@ -2193,7 +2193,7 @@ a.lost::after {
 }
 
 .event-detailing .info-list {
-  width: 100%;
+  width: 90%;
   border-bottom: 1px solid var(--cc-grey-lighter);
   align-items: center;
 }
