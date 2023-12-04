@@ -2288,81 +2288,86 @@ a.go-to-home::after {
   Gallery
 ****************************************************************************************/
 
-.images {
-  column-count: 4;
-}
-
-.images-about {
-  column-count: 2;
-  flex: 2;
-}
-
-.images img,
-.images-about img {
+.masonry {
+  display: flex;
   width: 100%;
-  padding: 0;
-  border: 5px solid var(--cc-bg-primary-lighter);
+  margin-left: -10px;
+  counter-reset: brick;
+  flex-flow: row wrap;
+}
+
+.masonry-brick {
+  overflow: hidden;
   border-radius: 5px;
-  margin: 12px;
+  margin: 0 0 10px 10px;
+  color: white;
 }
 
-.images-about a::after {
-  background-color: transparent;
-}
-.img-item {
-  position: relative;
-}
-
-.gallery-zoom-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.5s;
-  font-size: 2rem;
+.masonry-brick img {
+  flex: auto;
+  min-height: 250px;
+  min-width: 150px;
 }
 
 .hovered-content {
   position: absolute;
-  bottom: 5px;
-  left: 15px;
-  z-index: 1;
-  padding: 50px;
-  transition: 0.5s;
+  top: 50%;
+  left: 50%;
+  z-index: 5000;
+  transform: translate(-50%, -50%);
+  counter-increment: brick;
+  content: counter(brick);
+  transition: font-size 0.25s, opacity 0.25s ease-in-out;
+  font-weight: 700;
   opacity: 0;
+  font-size: 1.25em;
+  background: #333;
+  padding: 5px 10px;
+}
+
+.masonry-brick:hover .hovered-content {
+  font-size: 2.25em;
   color: white;
-  background-color: var(--cc-primary-light);
-  display: flex;
-  width: 98.5%;
+  opacity: 0.75;
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Horizontal masonry bricks on desktop-sized screen */
+  .masonry-brick:nth-child(4n + 1) {
+    width: 250px;
+  }
+  .masonry-brick:nth-child(4n + 2) {
+    width: 325px;
+  }
+  .masonry-brick:nth-child(4n + 3) {
+    width: 180px;
+  }
+  .masonry-brick:nth-child(4n + 4) {
+    width: 380px;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  /* Horizontal masonry bricks on tabled-sized screen */
+  .masonry-brick:nth-child(4n + 1) {
+    width: 200px;
+  }
+  .masonry-brick:nth-child(4n + 2) {
+    width: 250px;
+  }
+  .masonry-brick:nth-child(4n + 3) {
+    width: 120px;
+  }
+  .masonry-brick:nth-child(4n + 4) {
+    width: 280px;
+  }
+}
+
+.masonry-img {
+  object-fit: cover;
+  width: 100%;
   height: 100%;
-}
-
-.hovered-content h6 {
-  position: absolute;
-  bottom: 20%;
-  left: 15%;
-}
-
-.images a:hover {
-  cursor: pointer;
-}
-
-.images a:hover img {
-  transition: 0.5s;
-  transform: scale(0.98);
-  overflow: hidden;
-}
-
-.images a:hover .hovered-content {
-  opacity: 0.8;
-}
-
-.images a::after {
-  background-color: transparent;
-}
-
-.images img {
-  transition: 3s;
+  filter: brightness(90%);
 }
 
 .gallery-filter .btn.active {
