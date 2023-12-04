@@ -1,7 +1,7 @@
 const galleryFilters = document.querySelector(".gallery-filters");
 const galleryFilterAll = document.querySelectorAll(".gallery-filter");
-const images = document.querySelectorAll(".gal-image");
-const allImages = document.querySelector(".images");
+const images = document.querySelectorAll(".masonry-brick");
+const allImages = document.querySelector(".masonry");
 
 galleryFilters.addEventListener("click", (ev) => {
   const galleryFilterText = ev.target.textContent.trim();
