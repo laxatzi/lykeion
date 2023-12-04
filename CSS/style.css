@@ -3003,10 +3003,6 @@ span.brand.img-300 img {
     flex: 4;
   }
 
-  .main-event-content .pics {
-    flex-direction: column;
-  }
-
   .instructor-section-intro {
     flex-direction: column;
   }
@@ -3082,10 +3078,6 @@ span.brand.img-300 img {
 
   .event-book .read-more {
     margin-left: 40%;
-  }
-
-  .main-event-content .pics {
-    flex-direction: row;
   }
 
   .pricing-tables .card {
@@ -3364,6 +3356,10 @@ span.brand.img-300 img {
 
   .the-brands {
     justify-content: flex-start;
+  }
+
+  .main-event-content .pics img {
+    margin: auto;
   }
 }
 
