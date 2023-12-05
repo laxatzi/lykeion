@@ -669,6 +669,11 @@ section#about {
   flex: 1;
 }
 
+.about-masonry-img {
+  max-height: 300px;
+  max-width: 366px;
+}
+
 #virtual-classes {
   padding-bottom: 300px;
 }
@@ -1781,6 +1786,16 @@ button.accordion-button {
 
 .images-about a::after {
   background-color: transparent;
+}
+
+.about-masonry-img {
+  max-height: 350px;
+  min-height: 300px;
+  min-width: 200px;
+}
+
+.about-masonry-img img {
+  object-fit: cover;
 }
 
 /*  ************************************************************************************
