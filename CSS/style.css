@@ -731,6 +731,8 @@ button.heart {
   border-radius: 50%;
   padding: 10px;
   background-color: var(--cc-primary);
+  width: 36px;
+  height: 36px;
 }
 
 button.heart:active .bi-heart-fill {
