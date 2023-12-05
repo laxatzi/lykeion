@@ -1610,7 +1610,6 @@ button.course-nav-item:active {
   border-radius: 5px;
   max-width: 200px;
   max-height: 235px;
-  float: right;
 }
 
 .course-tutor-profile-social {
@@ -3376,6 +3375,10 @@ span.brand.img-300 img {
 
   .main-event-content .pics img {
     margin: auto;
+  }
+
+  .course-tutor-profile {
+    flex-direction: column;
   }
 }
 
