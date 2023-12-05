@@ -233,10 +233,6 @@ section#hero {
   flex: 1;
 }
 
-#hero .shapes {
-  display: none;
-}
-
 .student {
   margin-bottom: 0;
 }
@@ -2165,9 +2161,9 @@ a.lost::after {
 /*  ************************************************************************************
   Events
 ****************************************************************************************/
-.img-wrapper-event--mobile {
+/* .img-wrapper-event--mobile {
   display: none;
-}
+} */
 
 .events-pagination {
   justify-content: center;
@@ -3187,10 +3183,6 @@ span.brand.img-300 img {
 }
 
 @media (max-width: 767px) {
-  #hero .student {
-    display: none;
-  }
-
   .topic {
     max-width: 500px;
   }
@@ -3426,13 +3418,13 @@ span.brand.img-300 img {
     margin-bottom: 0px;
   }
 
-  .img-wrapper-event--mobile {
+  /* .img-wrapper-event--mobile {
     display: block;
   }
 
   .img-wrapper-event--wide {
     display: none;
-  }
+  } */
 
   .img-wrapper-event--mobile img {
     max-height: 320px;
