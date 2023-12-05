@@ -1779,6 +1779,10 @@ button.accordion-button {
   text-transform: capitalize;
 }
 
+.images-about a::after {
+  background-color: transparent;
+}
+
 /*  ************************************************************************************
   CONTACT
 ****************************************************************************************/
