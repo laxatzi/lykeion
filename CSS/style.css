@@ -3039,10 +3039,6 @@ span.brand.img-300 img {
     justify-content: flex-start;
   }
 
-  #gallery {
-    margin-bottom: 25px;
-  }
-
   .topic {
     max-width: 600px;
     margin: auto;
@@ -3067,10 +3063,6 @@ span.brand.img-300 img {
     margin-bottom: 10px;
   }
 
-  .form-wrapper {
-    margin-top: 75px;
-  }
-
   .tutor img {
     margin-left: 0px;
   }
@@ -3091,11 +3083,6 @@ span.brand.img-300 img {
 
   .testimonial-card {
     min-width: 555px;
-    margin-bottom: 25px;
-  }
-
-  .testimonial-card:last-of-type {
-    margin-bottom: 0px;
   }
 
   .video-gallery-wrapper {
@@ -3128,10 +3115,6 @@ span.brand.img-300 img {
 
   .credential {
     border-bottom: 1px solid var(--cc-grey-lighter);
-  }
-
-  .instructor-similar-courses {
-    margin-top: 50px;
   }
 
   .sidebar,
