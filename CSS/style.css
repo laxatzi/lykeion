@@ -3198,10 +3198,6 @@ span.brand.img-300 img {
     margin-bottom: 20px;
   }
 
-  .data-tab:last-of-type {
-    margin-bottom: 20px;
-  }
-
   .data-info h3 {
     font-size: 32px;
   }
@@ -3232,18 +3228,9 @@ span.brand.img-300 img {
     font-size: 0.85rem;
   }
 
-  .gallery-info .gallery-title {
-    margin-bottom: 25px;
-  }
-
   .instructor-tab {
     max-width: 400px;
     max-height: 400px;
-    margin-bottom: 25px;
-  }
-
-  .instructor-tab:last-of-type {
-    margin-bottom: 0px;
   }
 
   .instructor-tab img {
