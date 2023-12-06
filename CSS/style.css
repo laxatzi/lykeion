@@ -675,7 +675,7 @@ section#about {
 }
 
 #virtual-classes {
-  padding-bottom: 100px;
+  padding-bottom: 300px;
 }
 
 #virtual-classes--intro {
@@ -731,10 +731,6 @@ button.heart {
 
 button.heart:active .bi-heart-fill {
   color: rgb(236, 146, 146);
-}
-
-.price s {
-  margin-left: 20px;
 }
 
 .price-current {
@@ -854,7 +850,6 @@ button.heart:active .bi-heart-fill {
   );
   padding-top: 300px;
   position: relative;
-  margin: 0;
 }
 
 #event-list {
@@ -3484,12 +3479,12 @@ span.brand.img-300 img {
     display: none;
   }
 
-  #virtual-classes {
-    padding-bottom: 30px;
-  }
-
   #vclasses-list .card {
     max-width: 350px;
+  }
+
+  #virtual-classes {
+    padding-bottom: 100px;
   }
 
   #events-section {
