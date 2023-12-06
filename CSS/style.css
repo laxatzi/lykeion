@@ -2502,10 +2502,6 @@ a.masonry-brick::after {
   background-color: transparent;
 }
 
-.blog-details--share h5 {
-  margin: 0;
-}
-
 .pagination-prev,
 .pagination-next {
   background-color: var(--cc-bg-primary-lighter);
