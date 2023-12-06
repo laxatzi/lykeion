@@ -3391,6 +3391,10 @@ span.brand.img-300 img {
   576px
 ****************************************************************************************/
 @media (max-width: 576px) {
+  #hero-lower {
+    justify-content: center;
+  }
+
   .images-about img {
     margin: auto;
   }
