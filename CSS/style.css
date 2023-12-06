@@ -3231,6 +3231,7 @@ span.brand.img-300 img {
   .instructor-tab {
     max-width: 400px;
     max-height: 400px;
+    margin: auto;
   }
 
   .instructor-tab img {
