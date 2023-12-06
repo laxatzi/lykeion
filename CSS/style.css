@@ -234,10 +234,6 @@ section#hero {
 }
 
 .student {
-  margin-bottom: 0;
-}
-
-.student {
   max-width: 600px;
   max-height: 730px;
 }
@@ -687,15 +683,9 @@ section#about {
 }
 
 .vclass-tabs {
-  padding: 10px;
   border-radius: 5px;
   border: 1px solid transparent;
-  margin-right: 10px;
   transition: 0.4s;
-}
-
-.vclass-tabs:last-of-type {
-  margin-right: 0px;
 }
 
 .is-active {
