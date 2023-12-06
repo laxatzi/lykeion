@@ -1385,7 +1385,6 @@ header.container-fluid {
   height: 40px;
   display: inline-block;
   line-height: 40px;
-  text-align: center;
   transition: 0.4s;
   justify-content: center;
   align-items: center;
@@ -3381,10 +3380,6 @@ span.brand.img-300 img {
 
   #vclasses-list .card {
     min-width: 400px;
-  }
-
-  #vclasses-selections {
-    text-align: center;
   }
 
   .content-img img {
