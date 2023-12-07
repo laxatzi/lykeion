@@ -2643,13 +2643,15 @@ h5 {
 .form-control:focus {
   border-color: var(--cc-primary);
   outline: 0;
-  box-shadow: inset 0 0 1px var(--cc-primary-light), 0 0 1px var(--cc-primary);
+  box-shadow: inset 0 0 1px var(--cc-primary-light),
+    inset 0 0 1px var(--cc-primary-light);
 }
 
 .form-check-input:focus {
   border-color: var(--cc-primary);
   outline: 0;
-  box-shadow: inset 0 0 1px var(--cc-primary-light), 0 0 1px var(--cc-primary);
+  box-shadow: inset 0 1px 1px var(--cc-primary-light),
+    0 1px 1px var(--cc-primary);
 }
 
 .input-group-search {
