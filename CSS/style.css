@@ -579,8 +579,8 @@ section {
 /* End of shapes */
 .topic {
   background-color: var(--cc-white-sugar);
-  border-radius: 5px;
-  padding: 40px;
+  /* border-radius: 5px; */
+  /* padding: 40px; */
 }
 
 .topic img.white {
