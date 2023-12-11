@@ -579,8 +579,6 @@ section {
 /* End of shapes */
 .topic {
   background-color: var(--cc-white-sugar);
-  /* border-radius: 5px; */
-  /* padding: 40px; */
 }
 
 .topic img.white {
@@ -994,7 +992,6 @@ footer h5 {
 
 #testimonials-section {
   background-color: #e6d9e0;
-  /* padding-top: 120px; */
 }
 
 .testimonials {
@@ -1095,7 +1092,6 @@ footer h5 {
   transition: visibility 0s, opacity 0.3s linear;
   display: flex;
   flex-direction: column;
-  padding: 10px;
   background: var(--cc-primary-bg);
   margin-top: -100px;
   border-radius: 5px;
