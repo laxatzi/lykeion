@@ -2114,7 +2114,6 @@ a.lost::after {
   transition: visibility 0s, opacity 0.3s linear;
   display: flex;
   flex-direction: column;
-  padding: 10px;
   background: var(--cc-white-sugar);
   margin-top: -150px;
   border-radius: 5px;
