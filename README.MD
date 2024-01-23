@@ -1,6 +1,6 @@
 # Bootstrap 5 Website
 
-<!-- <img src="image.png" /> -->
+<img src="img/website-screenshot.png" />
 
 ## Demo
 
