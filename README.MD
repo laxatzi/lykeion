@@ -1,7 +1,5 @@
 # Bootstrap 5 Website
 
-> Bootstrap 5 website project
-
 <!-- <img src="image.png" /> -->
 
 ## Demo
