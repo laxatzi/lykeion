@@ -303,10 +303,6 @@ section {
   position: relative;
 }
 
-.student img {
-  vertical-align: sub;
-}
-
 .shape-image {
   position: absolute;
   z-index: 1;
