@@ -1854,7 +1854,7 @@ a.card-text {
 .intro--pricing {
   flex: 5;
 }
-
+/*
 .billing-duration {
   flex: 1;
   justify-content: flex-end;
@@ -1862,21 +1862,48 @@ a.card-text {
   align-self: start;
   background-color: var(--cc-bg-primary-lighter);
   border-radius: 5px;
-}
+} */
 
-.billing-duration-indicators {
+/* .billing-duration-indicators {
   background-color: var(--cc-bg-primary-lighter);
-}
+} */
 
-.btn.btn-secondary {
-  background-color: var(--cc-bg-primary-lighter);
+[role="switch"] .btn {
   color: var(--cc-dark);
   border-color: transparent;
   font-weight: bold;
+  border-radius: 5px;
+  background-color: #e5e1f2;
+  padding: 5px 10px;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-self: start;
+}
+
+#pricing-section [role="switch"] .btn:hover {
+  background-color: #737de5;
+}
+
+[role="switch"][aria-checked="false"],
+[role="switch"][aria-checked="true"] {
+  background-color: #e5e1f2;
+}
+
+[role="switch"][aria-checked="false"] :first-child {
+  background-color: #737de5;
+  color: white;
+}
+
+[role="switch"][aria-checked="true"] :last-child,
+[role="switch"][aria-checked="false"] :first-child {
+  background-color: #737de5;
+  color: white;
 }
 
 .btn.btn-primary {
   background-color: var(--cc-primary-bg);
+  color: var(--cc-white);
   border-color: transparent;
   font-weight: bold;
 }
