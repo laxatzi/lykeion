@@ -115,8 +115,6 @@
         </div>
       </div>
     </header>
-
-
     <main class="container-fluid px-0">
       <div class="py-5" id="pricing-section">
         <div class="container py-5">
@@ -134,10 +132,11 @@
                 <button data-id="yearly-page" class="btn btn-secondary yearly duration py-2 me-2">
                   Yearly
                 </button>
-                <button data-id="monthly-page" class="btn duration monthly py-2 ">
+                <button data-id="monthly-page" type="button" class="btn duration monthly py-2 ">
                   Monthly
                 </button>
               </div>
+
               <div class=" subpage active mt-5 " id="yearly-page">
                 <div class="card-deck text-center d-lg-flex gap-xl-5 gap-2">
 
@@ -379,6 +378,7 @@
       async
     ></script>
     <script src="https://vjs.zencdn.net/8.5.2/video.min.js"></script>
+
     <script>
       const billingDuration = document.querySelector(".billing-duration");
       const subpages = document.querySelectorAll(".subpage");
