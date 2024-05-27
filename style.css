@@ -1854,19 +1854,6 @@ a.card-text {
 .intro--pricing {
   flex: 5;
 }
-/*
-.billing-duration {
-  flex: 1;
-  justify-content: flex-end;
-  align-items: flex-start;
-  align-self: start;
-  background-color: var(--cc-bg-primary-lighter);
-  border-radius: 5px;
-} */
-
-/* .billing-duration-indicators {
-  background-color: var(--cc-bg-primary-lighter);
-} */
 
 [role="switch"] .btn {
   color: var(--cc-dark);
