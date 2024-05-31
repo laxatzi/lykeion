@@ -1182,10 +1182,6 @@ p#emailHelp {
   background-color: transparent;
 }
 
-/* .author {
-  flex-direction: column;
-} */
-
 .author-profile img {
   border-radius: 50%;
   margin: 0 10px 10px 0;
@@ -1560,6 +1556,7 @@ button.course-nav-item {
 button.course-nav-item:focus,
 button.course-nav-item:active {
   color: var(--cc-primary);
+  outline: none;
 }
 
 .accordion-button:not(.collapsed) {
